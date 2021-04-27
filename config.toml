@@ -64,7 +64,7 @@ theme = "LoveIt"
     pre = ""
     post = ""
     name = "Musik"
-    url = "/musik/"
+    url = "/music/"
     weight = 6
 
   [[menu.main]]

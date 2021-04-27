@@ -1,8 +1,10 @@
----
-title: "About"
-date: 2020-10-29T19:55:21+01:00
-draft: false
----
++++
+title = "About"
+description = "Hugo, the world's fastest framework for building websites"
+date = "2019-02-28"
+aliases = ["about-us", "about-hugo", "contact"]
+author = "Hugo Authors"
++++
 
 # Simon Storl-Schulke
 
