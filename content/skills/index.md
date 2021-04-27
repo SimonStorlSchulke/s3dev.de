@@ -6,7 +6,7 @@ slug = "skills"
 # Software
 
 <div style="float: left;">
-<div class="responsive" style="background-image: url('./img/modeling.png');">
+<div class="responsive" style="background-image: url('./image/modeling.png');">
  <h2>3D Modeling</h2>
 
 
@@ -15,7 +15,7 @@ slug = "skills"
 
 </div>
 
-<div class="responsive" style="background-image: url('./img/rendering.png');">
+<div class="responsive" style="background-image: url('./image/rendering.png');">
  <h2>Lookdev. & Rendering</h2>
 
 ![blender](./appicons/blender.png)
@@ -26,7 +26,7 @@ slug = "skills"
 </div>
 
 
-<div class="responsive" style="background-image: url('./img/materials.png');">
+<div class="responsive" style="background-image: url('./image/materials.png');">
  <h2>Komplexe Nodebasierte Materialien </h2>
 
 
@@ -34,13 +34,13 @@ slug = "skills"
 ![V-Ray](./appicons/vray.png)
 </div>
 
-<div class="responsive" style="background-image: url('./img/rigging.png');">
+<div class="responsive" style="background-image: url('./image/rigging.png');">
  <h2>Rigging & Animation</h2>
 
 ![3DS Max](./appicons/3dsmax.png)
 </div>
 
-<div class="responsive" style="background-image: url('./img/compositing.png');">
+<div class="responsive" style="background-image: url('./image/compositing.png');">
  <h2>Compositing</h2>
 
 ![The Foundry Nuke](./appicons/nuke.png)
