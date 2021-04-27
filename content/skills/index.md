@@ -10,19 +10,19 @@ slug = "skills"
  <h2>3D Modeling</h2>
 
 
-![blender](./icons/blender.png)
-![3DS Max](./icons/3dsmax.png)
+![blender](./appicons/blender.png)
+![3DS Max](./appicons/3dsmax.png)
 
 </div>
 
 <div class="responsive" style="background-image: url('./img/rendering.png');">
  <h2>Lookdev. & Rendering</h2>
 
-![blender](./icons/blender.png)
-![V-Ray](./icons/vray.png)
-![Renderman](./icons/renderman.png)
-![Luxcore](./icons/luxcore.png)
-![Arnold](./icons/arnold.png)
+![blender](./appicons/blender.png)
+![V-Ray](./appicons/vray.png)
+![Renderman](./appicons/renderman.png)
+![Luxcore](./appicons/luxcore.png)
+![Arnold](./appicons/arnold.png)
 </div>
 
 
@@ -30,37 +30,37 @@ slug = "skills"
  <h2>Komplexe Nodebasierte Materialien </h2>
 
 
-![blender](./icons/blender.png)
-![V-Ray](./icons/vray.png)
+![blender](./appicons/blender.png)
+![V-Ray](./appicons/vray.png)
 </div>
 
 <div class="responsive" style="background-image: url('./img/rigging.png');">
  <h2>Rigging & Animation</h2>
 
-![3DS Max](./icons/3dsmax.png)
+![3DS Max](./appicons/3dsmax.png)
 </div>
 
 <div class="responsive" style="background-image: url('./img/compositing.png');">
  <h2>Compositing</h2>
 
-![The Foundry Nuke](./icons/nuke.png)
-![Blackmagicdesign Fusion](./icons/fusion.png)
+![The Foundry Nuke](./appicons/nuke.png)
+![Blackmagicdesign Fusion](./appicons/fusion.png)
 </div>
 
 <div class="responsive">
 
  <h2>Bildbearbeitung</h2>
 
-![Affinity Photo](./icons/affinity.png)
-![Adobe Photoshop](./icons/ps.png)
-![Gimp](./icons/gimp.png)
+![Affinity Photo](./appicons/affinity.png)
+![Adobe Photoshop](./appicons/ps.png)
+![Gimp](./appicons/gimp.png)
 </div>
 
 <div class="responsive" style="margin-bottom: 40px">
  <h2>Videobearbeitung</h2>
 
-![DaVinci Resolve](./icons/resolve.png)
-![Adobe Premiere](./icons/premiere.png)
+![DaVinci Resolve](./appicons/resolve.png)
+![Adobe Premiere](./appicons/premiere.png)
 </div>
 </div style="float: left;">
 
@@ -72,40 +72,40 @@ slug = "skills"
 <div class="responsive">
 <h2>Allgemein</h2>
 
-![C#](./icons/cs.png)
-![Java](./icons/java.png)
-![Golang](./icons/go.png)
-![C++](./icons/c++.png)
-![Git](./icons/git.png)
+![C#](./appicons/cs.png)
+![Java](./appicons/java.png)
+![Golang](./appicons/go.png)
+![C++](./appicons/c++.png)
+![Git](./appicons/git.png)
 </div>
 
 <div class="responsive">
 <h2>Scripting</h2>
 
-![Python](./icons/python.png)
+![Python](./appicons/python.png)
 </div>
 
 <div class="responsive">
 <h2>Webentwicklung</h2>
 
-![Typescript](./icons/typescript.png)
-![Javascript](./icons/javascript.png)
-![HTML](./icons/html.png)
-![CSS](./icons/css.png)
-![Golang](./icons/go.png)
+![Typescript](./appicons/typescript.png)
+![Javascript](./appicons/javascript.png)
+![HTML](./appicons/html.png)
+![CSS](./appicons/css.png)
+![Golang](./appicons/go.png)
 </div>
 
 <div class="responsive">
 <h2>Spieleentwicklung</h2>
 
-![Unity](./icons/unity.png)
-![Godot](./icons/godot.png)
+![Unity](./appicons/unity.png)
+![Godot](./appicons/godot.png)
 </div>
 
 <div class="responsive">
 <h2>Shader Entwicklung</h2>
 
-![GLSL](./icons/opengl.png)
+![GLSL](./appicons/opengl.png)
 </div>
 
 <div class="responsive">
