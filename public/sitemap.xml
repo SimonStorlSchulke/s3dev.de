@@ -2,16 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/contact/</loc><lastmod>2021-04-26T23:27:14&#43;02:00</lastmod></url><url>
-            <loc>http://example.org/projects/</loc><lastmod>2021-04-26T23:27:14&#43;02:00</lastmod></url><url>
-            <loc>http://example.org/posts/first_post/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod></url><url>
-            <loc>http://example.org/about.ger/</loc><lastmod>2019-02-28T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://example.org/about/</loc><lastmod>2019-02-28T00:00:00&#43;00:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/demoreel/</loc></url><url>
-            <loc>http://example.org/music/</loc></url><url>
-            <loc>http://example.org/portfolio/</loc></url><url>
-            <loc>http://example.org/skills/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+            <loc>http://127.0.0.1:5500/public/contact/</loc><lastmod>2021-04-26T23:27:14&#43;02:00</lastmod></url><url>
+            <loc>http://127.0.0.1:5500/public/projects/</loc><lastmod>2021-04-26T23:27:14&#43;02:00</lastmod></url><url>
+            <loc>http://127.0.0.1:5500/public/posts/first_post/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod></url><url>
+            <loc>http://127.0.0.1:5500/public/posts/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod></url><url>
+            <loc>http://127.0.0.1:5500/public/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod></url><url>
+            <loc>http://127.0.0.1:5500/public/about.ger/</loc><lastmod>2019-02-28T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://127.0.0.1:5500/public/about/</loc><lastmod>2019-02-28T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://127.0.0.1:5500/public/categories/</loc></url><url>
+            <loc>http://127.0.0.1:5500/public/demoreel/</loc></url><url>
+            <loc>http://127.0.0.1:5500/public/music/</loc></url><url>
+            <loc>http://127.0.0.1:5500/public/portfolio/</loc></url><url>
+            <loc>http://127.0.0.1:5500/public/skills/</loc></url><url>
+            <loc>http://127.0.0.1:5500/public/tags/</loc></url></urlset>

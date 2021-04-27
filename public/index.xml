@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Simon Storl-Schulke</title>
-        <link>http://example.org/</link>
+        <link>http://127.0.0.1:5500/public/</link>
         <description>Simon Storl-Schulke</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 Oct 2020 19:55:21 &#43;0100</lastBuildDate>
-            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://127.0.0.1:5500/public/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>First_post</title>
-    <link>http://example.org/posts/first_post/</link>
+    <link>http://127.0.0.1:5500/public/posts/first_post/</link>
     <pubDate>Thu, 29 Oct 2020 19:55:21 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/first_post/</guid>
+    <guid>http://127.0.0.1:5500/public/posts/first_post/</guid>
     <description><![CDATA[Test ]]></description>
 </item></channel>
 </rss>
