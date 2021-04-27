@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Simon Storl-Schulke</title>
-        <link>http://127.0.0.1:5500/public/tags/</link>
+        <link>https://simonstorlschulke.github.io/website/tags/</link>
         <description>Tags - Tag - Simon Storl-Schulke</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="http://127.0.0.1:5500/public/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://simonstorlschulke.github.io/website/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
