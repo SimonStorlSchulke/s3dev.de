@@ -3,123 +3,176 @@ title = "Skills"
 slug = "skills"
 +++
 
-## Software
+## Produktion
 
 <div style="float: left;">
-<div class="responsive" style="background-image: url('./image/modeling.png');">
+<div class="responsive bg-img-modeling" style="background-image: url('./image/modeling.jpg');">
  <h2>3D Modeling</h2>
 
+<div class="responsive-inner">
 
 ![blender](./appicons/blender.png)
 ![3DS Max](./appicons/3dsmax.png)
 
 </div>
 
-<div class="responsive" style="background-image: url('./image/rendering.png');">
+</div>
+
+<div class="responsive bg-img-lookdev" style="background-image: url('./image/rendering.jpg');">
  <h2>Lookdev. & Rendering</h2>
 
-![blender](./appicons/blender.png)
+<div class="responsive-inner">
+
+![Blender](./appicons/blender.png)
 ![V-Ray](./appicons/vray.png)
 ![Renderman](./appicons/renderman.png)
 ![Luxcore](./appicons/luxcore.png)
 ![Arnold](./appicons/arnold.png)
+
+</div>
 </div>
 
 
-<div class="responsive" style="background-image: url('./image/materials.png');">
+<div class="responsive bg-img-nodes" style="background-image: url('./image/materials.jpg');">
  <h2>Komplexe Nodebasierte Materialien </h2>
 
+<div class="responsive-inner">
 
 ![blender](./appicons/blender.png)
 ![V-Ray](./appicons/vray.png)
+
+</div>
 </div>
 
-<div class="responsive" style="background-image: url('./image/rigging.png');">
+<div class="responsive bg-img-rigging" style="background-image: url('./image/rigging.jpg');">
  <h2>Rigging & Animation</h2>
 
+<div class="responsive-inner">
+
+![Blender](./appicons/blender.png)
 ![3DS Max](./appicons/3dsmax.png)
+
+</div>
 </div>
 
-<div class="responsive" style="background-image: url('./image/compositing.png');">
+<div class="responsive bg-img-compositing" style="background-image: url('./image/compositing.jpg');">
  <h2>Compositing</h2>
+
+<div class="responsive-inner">
 
 ![The Foundry Nuke](./appicons/nuke.png)
 ![Blackmagicdesign Fusion](./appicons/fusion.png)
+
+</div>
 </div>
 
-<div class="responsive" style="background-image: url('./image/image_editing.png');">
+<div class="responsive bg-img-image" style="background-image: url('./image/image_editing.jpg');">
 
  <h2>Bildbearbeitung</h2>
+
+<div class="responsive-inner">
 
 ![Affinity Photo](./appicons/affinity.png)
 ![Adobe Photoshop](./appicons/ps.png)
 ![Gimp](./appicons/gimp.png)
+
+</div>
 </div>
 
-<div class="responsive" style="margin-bottom: 40px">
+<div class="responsive bg-img-video" style="background-image: url('./image/video.jpg');">
  <h2>Videobearbeitung</h2>
+
+<div class="responsive-inner">
 
 ![DaVinci Resolve](./appicons/resolve.png)
 ![Adobe Premiere](./appicons/premiere.png)
+
 </div>
-</div style="float: left;">
+</div>
+
+<div class="responsive bg-img-music" style="margin-bottom: 40px; background-image: url('./image/music.jpg');">
+ <h2>Musikproduktion</h2>
+
+<div class="responsive-inner">
+
+![FL Studio](./appicons/fl.png)
+![LMMS](./appicons/lmms.png)
+
+</div>
+</div>
+
+</div>
+
 
 ## Programmierung
 
 <div>
-<div class="responsive" style="background-image: url('./image/coding.png');>
+<div class="responsive bg-img-programming" style="background-image: url('./image/coding.jpg');">
 <h2>Allgemein</h2>
+
+<div class="responsive-inner">
 
 ![C#](./appicons/cs.png)
 ![Java](./appicons/java.png)
 ![Golang](./appicons/go.png)
 ![C++](./appicons/c++.png)
 ![Git](./appicons/git.png)
+
+</div>
 </div>
 
-<div class="responsive" style="background-image: url('./image/scripting.png');">
-<h2>Scripting</h2>
-
-![Python](./appicons/python.png)
-</div>
-
-<div class="responsive" style="background-image: url('./image/webdev.png');">
+<div class="responsive bg-img-webdev" style="background-image: url('./image/webdev.jpg');">
 <h2>Webentwicklung</h2>
+
+<div class="responsive-inner">
 
 ![HTML](./appicons/html.png)
 ![CSS](./appicons/css.png)
 ![Javascript](./appicons/javascript.png)
 ![Typescript](./appicons/typescript.png)
 ![Golang](./appicons/go.png)
+
+</div>
 </div>
 
-<div class="responsive" style="background-image: url('./image/gamedev.png');">
+<div class="responsive bg-img-scripting" style="background-image: url('./image/scripting.jpg');">
+<h2>Scripting</h2>
+
+<div class="responsive-inner">
+
+![Python](./appicons/python.png)
+![CSS](./appicons/blender.png)
+
+</div>
+
+</div>
+
+<div class="responsive bg-img-gamedev" style="background-image: url('./image/gamedev.jpg');">
 <h2>Spieleentwicklung</h2>
+
+<div class="responsive-inner">
 
 ![Unity](./appicons/unity.png)
 ![Godot](./appicons/godot.png)
+
+</div>
 </div>
 
-<div class="responsive">
+<div class="responsive bg-img-shading" style="background-image: url('./image/shading.jpg');">
 <h2>Shader Entwicklung</h2>
 
+<div class="responsive-inner">
+
 ![GLSL](./appicons/opengl.png)
+![OSL](./appicons/osl.png)
+![Unity PBR Graph](./appicons/unity.png)
+
+</div>
 </div>
 
-<div class="responsive">
-<h2></h2>
-</div>
+
 </div>
 
-<script>
-
-a = document.getElementsByClassName('responsive')
-for (i in a){
-   a[i].onmouseover=function(){console.log("a");}
-   a[i].onmouseout=function(){/* code goes here */}
-}
-
-</script>
 
 <style>
 .page {
@@ -160,6 +213,15 @@ img:nth-of-type(6) {left: 186px;}
 }
 
 
+.responsive-inner {
+  visibility: hidden !important;
+}
+
+.responsive:hover .responsive-inner {
+  visibility: visible !important;
+}
+
+
 @media only screen and (max-width: 900px) {
   .responsive {
     width: 33.333%;
@@ -186,4 +248,58 @@ img:nth-of-type(6) {left: 186px;}
   display: table;
   clear: both;
 }
+
+
+.bg-img-modeling:hover {
+  background-image: url('./image/modeling_hover.jpg') !important;
+}
+
+.bg-img-lookdev:hover {
+  background-image: url('./image/rendering_hover.jpg') !important;
+}
+
+.bg-img-nodes:hover {
+  background-image: url('./image/materials_hover.jpg') !important;
+}
+
+.bg-img-rigging:hover {
+  background-image: url('./image/rigging_hover.jpg') !important;
+}
+
+.bg-img-compositing:hover {
+  background-image: url('./image/compositing_hover.jpg') !important;
+}
+
+.bg-img-image:hover {
+  background-image: url('./image/image_editing_hover.jpg') !important;
+}
+
+.bg-img-video:hover {
+  background-image: url('./image/video_hover.jpg') !important;
+}
+
+.bg-img-music:hover {
+  background-image: url('./image/music_hover.jpg') !important;
+}
+
+.bg-img-programming:hover {
+  background-image: url('./image/programming_hover.jpg') !important;
+}
+
+.bg-img-webdev:hover {
+  background-image: url('./image/webdev_hover.jpg') !important;
+}
+
+.bg-img-scripting:hover {
+  background-image: url('./image/scripting_hover.jpg') !important;
+}
+
+.bg-img-gamedev:hover {
+  background-image: url('./image/gamedev_hover.jpg') !important;
+}
+
+.bg-img-shading:hover {
+  background-image: url('./image/shading_hover.jpg') !important;
+}
+
 </style>
