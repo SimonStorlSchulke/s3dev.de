@@ -3,7 +3,7 @@ title = "Skills"
 slug = "skills"
 +++
 
-# Software
+## Software
 
 <div style="float: left;">
 <div class="responsive" style="background-image: url('./image/modeling.png');">
@@ -47,7 +47,7 @@ slug = "skills"
 ![Blackmagicdesign Fusion](./appicons/fusion.png)
 </div>
 
-<div class="responsive">
+<div class="responsive" style="background-image: url('./image/image_editing.png');">
 
  <h2>Bildbearbeitung</h2>
 
@@ -64,12 +64,10 @@ slug = "skills"
 </div>
 </div style="float: left;">
 
-<h1>Programmierung</h1>
-
-<br>
+## Programmierung
 
 <div>
-<div class="responsive">
+<div class="responsive" style="background-image: url('./image/coding.png');>
 <h2>Allgemein</h2>
 
 ![C#](./appicons/cs.png)
@@ -79,23 +77,23 @@ slug = "skills"
 ![Git](./appicons/git.png)
 </div>
 
-<div class="responsive">
+<div class="responsive" style="background-image: url('./image/scripting.png');">
 <h2>Scripting</h2>
 
 ![Python](./appicons/python.png)
 </div>
 
-<div class="responsive">
+<div class="responsive" style="background-image: url('./image/webdev.png');">
 <h2>Webentwicklung</h2>
 
-![Typescript](./appicons/typescript.png)
-![Javascript](./appicons/javascript.png)
 ![HTML](./appicons/html.png)
 ![CSS](./appicons/css.png)
+![Javascript](./appicons/javascript.png)
+![Typescript](./appicons/typescript.png)
 ![Golang](./appicons/go.png)
 </div>
 
-<div class="responsive">
+<div class="responsive" style="background-image: url('./image/gamedev.png');">
 <h2>Spieleentwicklung</h2>
 
 ![Unity](./appicons/unity.png)
