@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Simon Storl-Schulke</title>
-        <link>https://simonstorlschulke.github.io/website/</link>
+        <link>https://simonstorlschulke.github.io/</link>
         <description>This is My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 Oct 2020 19:55:21 &#43;0100</lastBuildDate>
-            <atom:link href="https://simonstorlschulke.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://simonstorlschulke.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>First_post</title>
-    <link>https://simonstorlschulke.github.io/website/posts/first_post/</link>
+    <link>https://simonstorlschulke.github.io/posts/first_post/</link>
     <pubDate>Thu, 29 Oct 2020 19:55:21 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://simonstorlschulke.github.io/website/posts/first_post/</guid>
+    <guid>https://simonstorlschulke.github.io/posts/first_post/</guid>
     <description><![CDATA[Test ]]></description>
 </item></channel>
 </rss>
