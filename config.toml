@@ -87,13 +87,13 @@ theme = "LoveIt"
     url = "skills/"
     weight = 2
     
-  [[menu.main]]
-    identifier = "portfolio"
-    pre = ""
-    post = ""
-    name = "Portfolio"
-    url = "portfolio/"
-    weight = 3  
+#  [[menu.main]]
+#    identifier = "portfolio"
+#    pre = ""
+#    post = ""
+#    name = "Portfolio"
+#    url = "portfolio/"
+#    weight = 3  
     
    [[menu.main]]
     identifier = "demoreel"

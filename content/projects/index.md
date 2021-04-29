@@ -4,18 +4,26 @@ date: 2021-04-26T23:27:14+02:00
 lightgallery: true
 ---
 
+<div class="sidebar">
+  <a href="#fudge">FUDGE</a>
+  <a href="#evalgo">Evalgo</a>
+  <a href="#rtcg">RTCG</a>
+  <a href="#thesis">Thesis</a>
+  <a href="#cat">A Cat in Time</a>
+  <a href="#saba">SABA</a>
+</div>
 
 # Programmierung
 <br>
 
-## FUDGE <a href="https://github.com/JirkaDellOro/FUDGE"><i class="fab fa-github fa-gh"></i></a>
+<h2 id="fudge"> FUDGE <a href="https://github.com/JirkaDellOro/FUDGE"><i class="fab fa-github fa-gh"></i></a></h2>
 
 **F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor ist eine TypeScript basierte GameEngine speziell für die Lehre von Prof. Jirka Dell'Oro-Friedl. Hier arbeitete ich an der Implementierung von Meshgenerierung, OBJ-Meshimport und Shadern. Im Projekt <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> verwendeten wir die Engine in sehr frühen Stadium, um einen Atom-Orbital-Baukasten umzusetzen.
 
 <a href="https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/index.html">![](image/fcl.png)</a>
 
 
-## Evalgo <a href="https://github.com/SimonStorlSchulke/Evalgo"><i class="fab fa-github fa-gh"></i></a>
+<h2 id="evalgo"> Evalgo <a href="https://github.com/SimonStorlSchulke/Evalgo"><i class="fab fa-github fa-gh"></i></a></h2>
 
 Evalgo ist ein Kurs-Management System für Studierende und Dozenten, dass für den Kurs *Aktuelle Entwicklungen im Bereich Online-Medien* von Prof. Dirk Eisenbiegler zum Thema *Evaluation von Go für Webdevelopment* entwickelt wurde. 
 
@@ -31,14 +39,17 @@ Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in ei
 ![](image/evalgo2.png)
 
 
-## Echtzeit-Computergrafik <a href="https://github.com/SimonStorlSchulke/RealtimeCG"><i class="fab fa-github fa-gh"></i></a>
+<h2 id="rtcg"> Echtzeit-Computergrafik <a href="https://github.com/SimonStorlSchulke/RealtimeCG"><i class="fab fa-github fa-gh"></i></a></h2>
 Zum Kurs von Rainer Duda entwickelte ich hier
+
+<h2 id="thesis"> Thesis - Prozedurale Generierung von Wolken in Offline-Renderengines <a href="https://github.com/SimonStorlSchulke/RealtimeCG"><i class="fab fa-pdf fa-pdf"></i></a></h2>
+
 
 <hr>
 
 # 3D
 
-## A Cat in Time
+<h2 id="cat"> A Cat in Time</h2>
 
 Mobilegame (Unity) für das Stadtmuseum Tübingen. Um den Geist der Katzenmumie zu retten reisen wir in das Jahr 1607. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der Soundtrack hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
 
@@ -47,7 +58,7 @@ Mobilegame (Unity) für das Stadtmuseum Tübingen. Um den Geist der Katzenmumie 
 
 *In Kooperation mit Linus Ehmann (Programmierung), Tim Marquardt (Konzept) und Olivia Storz (Design & Konzept)*
 
-## SABA
+<h2 id="saba"> SABA</h2>
 
 {{<twoculumn>}}
 {{<left 46>}}

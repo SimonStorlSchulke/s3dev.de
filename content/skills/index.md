@@ -107,7 +107,7 @@ slug = "skills"
 ## Programmierung
 
 <div>
-<div class="responsive bg-img-programming" style="background-image: url('./image/coding.jpg');">
+<div class="responsive bg-img-programming" style="background-image: url('./image/programming.jpg');">
 <h2>Allgemein</h2>
 
 <div class="responsive-inner">
