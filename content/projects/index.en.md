@@ -99,7 +99,7 @@ I participated in several GameJams during my studies. I took different roles - s
 
 {{< image src="image/ibe.jpg" width="850px" caption="[**Inbound: Earth**](https://globalgamejam.org/2019/games/inbound-earth) | VR 360° Towerdefense Game. Satellites can be set to repel incoming alien spaceships from Earth. Here I was involved in programming and 3D models" title="Inbound: Earth">}}
 
-{{< image src="image/dlab.jpg" width="850px" caption="[**Don't Lose a Beat**](https://github.com/CalvinDO/DontLoseABeat) | Bring a disharmonic orchestra back to the right beat and pitch. Here I produced music and helped with the programming" title="Don't Lose a Beat">}}
+{{< image src="image/dlab.jpg" width="850px" caption="[**Don't Lose a Beat**](https://github.com/CalvinDO/DontLoseABeat) | Bring a disharmonic orchestra back to the right beat and pitch. For this game I produced the music and helped with coding." title="Don't Lose a Beat">}}
 
 {{< image src="image/fws.jpg" width="850px" caption="[**Fuwashima**](https://globalgamejam.org/2020/games/fuwashima-2) | VR game in which the player must solve puzzles to prevent an impending reactor disaster, but only makes it worse in the process. I was responsible for the 3D models" title="Fuwashima">}}
 

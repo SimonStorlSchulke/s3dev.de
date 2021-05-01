@@ -4,7 +4,7 @@ title: "Demo Reel"
 
 {{< youtube hQgRJMipo74 >}}
 
-**Meine CGI & VFX Demoreel 2021.** Alle im Video enthalten nicht weiter gekennzeichneten Elemente wurden von mir erstellt.
+**My CGI & VFX Demoreel 2021.** All elements contained in the video not further marked were created by me.
 
 ---
 

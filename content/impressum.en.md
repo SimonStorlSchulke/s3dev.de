@@ -7,10 +7,11 @@ title = "Impressum"
 Simon Storl-Schulke  
 Kandelblick 9  
 78120 Furtwangen  
-
-**Vertreten durch:**
+<br>
+**Vertreten durch:**  
 Simon Storl-Schulke  
-
-**Kontakt:**
-Telefon: +49176 22998434
+<br>
+**Kontakt:**  
+Telefon: +49176 22998434  
 E-Mail: simonstoschu@gmail.com
+
