@@ -9,7 +9,7 @@ theme = "LoveIt"
 
 [params]
   # LoveIt theme version
-  description = "This is My New Hugo Site"
+  description = "Simon Storl-Schulke | 3D Generalist & Entwickler"
   version = "0.2.X"
   defaultTheme = "dark"
 
