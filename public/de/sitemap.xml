@@ -68,7 +68,15 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/music/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/portfolio/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/portfolio/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/portfolio/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/portfolio/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/skills/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"

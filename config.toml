@@ -125,27 +125,27 @@ theme = "LoveIt"
     name = "Skills"
     url = "skills/"
     weight = 2
-#  [[menu.main]]
-#    identifier = "portfolio"
-#    pre = ""
-#    post = ""
-#    name = "Portfolio"
-#    url = "portfolio/"
-#    weight = 3  
    [[languages.en.menu.main]]
     identifier = "demoreel"
     pre = ""
     post = ""
     name = "Demoreel"
     url = "demoreel/"
-    weight = 4
+    weight = 3
   [[languages.en.menu.main]]
     identifier = "projects"
     pre = ""
     post = ""
     name = "Projects"
     url = "projects/"
-    weight = 5
+    weight = 4
+  [[languages.en.menu.main]]
+    identifier = "portfolio"
+    pre = ""
+    post = ""
+    name = "Portfolio"
+    url = "portfolio/"
+    weight = 5  
   [[languages.en.menu.main]]
     identifier = "music"
     pre = ""
@@ -185,33 +185,27 @@ theme = "LoveIt"
     name = "Skills"
     url = "skills/"
     weight = 2
-    
-#  [[menu.main]]
-#    identifier = "portfolio"
-#    pre = ""
-#    post = ""
-#    name = "Portfolio"
-#    url = "portfolio/"
-#    weight = 3  
-    
    [[languages.de.menu.main]]
     identifier = "demoreel"
     pre = ""
     post = ""
     name = "Demoreel"
     url = "demoreel/"
-    weight = 4
-  
-
+    weight = 3
   [[languages.de.menu.main]]
     identifier = "projects"
     pre = ""
     post = ""
     name = "Projekte"
     url = "projects/"
+    weight = 4
+  [[languages.de.menu.main]]
+    identifier = "portfolio"
+    pre = ""
+    post = ""
+    name = "Portfolio"
+    url = "portfolio/"
     weight = 5
-
-
   [[languages.de.menu.main]]
     identifier = "musik"
     pre = ""
