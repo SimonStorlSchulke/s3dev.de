@@ -20,6 +20,15 @@
                     hreflang="en"
                     href="https://simonstorlschulke.github.io/en/projects/"
                     /></url><url>
+            <loc>https://simonstorlschulke.github.io/en/portfolio/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="de"
+                        href="https://simonstorlschulke.github.io/portfolio/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://simonstorlschulke.github.io/en/portfolio/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/en/about/</loc><xhtml:link
                         rel="alternate"
                         hreflang="de"
@@ -64,15 +73,6 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://simonstorlschulke.github.io/en/music/"
-                    /></url><url>
-            <loc>https://simonstorlschulke.github.io/en/portfolio/</loc><xhtml:link
-                        rel="alternate"
-                        hreflang="de"
-                        href="https://simonstorlschulke.github.io/portfolio/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://simonstorlschulke.github.io/en/portfolio/"
                     /></url><url>
             <loc>https://simonstorlschulke.github.io/en/</loc><xhtml:link
                         rel="alternate"
