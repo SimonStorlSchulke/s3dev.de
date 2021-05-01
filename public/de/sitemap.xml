@@ -2,9 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://simonstorlschulke.github.io/tutorials/</loc><lastmod>2021-04-27T11:46:11&#43;02:00</lastmod></url><url>
+            <loc>https://simonstorlschulke.github.io/tutorials/</loc><lastmod>2021-04-27T11:46:11&#43;02:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/tutorials/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/tutorials/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/contact/</loc><lastmod>2021-04-26T23:27:14&#43;02:00</lastmod></url><url>
-            <loc>https://simonstorlschulke.github.io/projects/</loc><lastmod>2021-04-26T23:27:14&#43;02:00</lastmod></url><url>
+            <loc>https://simonstorlschulke.github.io/projects/</loc><lastmod>2021-04-26T23:27:14&#43;02:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/projects/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/projects/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/posts/first_post/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod></url><url>
             <loc>https://simonstorlschulke.github.io/posts/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod></url><url>
             <loc>https://simonstorlschulke.github.io/</loc><lastmod>2020-10-29T19:55:21&#43;01:00</lastmod><xhtml:link
@@ -16,7 +32,6 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/about.ger/</loc><lastmod>2019-02-28T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://simonstorlschulke.github.io/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -26,10 +41,34 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/categories/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/demoreel/</loc></url><url>
-            <loc>https://simonstorlschulke.github.io/music/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/demoreel/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/demoreel/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/demoreel/"
+                    /></url><url>
+            <loc>https://simonstorlschulke.github.io/music/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/music/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/music/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/portfolio/</loc></url><url>
-            <loc>https://simonstorlschulke.github.io/skills/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/skills/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/skills/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/skills/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/tags/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -39,4 +78,12 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/tags/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/about/</loc></url></urlset>
+            <loc>https://simonstorlschulke.github.io/about/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/about/"
+                    /></url></urlset>
