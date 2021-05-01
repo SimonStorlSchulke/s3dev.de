@@ -38,6 +38,7 @@ theme = "LoveIt"
     # Home page posts
     [params.home.posts]
       enable = false
+# Home page config
 
 
 # Header config
@@ -58,6 +59,22 @@ theme = "LoveIt"
       post = ""
       # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
 
+[params.footer]
+    enable = true
+    # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
+    custom = '<a href="/impressum">Impressum</a>'
+    # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
+    hugo = true
+    # LoveIt NEW | 0.2.0 whether to show copyright info
+    copyright = true
+    # LoveIt NEW | 0.2.0 whether to show the author
+    author = true
+    # Site creation time
+    since = 2019
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 
 [markup]
@@ -87,7 +104,7 @@ theme = "LoveIt"
 [languages]
   [languages.en]
     weight = 1
-    title = "Simon Storl-Schulke | 3D Generalist & Entwickler"
+    title = "Simon Storl-Schulke | 3D Generalist & Developer"
     languageCode = "en"
     languageName = "en"
   [[languages.en.menu.main]]
