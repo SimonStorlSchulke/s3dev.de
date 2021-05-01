@@ -15,8 +15,6 @@ lightgallery: true
   <i class="sidebar-arrow fas fa-chevron-left"></i>
 </div>
 
-# Programmierung
-
 <h2 id="fudge"> FUDGE <a href="https://github.com/JirkaDellOro/FUDGE"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <span class="describer-right">TypeScript, WebGL, HTML, CSS</span>
 
@@ -62,14 +60,11 @@ In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generieru
 
 {{< image src="image/thesis.jpg"title="Thesis - Wolkenparameter">}}
 
-<hr>
-
-# 3D
 
 <h2 id="cat"> A Cat in Time</h2>
 <p class="describer-right">Unity, Blender</p>
 
-Mobilegame (Unity) für das Stadtmuseum Tübingen. Um den Geist der Katzenmumie zu retten reisen wir in das Jahr 1607. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der Soundtrack hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
+Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum/) (noch in Entwicklung). Um den Geist der Katzenmumie zu retten reisen wir in das Jahr 1607. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der Soundtrack hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
 
 
 {{< image src="image/ct.png" title="A Cat in Time">}}
