@@ -47,7 +47,6 @@ theme = "LoveIt"
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
 
-
 # Header config
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
@@ -108,7 +107,7 @@ theme = "LoveIt"
     identifier = "projects"
     pre = ""
     post = ""
-    name = "Projects"
+    name = "Projekte"
     url = "projects/"
     weight = 5
 
