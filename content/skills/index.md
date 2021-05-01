@@ -6,6 +6,8 @@ slug = "skills"
 ## Produktion
 
 <div style="float: left;">
+
+<a href="../projects/#saba">
 <div class="responsive bg-img-modeling" style="background-image: url('./image/modeling.jpg');">
  <h2>3D Modeling</h2>
 
@@ -15,9 +17,10 @@ slug = "skills"
 ![3DS Max](./appicons/3dsmax.png)
 
 </div>
-
 </div>
+</a>
 
+<a href="../demoreel">
 <div class="responsive bg-img-lookdev" style="background-image: url('./image/rendering.jpg');">
  <h2>Lookdev. & Rendering</h2>
 
@@ -31,6 +34,7 @@ slug = "skills"
 
 </div>
 </div>
+</a>
 
 
 <div class="responsive bg-img-nodes" style="background-image: url('./image/materials.jpg');">
@@ -55,6 +59,7 @@ slug = "skills"
 </div>
 </div>
 
+<a href="../demoreel">
 <div class="responsive bg-img-compositing" style="background-image: url('./image/compositing.jpg');">
  <h2>Compositing</h2>
 
@@ -65,6 +70,7 @@ slug = "skills"
 
 </div>
 </div>
+</a>
 
 <div class="responsive bg-img-image" style="background-image: url('./image/image_editing.jpg');">
 
@@ -79,6 +85,7 @@ slug = "skills"
 </div>
 </div>
 
+<a href="../demoreel">
 <div class="responsive bg-img-video" style="background-image: url('./image/video.jpg');">
  <h2>Videobearbeitung</h2>
 
@@ -89,7 +96,9 @@ slug = "skills"
 
 </div>
 </div>
+</a>
 
+<a href="../music">
 <div class="responsive bg-img-music" style="margin-bottom: 40px; background-image: url('./image/music.jpg');">
  <h2>Musikproduktion</h2>
 
@@ -100,13 +109,15 @@ slug = "skills"
 
 </div>
 </div>
+</a>
 
 </div>
-
 
 ## Programmierung
 
 <div>
+
+<a href="../projects/#fudge">
 <div class="responsive bg-img-programming" style="background-image: url('./image/programming.jpg');">
 <h2>Allgemein</h2>
 
@@ -120,7 +131,9 @@ slug = "skills"
 
 </div>
 </div>
+</a>
 
+<a href="../projects/#evalgo">
 <div class="responsive bg-img-webdev" style="background-image: url('./image/webdev.jpg');">
 <h2>Webentwicklung</h2>
 
@@ -131,9 +144,11 @@ slug = "skills"
 ![Javascript](./appicons/javascript.png)
 ![Typescript](./appicons/typescript.png)
 ![Golang](./appicons/go.png)
+![hugo](./appicons/hugo.png)
 
 </div>
 </div>
+</a>
 
 <div class="responsive bg-img-scripting" style="background-image: url('./image/scripting.jpg');">
 <h2>Scripting</h2>
@@ -147,6 +162,7 @@ slug = "skills"
 
 </div>
 
+<a href="../projects/#cat">
 <div class="responsive bg-img-gamedev" style="background-image: url('./image/gamedev.jpg');">
 <h2>Spieleentwicklung</h2>
 
@@ -157,7 +173,9 @@ slug = "skills"
 
 </div>
 </div>
+</a>
 
+<a href="../projects/#thesis">
 <div class="responsive bg-img-shading" style="background-image: url('./image/shading.jpg');">
 <h2>Shader Entwicklung</h2>
 
@@ -169,13 +187,12 @@ slug = "skills"
 
 </div>
 </div>
-
+</a>
 
 </div>
 
-
 <style>
-.page {
+  .page {
     width: 90%;
     max-width: 100%;
 }   
@@ -185,7 +202,7 @@ slug = "skills"
 }
 
 img {
-    position: absolute;
+  position: absolute;
     bottom: 16px;
     filter: saturate(100%);
     width: 32px;
@@ -195,7 +212,6 @@ img:nth-of-type(3) {left: 84px;}
 img:nth-of-type(4) {left: 118px;}
 img:nth-of-type(5) {left: 152px;}
 img:nth-of-type(6) {left: 186px;}
-
 
 .responsive {
   color: #eee;
@@ -212,7 +228,6 @@ img:nth-of-type(6) {left: 186px;}
   box-shadow: 2px 2px 13px 5px rgba(0, 0, 0, 0.2);
 }
 
-
 .responsive-inner {
   visibility: hidden !important;
 }
@@ -222,22 +237,15 @@ img:nth-of-type(6) {left: 186px;}
 }
 
 
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 1300px) {
   .responsive {
-    width: 33.333%;
-    margin: 6px 0;
+    width: 46%;
+    margin: 6px 6px;
   }
 }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 680px) {
   .responsive {
     width: 100%;
   }
@@ -248,7 +256,6 @@ img:nth-of-type(6) {left: 186px;}
   display: table;
   clear: both;
 }
-
 
 .bg-img-modeling:hover {
   background-image: url('./image/modeling_hover.jpg') !important;

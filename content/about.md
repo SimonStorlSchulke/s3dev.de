@@ -1,10 +1,5 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
 +++
 
-
-Ich bin Simon. Das war's.
+Hallo ich bin Simon. Ich mache Dinge mit Medien und Computern. Bleib doch ein Weilchen und schau dich um.

@@ -21,5 +21,4 @@ title: "Demo Reel"
 
 **VFX Projekt Harry Potter** *1:12​*<br>Verwendete Grundlage: Harry Potter und die Heiligtümer des Todes - Teil 2 (Warner Bros. Entertainment 2011)
 
-**Musik** Edge of The Mountain, Simon Storl-Schulke
-https://youtu.be/ISATNv-Ybfg
+**Musik** [Edge of The Mountain, Simon Storl-Schulke](../music)
