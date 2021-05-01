@@ -17,7 +17,6 @@ lightgallery: true
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
   flex: 22%;
   max-width: 25%;
@@ -34,15 +33,20 @@ lightgallery: true
   display: none;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 32%;
+    max-width: 32%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -53,7 +57,7 @@ lightgallery: true
 
 <div class="row">
   <div class="column">
-    {{< image src="image/wursti.jpg" title="wursti" >}}
+    {{< image src="image/underwater.jpg" title="Deep Sea Discovery" >}}
     {{< image src="image/menger.jpg" title="Menger" >}}
   </div>
   <div class="column">
@@ -63,11 +67,11 @@ lightgallery: true
   </div>
   <div class="column">
     {{< image src="image/camera.jpg" title="Camera" >}}
-    {{< image src="image/k2so.jpg" title="" >}}
-    {{< image src="image/trumpet.jpg" title="" >}}
+    {{< image src="image/k2so.jpg" title="K2SO cleaning the Death Star" >}}
+    {{< image src="image/trumpet.jpg" title="Trumpet" >}}
   </div>
   <div class="column">
-    {{< image src="image/underwater.jpg" title="" >}}
-    {{< image src="image/mars.jpg" title="" >}}
+    {{< image src="image/wursti.jpg" title="Wursti" >}}
+    {{< image src="image/mars.jpg" title="Life on Mars?" >}}
   </div>
 </div>
