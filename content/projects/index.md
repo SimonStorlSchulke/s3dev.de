@@ -8,7 +8,7 @@ lightgallery: true
   <a href="#fudge">FUDGE</a>
   <a href="#evalgo">Evalgo</a>
   <a href="#rtcg">RTCG</a>
-  <a href="#thesis">Thesis</a>
+  <a href="#thesis">Wolken</a>
   <a href="#cat">A Cat in Time</a>
   <a href="#saba">SABA</a>
   <a href="#gamejams">GameJams</a>
@@ -43,7 +43,7 @@ Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in ei
 <h2 id="rtcg"> Realtime-CG <a href="https://github.com/SimonStorlSchulke/RealtimeCG"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">Go, OpenGL</p>
 
-Zum Kurs *Echtzeit Computergrafik* von Rainer Duda entwickelte ich hier mit Go und OpenGL eine Demo zum Thema Prozedurale Texturen und Fraktale.
+Zum Kurs *Echtzeit Computergrafik* von Rainer Duda entwickelte ich hier mit Go und OpenGL eine Demo zum Thema prozedurale Texturen und Fraktale.
 
 <video width="512px" autoplay muted loop>
   <source src="res/shading.mp4" type="video/mp4">
@@ -95,7 +95,7 @@ Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand de
 <h2 id="gamejams"> GameJams</h2>
 <p class="describer-right">Unity, Godot, Blender, FL-Studio</p>
 
-Ich nahm während meines Studiums an mehreren GameJams Teil. Dabei nahm ich verschiedene Rollen ein - mal war ich für Code, mal für 3D Modelle und mal für Musik zuständig. So konnte ich so meine Kenntnisse in allen Bereichen ausbauen und lernen unter starkem Zeitdruck im Team zu arbeiten.
+Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich verschiedene Rollen ein - mal war ich für Code, mal für 3D Modelle und mal für Musik zuständig. So konnte ich so meine Kenntnisse in allen Bereichen ausbauen und lernen unter starkem Zeitdruck im Team zu arbeiten.
 
 
 {{< image src="image/ibe.jpg" width="850px" caption="[**Inbound: Earth**](https://globalgamejam.org/2019/games/inbound-earth) | VR 360° Towerdefense Spiel. Sateliten können gesetzt werden, um ankommende Alien-Raumschiffe von der Erde abzuwehren. Hier war ich an Programmierung und 3D-Modellen beteiligt" title="Inbound: Earth">}}

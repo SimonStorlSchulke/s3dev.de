@@ -17,7 +17,8 @@ title: "Demo Reel"
 
 **Don't Loose a Beat - Gamejam-Spiel** *1:01​* <br>Programmierung mit Calvin Dell'Oro & Valentin Schmidberger
 
-**Stern über Furtwangen** *1:06​*<br>Kamera: Tim Marquardt & Florian Schweitzer
+**Stern über Furtwangen** *1:06​, 1:19*<br>Kamera: Tim Marquardt & Florian Schweitzer<br>
+Motion Tracking: Mit Tim Marquardt, Florian Schweitzer & Christoph Latocha
 
 **VFX Projekt Harry Potter** *1:12​*<br>Verwendete Grundlage: Harry Potter und die Heiligtümer des Todes - Teil 2 (Warner Bros. Entertainment 2011)
 

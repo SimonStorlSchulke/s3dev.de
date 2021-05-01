@@ -1,8 +1,8 @@
 baseURL = "https://simonstorlschulke.github.io/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "de"
 # language code
-languageCode = "en"
+languageCode = "de"
 title = "Simon Storl-Schulke"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -21,13 +21,10 @@ theme = "LoveIt"
 
 # Home page config
   [params.home]
-    # LoveIt NEW | 0.2.0 amount of RSS pages
-    rss = 10
-    # Home page profile
     [params.home.profile]
       enable = true
       # URL of avatar shown in home page
-      avatarURL = "./img/avatar.jpg"
+      avatarURL = "/img/avatar.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
@@ -41,11 +38,7 @@ theme = "LoveIt"
     # Home page posts
     [params.home.posts]
       enable = false
-      # special amount of posts in each home posts page
-      paginate = 6
-      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
-      # default behavior when you don't set "hiddenFromHomePage" in front matter
-      defaultHiddenFromHomePage = false
+
 
 # Header config
   [params.header]
@@ -65,68 +58,7 @@ theme = "LoveIt"
       post = ""
       # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Über"
-    url = "about/"
-    weight = 1
-  
-  [[menu.main]]
-    identifier = "skills"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Skills"
-    url = "skills/"
-    weight = 2
-    
-#  [[menu.main]]
-#    identifier = "portfolio"
-#    pre = ""
-#    post = ""
-#    name = "Portfolio"
-#    url = "portfolio/"
-#    weight = 3  
-    
-   [[menu.main]]
-    identifier = "demoreel"
-    pre = ""
-    post = ""
-    name = "Demoreel"
-    url = "demoreel/"
-    weight = 4
-  
 
-  [[menu.main]]
-    identifier = "projects"
-    pre = ""
-    post = ""
-    name = "Projekte"
-    url = "projects/"
-    weight = 5
-
-
-  [[menu.main]]
-    identifier = "musik"
-    pre = ""
-    post = ""
-    name = "Musik"
-    url = "music/"
-    weight = 6
-
-  [[menu.main]]
-    identifier = "tutorials"
-    pre = ""
-    post = ""
-    name = "Tutorials"
-    url = "tutorials/"
-    weight = 7
 
 [markup]
   [markup.highlight]
@@ -149,3 +81,132 @@ theme = "LoveIt"
       hardWraps = false
       unsafe = true
       xhtml = false
+
+
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "Simon Storl-Schulke | 3D Generalist & Entwickler"
+    languageCode = "en"
+    languageName = "English"
+  [[languages.en.menu.main]]
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Über"
+    url = "about/"
+    weight = 1
+  [[languages.en.menu.main]]
+    identifier = "skills"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Skills"
+    url = "skills/"
+    weight = 2
+#  [[menu.main]]
+#    identifier = "portfolio"
+#    pre = ""
+#    post = ""
+#    name = "Portfolio"
+#    url = "portfolio/"
+#    weight = 3  
+   [[languages.en.menu.main]]
+    identifier = "demoreel"
+    pre = ""
+    post = ""
+    name = "Demoreel"
+    url = "demoreel/"
+    weight = 4
+  [[languages.en.menu.main]]
+    identifier = "projects"
+    pre = ""
+    post = ""
+    name = "Projekte"
+    url = "projects/"
+    weight = 5
+  [[languages.en.menu.main]]
+    identifier = "musik"
+    pre = ""
+    post = ""
+    name = "Musik"
+    url = "music/"
+    weight = 6
+  [[languages.en.menu.main]]
+    identifier = "tutorials"
+    pre = ""
+    post = ""
+    name = "Tutorials"
+    url = "tutorials/"
+    weight = 7
+
+[languages.de]
+    weight = 2
+    title = "Simon Storl-Schulker @ 3D Generalist & Entwickler"
+    languageCode = "de"
+    languageName = "German"
+  [[languages.de.menu.main]]
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Über"
+    url = "about/"
+    weight = 1
+  
+  [[languages.de.menu.main]]
+    identifier = "skills"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Skills"
+    url = "skills/"
+    weight = 2
+    
+#  [[menu.main]]
+#    identifier = "portfolio"
+#    pre = ""
+#    post = ""
+#    name = "Portfolio"
+#    url = "portfolio/"
+#    weight = 3  
+    
+   [[languages.de.menu.main]]
+    identifier = "demoreel"
+    pre = ""
+    post = ""
+    name = "Demoreel"
+    url = "demoreel/"
+    weight = 4
+  
+
+  [[languages.de.menu.main]]
+    identifier = "projects"
+    pre = ""
+    post = ""
+    name = "Projekte"
+    url = "projects/"
+    weight = 5
+
+
+  [[languages.de.menu.main]]
+    identifier = "musik"
+    pre = ""
+    post = ""
+    name = "Musik"
+    url = "music/"
+    weight = 6
+
+  [[languages.de.menu.main]]
+    identifier = "tutorials"
+    pre = ""
+    post = ""
+    name = "Tutorials"
+    url = "tutorials/"
+    weight = 7
