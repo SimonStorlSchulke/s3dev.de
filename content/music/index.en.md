@@ -48,6 +48,8 @@ height: 100%;
 
 ### Random uncut piano impros | Playlist
 
-<div class="video_wrapper">
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLi_cTs7oPBCCVmIuMfqRzVZZUeDbI_ojV" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+<a href="https://youtu.be/wVLoHt963ME?list=PLi_cTs7oPBCCVmIuMfqRzVZZUeDbI_ojV">
+
+### Random uncut piano impros | Playlist
+
+![](http://i3.ytimg.com/vi/8ZyQ7QhHScM/maxresdefault.jpg)</a> 

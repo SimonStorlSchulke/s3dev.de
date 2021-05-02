@@ -22,6 +22,7 @@ lightgallery: true
 
 {{< image src="image/fcl.png" linked="false" >}}
 
+<hr>
 
 <h2 id="evalgo"> Evalgo <a href="https://github.com/SimonStorlSchulke/Evalgo"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">Go, HTML, CSS, JavaScript</p>
@@ -40,6 +41,8 @@ Feedback and grades can be given by instructors on the submissions, which appear
 
 {{< image src="image/evalgo2.png" title="Evalgo grade table">}}
 
+<hr>
+
 <h2 id="rtcg"> Realtime-CG <a href="https://github.com/SimonStorlSchulke/RealtimeCG"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">Go, OpenGL</p>
 
@@ -48,6 +51,8 @@ For the course *Real-Time Computer Graphics* by Rainer Duda I developed a demo a
 <video width="512px" autoplay muted loop>
   <source src="res/shading.mp4" type="video/mp4">
 </video> 
+
+<hr>
 
 <h2 id="thesis"> Cloud Generation <a href="res/Bachelorarbeit_Simon_Storl-Schulke.pdf"><i class="fas fa-file-pdf"></i> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">OSL, Blender</p>
@@ -60,6 +65,7 @@ In my bachelor thesis I dealt with the **procedural generation of clouds in offl
 
 {{< image src="image/thesis.jpg"title="Thesis - cloud parameters">}}
 
+<hr>
 
 <h2 id="cat"> A Cat in Time</h2>
 <p class="describer-right">Unity, Blender</p>
@@ -70,6 +76,8 @@ Mobilegame for the [City Museum Tübingen](https://www.tuebingen.de/stadtmuseum/
 {{< image src="image/ct.png" title="A Cat in Time">}}
 
 *In Cooperation with Linus Ehmann (Programmierung), Tim Marquardt (conzept) and Olivia Storz (Design and Conzept)*
+
+<hr>
 
 <h2 id="saba"> SABA</h2>
 <p class="describer-right">Blender, Meshroom</p>
@@ -91,6 +99,8 @@ Among other things, I was responsible for the remodeling of the SABA main buildi
 
 {{</right>}}
 {{</twoculumn>}}
+
+<hr>
 
 <h2 id="gamejams"> GameJams</h2>
 <p class="describer-right">Unity, Godot, Blender, FL-Studio</p>
@@ -116,5 +126,9 @@ I participated in several GameJams during my studies. I took different roles - s
 
 h2 {
   margin-top: 42px !important;
+}
+
+hr {
+  margin-top: 35px !important;
 }
 </style>

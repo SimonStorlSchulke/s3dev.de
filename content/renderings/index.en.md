@@ -21,6 +21,7 @@ lightgallery: true
   flex: 22%;
   max-width: 25%;
   padding: 0 4px;
+  height: auto;
 }
 
 .column img {
@@ -29,8 +30,12 @@ lightgallery: true
   width: 100%;
 }
 
-.lg-sub-html {
-  display: none;
+.single .content figure {
+    margin: 8px 0px;
+}
+
+.image-caption {
+  display: none !important;
 }
 
 @media screen and (max-width: 1100px) {
@@ -57,21 +62,21 @@ lightgallery: true
 
 <div class="row">
   <div class="column">
-    {{< image src="image/underwater.jpg" title="Deep Sea Discovery" >}}
-    {{< image src="image/menger.jpg" title="Menger" >}}
+    {{< image src="image/underwater.jpg" title="" caption="Deep Sea Discovery" >}}
+    {{< image src="image/menger.jpg" title="" caption="Menger Sponge" >}}
   </div>
   <div class="column">
-    {{< image src="image/bike.jpg" title="Cool Bike" >}}
-    {{< image src="image/candles.jpg" title="candles" >}}
-    {{< image src="image/forest.jpg" title="Forest" >}}
+    {{< image src="image/bike.jpg" title="" caption="Cool Bike" >}}
+    {{< image src="image/candles.jpg" title="" caption="candles" >}}
+    {{< image src="image/forest.jpg" title="Forest" caption="Forest" >}}
   </div>
   <div class="column">
-    {{< image src="image/camera.jpg" title="Camera" >}}
-    {{< image src="image/k2so.jpg" title="K2SO cleaning the Death Star" >}}
-    {{< image src="image/trumpet.jpg" title="Trumpet" >}}
+    {{< image src="image/camera.jpg" title="" caption="Camera" >}}
+    {{< image src="image/k2so.jpg" title="" caption="K2SO cleaning the Death Star" >}}
+    {{< image src="image/trumpet.jpg" title="" caption="Trumpet" >}}
   </div>
   <div class="column">
-    {{< image src="image/wursti.jpg" title="Wursti" >}}
-    {{< image src="image/mars.jpg" title="Life on Mars?" >}}
+    {{< image src="image/wursti.jpg" title="" caption="Adventure Wursti" >}}
+    {{< image src="image/mars.jpg" title="" caption="Life on Mars?" >}}
   </div>
 </div>

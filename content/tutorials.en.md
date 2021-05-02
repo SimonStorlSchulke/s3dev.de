@@ -1,19 +1,35 @@
 ---
 title: "Tutorials"
 date: 2021-04-27T11:46:11+02:00
+lightgallery: false
 ---
 
+<style>
+.page {
+  max-width: 1000px;
+}
+img {
+  width: 100%;
+}
+</style>
 
 {{<twoculumn>}}
-{{<left 49>}}
+{{<left 48>}}
+
+<a href="https://www.youtube.com/watch?v=94eYd_cldtw">
+
 ### Using Color Ramps with Light sources | Blender / Cycles
-{{< youtube 94eYd_cldtw >}}
+
+![](http://i3.ytimg.com/vi/94eYd_cldtw/mqdefault.jpg)</a>  
 How to use the Light Falloff node, to create nice colorful gradients for lights in Blender.
 
 {{</left>}}
-{{<right 49>}}
+{{<right 48>}}
+<a href="https://youtube.com/watch?v=2LFQtdVct84">
+
 ### Advanced randomobject color variation | Blender / Cycles
-{{< youtube 2LFQtdVct84 >}}
+
+![](http://i3.ytimg.com/vi/2LFQtdVct84/mqdefault.jpg)</a>  
 How to achieve random color variation that allows us to control the random Factors for Hue, Saturation and Value individually and doesn't only use the same random factor for each of its 3 properties.
 {{</right>}}
 {{</twoculumn>}}
@@ -22,19 +38,25 @@ How to achieve random color variation that allows us to control the random Facto
 
 
 {{<twoculumn>}}
-{{<left 49>}}
+{{<left 48>}}
+
+<a href="https://youtube.com/watch?v=PICr70TPadU">
 
 ### Increasing the dynamic range of Environment Maps in Blender
-{{< youtube PICr70TPadU >}}
+
+![](http://i3.ytimg.com/vi/PICr70TPadU/mqdefault.jpg)</a>  
 
 How to convert JPG, PNG... Environment Maps to EXR and add High Dynamic Range for better HDRI lighting.
 
 
 {{</left>}}
-{{<right 49>}}
+{{<right 48>}}
+
+<a href="https://youtube.com/watch?v=cMUTOIhxfXU">
 
 ### Variety Nodepack Part 1 - Textures | Blender /Cycles
-{{< youtube cMUTOIhxfXU >}}
+
+![](http://i3.ytimg.com/vi/cMUTOIhxfXU/mqdefault.jpg)</a>  
 In this series, I will explain all the Node-Groups in the Variety Nodepack I published on Gumroad (free / pay what you want): https://gum.co/ooqbd
 
 {{</right>}}
@@ -43,16 +65,17 @@ In this series, I will explain all the Node-Groups in the Variety Nodepack I pub
 
 
 {{<twoculumn>}}
-{{<left 49>}}
+{{<left 48>}}
+
+<a href="https://youtube.com/watch?v=rvtxsARtxZs">
+
 ### Variety Nodepack Part 2 - Materials | Blender /Cycles
-{{< youtube rvtxsARtxZs >}}
+
+<a href="https://youtube.com/watch?v=rvtxsARtxZs">![](http://i3.ytimg.com/vi/rvtxsARtxZs/mqdefault.jpg)</a>  
 In this series, I will explain all the Node-Groups in the Variety Nodepack I published on Gumroad (free / pay what you want): https://gum.co/ooqbd
 {{</left>}}
-{{<right 49>}}
+{{<right 48>}}
 {{</right>}}
 {{</twoculumn>}}
 
-<style>
-.page {
-  max-width: 1000px;
-}
+

@@ -34,7 +34,7 @@ theme = "LoveIt"
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "Hallo ich bin Simon. Ich mache Dinge mit Medien und Computern. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Schwerpunkte im Studium legte dabei ich vor allem auf CGI, VFX und Spieleentwicklung. <br><br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
+      disclaimer = "Hallo ich bin Simon. Ich mache Dinge mit Medien und Computern. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Schwerpunkte im Studium legte dabei ich vor allem auf CGI, VFX und Spieleentwicklung.<br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
     # Home page posts
     [params.home.posts]
       enable = true
@@ -63,17 +63,16 @@ theme = "LoveIt"
     # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
     custom = '<a href="/impressum">Impressum</a>'
     # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     # LoveIt NEW | 0.2.0 whether to show copyright info
     copyright = true
     # LoveIt NEW | 0.2.0 whether to show the author
     author = true
     # Site creation time
-    since = 2019
+    since = 2021
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 
 [markup]
@@ -120,7 +119,7 @@ theme = "LoveIt"
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "Hi, I’m Simon. I do stuff with media and computers. I studied Computer Science in Media at Furtwangen University, which gave me a good foundation in many areas of media production and computer science to build upon. My focus during my studies was mainly on CGI, VFX and game development.<br><br>After being active as a tutor in computer graphics for a long time during my studies, I now teach the lecture “Data Processing in Media Production” at the HS Furtwangen.<br><br>Beyond that, I make a lot of music and have two wonderful dogs that I roam the Black Forest with."
+      disclaimer = "Hi, I’m Simon. I do stuff with media and computers. I studied Computer Science in Media at Furtwangen University, which gave me a good foundation in many areas of media production and computer science to build upon. My focus during my studies was mainly on CGI, VFX and game development.<br>After being active as a tutor in computer graphics for a long time during my studies, I now teach the lecture “Data Processing in Media Production” at the HS Furtwangen.<br><br>Beyond that, I make a lot of music and have two wonderful dogs that I roam the Black Forest with."
 
     [languages.en.params.home.posts]
       enable = true

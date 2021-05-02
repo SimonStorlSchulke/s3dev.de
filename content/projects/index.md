@@ -22,7 +22,6 @@ lightgallery: true
 
 {{< image src="image/fcl.png" linked="false" >}}
 
-<br>
 <hr>
 
 <h2 id="evalgo"> Evalgo <a href="https://github.com/SimonStorlSchulke/Evalgo"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
@@ -42,6 +41,8 @@ Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in ei
 
 {{< image src="image/evalgo2.png" title="Evalgo Notentabelle">}}
 
+<hr>
+
 <h2 id="rtcg"> Realtime-CG <a href="https://github.com/SimonStorlSchulke/RealtimeCG"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">Go, OpenGL</p>
 
@@ -50,6 +51,8 @@ Zum Kurs *Echtzeit Computergrafik* von Rainer Duda entwickelte ich hier mit Go u
 <video width="512px" autoplay muted loop>
   <source src="res/shading.mp4" type="video/mp4">
 </video> 
+
+<hr>
 
 <h2 id="thesis"> Wolkengenerierung <a href="res/Bachelorarbeit_Simon_Storl-Schulke.pdf"><i class="fas fa-file-pdf"></i> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">OSL, Blender</p>
@@ -62,6 +65,7 @@ In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generieru
 
 {{< image src="image/thesis.jpg"title="Thesis - Wolkenparameter">}}
 
+<hr>
 
 <h2 id="cat"> A Cat in Time</h2>
 <p class="describer-right">Unity, Blender</p>
@@ -72,6 +76,8 @@ Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum
 {{< image src="image/ct.png" title="A Cat in Time">}}
 
 *In Kooperation mit Linus Ehmann (Programmierung), Tim Marquardt (Konzept) und Olivia Storz (Design & Konzept)*
+
+<hr>
 
 <h2 id="saba"> SABA</h2>
 <p class="describer-right">Blender, Meshroom</p>
@@ -93,6 +99,8 @@ Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand de
 
 {{</right>}}
 {{</twoculumn>}}
+
+<hr>
 
 <h2 id="gamejams"> GameJams</h2>
 <p class="describer-right">Unity, Godot, Blender, FL-Studio</p>
@@ -119,5 +127,8 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
 
 h2 {
   margin-top: 42px !important;
+}
+hr {
+  margin-top: 35px !important;
 }
 </style>
