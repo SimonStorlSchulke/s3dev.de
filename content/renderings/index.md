@@ -1,5 +1,5 @@
 ---
-title: "3D Modeling & Rendering Portfolio"
+title: "Renderings"
 draft: false
 lightgallery: true
 ---

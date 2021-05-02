@@ -24,21 +24,20 @@ theme = "LoveIt"
     [params.home.profile]
       enable = true
       # URL of avatar shown in home page
-      avatarURL = "/img/avatar.jpg"
+      avatarURL = "/img/avatar2.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
-      subtitle = "Simon Storl-Schulke | 3D Generalist & Developer"
+      subtitle = "Simon Storl-Schulke | 3D Generalist & Entwickler"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = "Hallo ich bin Simon. Ich mache Dinge mit Medien und Computern. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Schwerpunkte im Studium legte dabei ich vor allem auf CGI, VFX und Spieleentwicklung. <br><br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
     # Home page posts
     [params.home.posts]
-      enable = false
-# Home page config
+      enable = true
 
 
 # Header config
@@ -107,15 +106,25 @@ theme = "LoveIt"
     title = "Simon Storl-Schulke | 3D Generalist & Developer"
     languageCode = "en"
     languageName = "en"
-  [[languages.en.menu.main]]
-    identifier = "about"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "About"
-    url = "about/"
-    weight = 1
+  [languages.en.params.home]
+    [languages.en.params.home.profile]
+      enable = true
+      # URL of avatar shown in home page
+      avatarURL = "/img/avatar2.jpg"
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page
+      subtitle = "Simon Storl-Schulke | 3D Generalist & Developer"
+      # whether to use typeit animation for subtitle
+      typeit = false
+      # whether to show social links
+      social = true
+      # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = "Hi, I’m Simon. I do stuff with media and computers. I studied Computer Science in Media at Furtwangen University, which gave me a good foundation in many areas of media production and computer science to build upon. My focus during my studies was mainly on CGI, VFX and game development.<br><br>After being active as a tutor in computer graphics for a long time during my studies, I now teach the lecture “Data Processing in Media Production” at the HS Furtwangen.<br><br>Beyond that, I make a lot of music and have two wonderful dogs that I roam the Black Forest with."
+
+    [languages.en.params.home.posts]
+      enable = true
+
   [[languages.en.menu.main]]
     identifier = "skills"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -140,11 +149,11 @@ theme = "LoveIt"
     url = "projects/"
     weight = 4
   [[languages.en.menu.main]]
-    identifier = "portfolio"
+    identifier = "renderings"
     pre = ""
     post = ""
-    name = "Portfolio"
-    url = "portfolio/"
+    name = "Renderings"
+    url = "renderings/"
     weight = 5  
   [[languages.en.menu.main]]
     identifier = "music"
@@ -163,19 +172,9 @@ theme = "LoveIt"
 
 [languages.de]
     weight = 2
-    title = "Simon Storl-Schulker @ 3D Generalist & Entwickler"
+    title = "Simon Storl-Schulker | 3D Generalist & Entwickler"
     languageCode = "de"
     languageName = "de"
-  [[languages.de.menu.main]]
-    identifier = "about"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Über"
-    url = "about/"
-    weight = 1
-  
   [[languages.de.menu.main]]
     identifier = "skills"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -200,11 +199,11 @@ theme = "LoveIt"
     url = "projects/"
     weight = 4
   [[languages.de.menu.main]]
-    identifier = "portfolio"
+    identifier = "renderings"
     pre = ""
     post = ""
-    name = "Portfolio"
-    url = "portfolio/"
+    name = "Renderings"
+    url = "renderings/"
     weight = 5
   [[languages.de.menu.main]]
     identifier = "musik"

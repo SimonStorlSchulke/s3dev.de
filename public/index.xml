@@ -1,16 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Simon Storl-Schulker @ 3D Generalist &amp; Entwickler</title>
+        <title>Simon Storl-Schulker | 3D Generalist &amp; Entwickler</title>
         <link>https://simonstorlschulke.github.io/</link>
         <description>Simon Storl-Schulke | 3D Generalist &amp; Entwickler</description>
-        <generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Thu, 29 Oct 2020 19:55:21 &#43;0100</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>de</language>
             <atom:link href="https://simonstorlschulke.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>First_post</title>
-    <link>https://simonstorlschulke.github.io/posts/first_post/</link>
-    <pubDate>Thu, 29 Oct 2020 19:55:21 &#43;0100</pubDate>
-    <author>Autor</author>
-    <guid>https://simonstorlschulke.github.io/posts/first_post/</guid>
-    <description><![CDATA[Test ]]></description>
-</item></channel>
+        </channel>
 </rss>
