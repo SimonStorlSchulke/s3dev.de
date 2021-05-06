@@ -208,7 +208,7 @@ theme = "LoveIt"
     pre = ""
     post = ""
     name = "Contact"
-    url = "/#contact"
+    url = "./#contact"
     weight = 8
 
 [languages.de]
@@ -264,5 +264,5 @@ theme = "LoveIt"
     pre = ""
     post = ""
     name = "Kontakt"
-    url = "/#contact"
+    url = "./#contact"
     weight = 8
