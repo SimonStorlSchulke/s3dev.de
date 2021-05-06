@@ -83,12 +83,9 @@ theme = "LoveIt"
     # LoveIt NEW | 0.2.0 whether to show copyright info
     copyright = true
     # LoveIt NEW | 0.2.0 whether to show the author
-    author = true
+    author = false
     # Site creation time
     since = 2021
-    # ICP info only in China (HTML format is supported)
-    icp = ""
-    # license info (HTML format is supported)
 
 
 [markup]
@@ -156,6 +153,13 @@ theme = "LoveIt"
       </form><br>
       <a href="/impressum">Impressum</a>
   """
+    hugo = false
+    # LoveIt NEW | 0.2.0 whether to show copyright info
+    copyright = true
+    # LoveIt NEW | 0.2.0 whether to show the author
+    author = false
+    # Site creation time
+    since = 2021
 
    [[languages.en.menu.main]]
     identifier = "about"

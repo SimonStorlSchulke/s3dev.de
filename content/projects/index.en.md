@@ -140,8 +140,4 @@ hr {
   margin-top: 35px !important;
 }
 
-.hero h1 {
-  right: 160px;
-}
-
 </style>
