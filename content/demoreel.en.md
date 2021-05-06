@@ -4,7 +4,7 @@ heroimage: "/img/hero-placeholder.jpg"
 ---
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://player.vimeo.com/video/544334257?dnt=1 title=0&byline=0&portrait=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
+  <iframe src="https://player.vimeo.com/video/544334257?dnt=1 title=0&byline=0&portrait=0" class="vimeoplayer" allowfullscreen="" title="YouTube Video"></iframe>
 </div>
 
 **My CGI & VFX Demoreel 2021.** All elements contained in the video not further marked were created by me.
@@ -25,3 +25,20 @@ Motion Tracking: With Tim Marquardt, Florian Schweitzer & Christoph Latocha
 **VFX Project Harry Potter** *1:12*<br>Used footage: Harry Potter and the Deathly Hallows - Part 2 (Warner Bros. Entertainment 2011)
 
 **Music** [Edge of The Mountain, Simon Storl-Schulke](../music)
+
+<style>
+  .vimeoplayer {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .page {
+    margin-top: 50px;
+    width: 85%;
+    max-width: 85%;
+  }
+</style>
+
