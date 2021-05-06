@@ -17,17 +17,21 @@ heroimage: "image/hero.jpg"
 </div>
 
 
-<div class="project-block">
-<h2 id="fudge"> FUDGE <a href="https://github.com/JirkaDellOro/FUDGE"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
-<span class="describer-right">TypeScript, WebGL, HTML, CSS</span>
-
+{{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}
+{{<twoculumn>}}
+{{<left 48>}}
 **F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor ist eine TypeScript basierte GameEngine speziell für die Lehre von Prof. Jirka Dell'Oro-Friedl. Hier arbeitete ich an der Implementierung von Meshgenerierung, OBJ-Meshimport und Shadern. Im Projekt <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> verwendeten wir die Engine in sehr frühen Stadium, um einen [Atom-Orbital-Baukasten](https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/tutor.html) umzusetzen.
 
-{{< image src="image/fcl.png" linked="false" >}}
+{{< image src="image/fcl2.jpg" linked="false" >}}
 
-<div class="project-block">
-<h2 id="evalgo"> Evalgo <a href="https://github.com/SimonStorlSchulke/Evalgo"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
-<p class="describer-right">Go, HTML, CSS, JavaScript</p>
+{{</left>}}
+{{<right 48>}}
+{{< image src="image/fcl.png" linked="false" >}}
+{{</right>}}
+{{</twoculumn>}}
+{{< /project >}}
+<hr>
+{{< project id="evalgo" name="Evalgo" gh="SimonStorlSchulke/Evalgo" apps="Go, HTML, CSS, JavaScript">}}
 
 Evalgo ist ein Kurs-Management System für Studierende und Dozenten, dass für den Kurs *Aktuelle Entwicklungen im Bereich Online-Medien* von Prof. Dirk Eisenbiegler zum Thema *Evaluation von Go für Webdevelopment* entwickelt wurde. 
 
@@ -43,11 +47,9 @@ Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in ei
 
 {{< image src="image/evalgo2.png" title="Evalgo Notentabelle">}}
 
-</div>
-
-<div class="project-block">
-<h2 id="rtcg"> Realtime-CG <a href="https://github.com/SimonStorlSchulke/RealtimeCG"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
-<p class="describer-right">Go, OpenGL</p>
+{{< /project >}}
+<hr>
+{{< project id="rtcg" name="Realtime CG" gh="SimonStorlSchulke/RealtimeCG" apps="Go, OpenGL">}}
 
 Zum Kurs *Echtzeit Computergrafik* von Rainer Duda entwickelte ich hier mit Go und OpenGL eine Demo zum Thema prozedurale Texturen und Fraktale.
 
@@ -55,11 +57,9 @@ Zum Kurs *Echtzeit Computergrafik* von Rainer Duda entwickelte ich hier mit Go u
   <source src="res/shading.mp4" type="video/mp4">
 </video> 
 
-</div>
-
-<div class="project-block">
-<h2 id="thesis"> Wolkengenerierung <a href="res/Bachelorarbeit_Simon_Storl-Schulke.pdf"><i class="fas fa-file-pdf"></i> <i class="fas fa-angle-right"></i></i></a></h2>
-<p class="describer-right">OSL, Blender</p>
+{{< /project >}}
+<hr>
+{{< project id="thesis" name="Cloud Generation" pdf="res/Bachelorarbeit_Simon_Storl-Schulke.pdf" apps="OSL, Blender">}}
 
 In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generierung von Wolken in Offline-Renderengines**. Der Fokus lag hierbei auf Anwenderfreundlichkeit. Mithilfe weniger Parameter soll es möglich sein, komlexe Wolkenformen umzusetzen. Die Umsetzung erfolgte mit OSL (Open Shading Language).
 
@@ -68,13 +68,9 @@ In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generieru
 </video> 
 
 {{< image src="image/thesis.jpg"title="Thesis - Wolkenparameter">}}
-
-</div>
-
-<div class="project-block">
-<h2 id="cat"> A Cat in Time</h2>
-<p class="describer-right">Unity, Blender</p>
-
+{{< /project >}}
+<hr>
+{{< project id="cat" name="A Cat in Time" apps="Unity, Blender">}}
 Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum/) (noch in Entwicklung). Um den Geist der Katzenmumie zu retten reisen wir in das Jahr 1607. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der Soundtrack hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
 
 
@@ -82,11 +78,9 @@ Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum
 
 *In Kooperation mit Linus Ehmann (Programmierung), Tim Marquardt (Konzept) und Olivia Storz (Design & Konzept)*
 
-</div>
-
-<div class="project-block">
-<h2 id="saba"> SABA</h2>
-<p class="describer-right">Blender, Meshroom</p>
+{{< /project >}}
+<hr>
+{{< project id="saba" name="SABA Scan" apps="Blender, Meshroom">}}
 
 {{<twoculumn>}}
 {{<left 46>}}
@@ -106,10 +100,9 @@ Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand de
 {{</right>}}
 {{</twoculumn>}}
 
-</div>
-<div class="project-block">
-<h2 id="gamejams"> GameJams</h2>
-<p class="describer-right">Unity, Godot, Blender, FL-Studio</p>
+{{< /project >}}
+<hr>
+{{< project id="gamejams" name="GameJams" apps="Unity, Godot, Blender, FL-Studio">}}
 
 Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich verschiedene Rollen ein - mal war ich für Code, mal für 3D Modelle und mal für Musik zuständig. So konnte ich so meine Kenntnisse in allen Bereichen ausbauen und lernen unter starkem Zeitdruck im Team zu arbeiten.
 
@@ -122,26 +115,41 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
 
 {{< image src="image/fox.jpg" width="850px" caption="**Foxgame** | Ein junger Fuchs sucht seine Mama im Schnee." title="Foxgame">}}
 
-</div>
+{{< /project >}}
 
 <style>
   .page {
     width: 100%;
-    max-width: 100%;
-    padding-right: 350px;
+    max-width: 1400px !important;
+    padding-right: 150px;
 }
 
 .shadow {
   box-shadow: 8px 5px 20px #1114;
 }
 
-h2 {
-  margin-top: 15px !important;
+@media screen and (max-width: 960px) {
+    .page {
+    width: 100%;
+    max-width: 100% !important;
+    padding-right: 50px;
+    }
 }
+
+h2 {
+  margin-top: 42px !important;
+  color: white !important;
+  font-size: 40px !important;
+}
+
 hr {
   margin-top: 35px !important;
 }
 
+.hero h1 {
+  right: 160px;
+}
 
 </style>
+
 
