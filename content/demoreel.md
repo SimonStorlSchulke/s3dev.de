@@ -25,3 +25,5 @@ Motion Tracking: Mit Tim Marquardt, Florian Schweitzer & Christoph Latocha
 **VFX Projekt Harry Potter** *1:12​*<br>Verwendete Grundlage: Harry Potter und die Heiligtümer des Todes - Teil 2 (Warner Bros. Entertainment 2011)
 
 **Musik** [Edge of The Mountain, Simon Storl-Schulke](../music)
+
+

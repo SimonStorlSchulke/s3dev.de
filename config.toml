@@ -9,7 +9,7 @@ theme = "LoveIt"
 
 [params]
   # LoveIt theme version
-  description = "Simon Storl-Schulke | 3D Generalist & Entwickler"
+  description = "3D Generalist & Entwickler"
   version = "0.2.X"
   defaultTheme = "dark"
 
@@ -26,15 +26,16 @@ theme = "LoveIt"
       # URL of avatar shown in home page
       avatarURL = "/img/avatar2.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = ""
+      title = "3D Generalist & Entwickler<br>aus den Tiefen des Scwarzwalds"
       # subtitle shown in home page
-      subtitle = "Simon Storl-Schulke | 3D Generalist & Entwickler"
+      subtitle = "Demoreel"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "Hallo ich bin Simon. Ich mache Dinge mit Medien und Computern. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Schwerpunkte im Studium legte dabei ich vor allem auf CGI, VFX und Spieleentwicklung.<br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
+      disclaimer = "<h1>Hallo ich bin Simon</h1> Ich mache Dinge mit Medien und Computern. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Schwerpunkte im Studium legte dabei ich vor allem auf CGI, VFX und Spieleentwicklung.<br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
+
     # Home page posts
     [params.home.posts]
       enable = true
@@ -49,7 +50,7 @@ theme = "LoveIt"
     # LoveIt NEW | 0.2.0 Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "/img/logo.png"
       # title name
       name = "Simon Storl-Schulke"
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -61,7 +62,22 @@ theme = "LoveIt"
 [params.footer]
     enable = true
     # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
-    custom = '<a href="/impressum">Impressum</a>'
+    custom = """
+    <form
+      action="https://formspree.io/f/mvodzvbj"
+      method="POST"
+      class="mailme"
+    >
+        <h1 id="contact">Kontakt</h1>
+        Kontaktieren sie mich telefonisch unter <span class="accent">+49176 22998434</span> <br> oder per Mail an <a class="accent" href="mailto:m.mustermann@domain.de">simonstoschu@gmail.com</a><br><br>
+        <div class="row">
+        <input type="email" name="_replyto" placeholder="Ihre E-Mail Addresse"><input type="name" name="_replyto_name" placeholder="Ihr Name">
+        </div><br>
+        <textarea name="message" placeholder="Ihre Nachricht" rows="7"></textarea><br>
+      <button type="submit">Abschicken</button>
+    </form><br>
+    <a href="/impressum">Impressum</a>
+"""
     # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
     hugo = false
     # LoveIt NEW | 0.2.0 whether to show copyright info
@@ -111,27 +127,42 @@ theme = "LoveIt"
       # URL of avatar shown in home page
       avatarURL = "/img/avatar2.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = ""
+      title = "3D Generalist & Developer<br>from the depths of the Black Forest"
       # subtitle shown in home page
-      subtitle = "Simon Storl-Schulke | 3D Generalist & Developer"
+      subtitle = "Demoreel"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "Hi, I’m Simon. I do stuff with media and computers. I studied Computer Science in Media at Furtwangen University, which gave me a good foundation in many areas of media production and computer science to build upon. My focus during my studies was mainly on CGI, VFX and game development.<br>After being active as a tutor in computer graphics for a long time during my studies, I now teach the lecture “Data Processing in Media Production” at the HS Furtwangen.<br><br>Beyond that, I make a lot of music and have two wonderful dogs that I roam the Black Forest with."
+      disclaimer = "<h1>Hi, I’m Simon</h1> I do stuff with media and computers. I studied Computer Science in Media at Furtwangen University, which gave me a good foundation in many areas of media production and computer science to build upon. My focus during my studies was mainly on CGI, VFX and game development.<br>After being active as a tutor in computer graphics for a long time during my studies, I now teach the lecture “Data Processing in Media Production” at the HS Furtwangen.<br><br>Beyond that, I make a lot of music and have two wonderful dogs that I roam the Black Forest with."
 
     [languages.en.params.home.posts]
-      enable = true
+      enable = false
+  [languages.en.params.footer]
+    custom = """
+      <form
+        action="https://formspree.io/f/mvodzvbj"
+        method="POST"
+        class="mailme"
+      >
+          <h1 id="contact">Contact me</h1>
+          Contact me by phone at <span class="accent">+49176 22998434</span> <br> or via mail at <a class="accent" href="mailto:m.mustermann@domain.de">simonstoschu@gmail.com</a><br><br>
+          <div class="row">
+          <input type="email" name="_replyto" placeholder="Your email address"><input type="name" name="_replyto_name" placeholder="Your name">
+          </div><br>
+          <textarea name="message" placeholder="Your message" rows="7"></textarea><br>
+        <button type="submit">Send</button>
+      </form><br>
+      <a href="/impressum">Impressum</a>
+  """
 
-  [[languages.en.menu.main]]
-    identifier = "skills"
-    # you can add extra information before the name (HTML format is supported), such as icons
+   [[languages.en.menu.main]]
+    identifier = "about"
     pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Skills"
-    url = "skills/"
+    name = "About Me"
+    url = "/"
     weight = 2
    [[languages.en.menu.main]]
     identifier = "demoreel"
@@ -168,6 +199,13 @@ theme = "LoveIt"
     name = "Tutorials"
     url = "tutorials/"
     weight = 7
+  [[languages.en.menu.main]]
+    identifier = "contact"
+    pre = ""
+    post = ""
+    name = "Contact"
+    url = "/#contact"
+    weight = 8
 
 [languages.de]
     weight = 2
@@ -175,13 +213,11 @@ theme = "LoveIt"
     languageCode = "de"
     languageName = "de"
   [[languages.de.menu.main]]
-    identifier = "skills"
-    # you can add extra information before the name (HTML format is supported), such as icons
+    identifier = "about"
     pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Skills"
-    url = "skills/"
+    name = "Über mich"
+    url = "/"
     weight = 2
    [[languages.de.menu.main]]
     identifier = "demoreel"
@@ -219,3 +255,10 @@ theme = "LoveIt"
     name = "Tutorials"
     url = "tutorials/"
     weight = 7
+  [[languages.de.menu.main]]
+    identifier = "contact"
+    pre = ""
+    post = ""
+    name = "Kontakt"
+    url = "/#contact"
+    weight = 8

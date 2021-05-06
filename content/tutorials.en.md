@@ -2,13 +2,14 @@
 title: "Tutorials"
 date: 2021-04-27T11:46:11+02:00
 lightgallery: false
+heroimage: "/img/hero-placeholder.jpg"
 ---
 
 <style>
 .page {
   max-width: 1000px;
 }
-img {
+.page img {
   width: 100%;
 }
 </style>
@@ -78,4 +79,4 @@ In this series, I will explain all the Node-Groups in the Variety Nodepack I pub
 {{</right>}}
 {{</twoculumn>}}
 
-
+*To conform to the [DSGVO](https://dsgvo-gesetz.de/), this site just links youtube videos instead of embedding them.*

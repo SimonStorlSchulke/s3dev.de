@@ -1,7 +1,8 @@
 ---
-title: "Projekte"
+title: "Projects"
 date: 2021-04-26T23:27:14+02:00
 lightgallery: true
+heroimage: "image/hero.jpg"
 ---
 
 <div class="sidebar">
@@ -15,6 +16,8 @@ lightgallery: true
   <i class="sidebar-arrow fas fa-chevron-left"></i>
 </div>
 
+
+<div class="project-block">
 <h2 id="fudge"> FUDGE <a href="https://github.com/JirkaDellOro/FUDGE"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <span class="describer-right">TypeScript, WebGL, HTML, CSS</span>
 
@@ -22,8 +25,7 @@ lightgallery: true
 
 {{< image src="image/fcl.png" linked="false" >}}
 
-<hr>
-
+<div class="project-block">
 <h2 id="evalgo"> Evalgo <a href="https://github.com/SimonStorlSchulke/Evalgo"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">Go, HTML, CSS, JavaScript</p>
 
@@ -41,8 +43,9 @@ Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in ei
 
 {{< image src="image/evalgo2.png" title="Evalgo Notentabelle">}}
 
-<hr>
+</div>
 
+<div class="project-block">
 <h2 id="rtcg"> Realtime-CG <a href="https://github.com/SimonStorlSchulke/RealtimeCG"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">Go, OpenGL</p>
 
@@ -52,8 +55,9 @@ Zum Kurs *Echtzeit Computergrafik* von Rainer Duda entwickelte ich hier mit Go u
   <source src="res/shading.mp4" type="video/mp4">
 </video> 
 
-<hr>
+</div>
 
+<div class="project-block">
 <h2 id="thesis"> Wolkengenerierung <a href="res/Bachelorarbeit_Simon_Storl-Schulke.pdf"><i class="fas fa-file-pdf"></i> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">OSL, Blender</p>
 
@@ -65,8 +69,9 @@ In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generieru
 
 {{< image src="image/thesis.jpg"title="Thesis - Wolkenparameter">}}
 
-<hr>
+</div>
 
+<div class="project-block">
 <h2 id="cat"> A Cat in Time</h2>
 <p class="describer-right">Unity, Blender</p>
 
@@ -77,8 +82,9 @@ Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum
 
 *In Kooperation mit Linus Ehmann (Programmierung), Tim Marquardt (Konzept) und Olivia Storz (Design & Konzept)*
 
-<hr>
+</div>
 
+<div class="project-block">
 <h2 id="saba"> SABA</h2>
 <p class="describer-right">Blender, Meshroom</p>
 
@@ -100,8 +106,8 @@ Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand de
 {{</right>}}
 {{</twoculumn>}}
 
-<hr>
-
+</div>
+<div class="project-block">
 <h2 id="gamejams"> GameJams</h2>
 <p class="describer-right">Unity, Godot, Blender, FL-Studio</p>
 
@@ -116,9 +122,13 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
 
 {{< image src="image/fox.jpg" width="850px" caption="**Foxgame** | Ein junger Fuchs sucht seine Mama im Schnee." title="Foxgame">}}
 
+</div>
+
 <style>
   .page {
-    max-width: 1000px;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 350px;
 }
 
 .shadow {
@@ -126,9 +136,12 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
 }
 
 h2 {
-  margin-top: 42px !important;
+  margin-top: 15px !important;
 }
 hr {
   margin-top: 35px !important;
 }
+
+
 </style>
+

@@ -215,17 +215,21 @@ img:nth-of-type(6) {left: 186px;}
 
 .responsive {
   color: #eee;
-  text-shadow: 2px 2px 4px #111;
+  text-shadow: 2px 2px 20px #000000;
   background: #222;
   margin: 8px;
   padding: 0px 16px;
   float: left;
   width: 24%;
-  height: 150px;
+  height: 140px;
   position: relative;
   text-align: bottom;
   background-size: cover;
-  box-shadow: 2px 2px 13px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 22px 5px #0005;
+}
+
+.responsive h2 {
+  color: white !important;
 }
 
 .responsive-inner {

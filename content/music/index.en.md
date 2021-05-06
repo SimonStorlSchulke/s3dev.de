@@ -1,5 +1,6 @@
 ---
 title: "Music"
+heroimage: "image/hero.jpg"
 ---
 
 <style>

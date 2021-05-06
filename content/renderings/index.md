@@ -2,6 +2,7 @@
 title: "Renderings"
 draft: false
 lightgallery: true
+heroimage: "/img/hero-placeholder.jpg"
 ---
 
 <style>

@@ -2,6 +2,7 @@
 title: "Projects"
 date: 2021-04-26T23:27:14+02:00
 lightgallery: true
+heroimage: "/img/hero-placeholder.jpg"
 ---
 
 <div class="sidebar">
@@ -15,14 +16,26 @@ lightgallery: true
   <i class="sidebar-arrow fas fa-chevron-left"></i>
 </div>
 
-<h2 id="fudge"> FUDGE <a href="https://github.com/JirkaDellOro/FUDGE"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
-<span class="describer-right">TypeScript, WebGL, HTML, CSS</span>
 
-**F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor is a TypeScript based Game Engine designed with educationin mind by Prof. Jirka Dell'Oro-Friel. I worked on the implementation of mesh generation, OBJ mesh import and shaders. In the <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> project, we used the engine at a very early stage to implement an [atomic orbital construction kit](https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/tutor.html).
+{{< project name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}
 
+{{<twoculumn>}}
+{{<left 48>}}
+**F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor is a TypeScript based Game Engine designed with education in mind by Prof. Jirka Dell'Oro-Friel. I worked on the implementation of mesh generation, OBJ mesh import and shaders. In the <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> project, we used the engine at a very early stage to implement an [atomic orbital construction kit](https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/tutor.html).
+
+{{< image src="image/fcl2.jpg" linked="false" >}}
+
+
+{{</left>}}
+{{<right 48>}}
 {{< image src="image/fcl.png" linked="false" >}}
+{{</right>}}
+{{</twoculumn>}}
 
-<hr>
+
+
+{{< /project >}}
+
 
 <h2 id="evalgo"> Evalgo <a href="https://github.com/SimonStorlSchulke/Evalgo"><i class="fab fa-github fa-gh"> <i class="fas fa-angle-right"></i></i></a></h2>
 <p class="describer-right">Go, HTML, CSS, JavaScript</p>
@@ -117,18 +130,36 @@ I participated in several GameJams during my studies. I took different roles - s
 
 <style>
   .page {
-    max-width: 1000px;
+    width: 100%;
+    max-width: 100% !important;
+    padding-left: 50px;
+    padding-right: 210px;
 }
 
 .shadow {
   box-shadow: 8px 5px 20px #1114;
 }
 
+@media screen and (max-width: 960px) {
+    .page {
+    width: 100%;
+    max-width: 100% !important;
+    padding-right: 50px;
+    }
+}
+
 h2 {
   margin-top: 42px !important;
+  color: white !important;
+  font-size: 40px !important;
 }
 
 hr {
   margin-top: 35px !important;
 }
+
+.hero h1 {
+  right: 160px;
+}
+
 </style>

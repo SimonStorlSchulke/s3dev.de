@@ -1,5 +1,6 @@
 ---
 title: "Musik"
+heroimage: "image/hero.jpg"
 ---
 
 <style>
@@ -28,7 +29,7 @@ height: 100%;
 {{<twoculumn>}}
 {{<left 48>}}
 
-### A Cat in Time | Soundtrack
+### [A Cat in Time](../projects/#cat) | Soundtrack
 {{< music url="res/kornmarkt_2020.mp3" name=Kornmarkt&nbsp2020 artist=&nbsp cover="image/cat.jpg" >}}
 {{< music url="res/kornmarkt_1600.mp3" name=Kornmarkt&nbsp1607 artist=&nbsp cover="image/cat.jpg" >}}
 {{< music url="res/abort_1600.mp3*" name=Abort&nbsp1607 artist=&nbsp cover="image/cat.jpg" >}}
@@ -38,7 +39,7 @@ height: 100%;
 {{</left>}}
 {{<right 48>}}
 
-### Don't Lose a Beat | Soundtrack
+### Don't [Lose a Beat](../projects/#gamejams) | Soundtrack
 {{< music url="res/lv1.mp3" name=Don't&nbspLose&nbspa&nbspBeat&nbsp-&nbspLv1 artist=&nbsp cover="image/dlab.jpg" >}}
 {{< music url="res/lv3.mp3" name=Don't&nbspLose&nbspa&nbspBeat&nbsp-&nbspLv3 artist=&nbsp cover="image/dlab.jpg" >}}
 {{< music url="res/lv4.mp3" name=Don't&nbspLose&nbspa&nbspBeat&nbsp-&nbspLv4 artist=&nbsp cover="image/dlab.jpg" >}}
