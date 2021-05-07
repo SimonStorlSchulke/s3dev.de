@@ -2,7 +2,7 @@
 title: "Projects"
 date: 2021-04-26T23:27:14+02:00
 lightgallery: true
-heroimage: "/img/hero-placeholder.jpg"
+heroimage: "image/hero.jpg"
 ---
 
 <div class="sidebar">
@@ -57,7 +57,7 @@ For the course *Real-Time Computer Graphics* by Rainer Duda I developed a demo a
 </video> 
 {{< /project >}}
 <hr>
-{{< project id="thesis" name="Cloud Generation" pdf="res/Bachelorarbeit_Simon_Storl-Schulke.pdf" apps="OSL, Blender">}}
+{{< project id="thesis" name="Cloud Generation" pdf="res/Bachelorarbeit_Simon_Storl-Schulke.pdf"  gh="SimonStorlSchulke/OSL-Cloud-Generation" apps="OSL, Blender">}}
 
 In my bachelor thesis I dealt with the **procedural generation of clouds in offline render engines**. The focus was on usability. With the help of a few parameters it should be possible to implement complex cloud shapes. The implementation was done with OSL (Open Shading Language).
 
@@ -120,6 +120,10 @@ I participated in several GameJams during my studies. I took different roles - s
 
 .shadow {
   box-shadow: 8px 5px 20px #1114;
+}
+
+.lg-sub-html {
+  display: none !important;
 }
 
 @media screen and (max-width: 960px) {

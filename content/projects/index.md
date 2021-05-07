@@ -33,19 +33,30 @@ heroimage: "image/hero.jpg"
 <hr>
 {{< project id="evalgo" name="Evalgo" gh="SimonStorlSchulke/Evalgo" apps="Go, HTML, CSS, JavaScript">}}
 
-Evalgo ist ein Kurs-Management System für Studierende und Dozenten, dass für den Kurs *Aktuelle Entwicklungen im Bereich Online-Medien* von Prof. Dirk Eisenbiegler zum Thema *Evaluation von Go für Webdevelopment* entwickelt wurde. 
-
+{{<twoculumn>}}
+{{<left 48>}}
+Evalgo ist ein Kurs-Management System für Studierende und Dozenten, dass für den Kurs *Aktuelle Entwicklungen im Bereich Online-Medien* von Prof. Dirk Eisenbiegler zum Thema *Evaluation von Go für Webdevelopment* entwickelt wurde.<br><br>
+Dozenten und Tutoren können Aufgabenstellungen mit Markdown-Formatierung verfassen und Studierende diese abgeben. Auf der Hauptseite sind die Aufgabenstellung, sowie die Abgaben aller Studierenden zur ausgewählten Aufgabe zu finden. Je nach Konfiguration sind Letztere für alle User oder nur für authorisierte Nutzer (Dozent oder Tutor) sichtbar.
+<br><br>
+{{</left>}}
+{{<right 48>}}
 {{< image src="image/evalgo.png" title="Evalgo">}}
-<br><br>
+{{</right>}}
+{{</twoculumn>}}
+<br>
 
-Dozenten und Tutoren können Aufgabenstellungen verfassen und Studierende diese abgeben.
-
-{{< image src="image/evalgo3.png" title="Evalgo Feedback">}}
-<br><br>
-
-Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in einer Übersicht und Notentabelle für authorisierte Nutzer erscheinen. 
-
+{{<twoculumn>}}
+{{<left 48>}}
+Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in einer Übersicht und Notentabelle für authorisierte Nutzer erscheinen. <br><br>
 {{< image src="image/evalgo2.png" title="Evalgo Notentabelle">}}
+{{</left>}}
+{{<right 48>}}
+{{< image src="image/evalgo3.png" title="Evalgo Feedback">}}
+
+{{</right>}}
+{{</twoculumn>}}
+
+*Aus rechtlichen Gründen (User Generated Content) kann ich leider keine Beispielanwendung hosten.*
 
 {{< /project >}}
 <hr>
@@ -59,9 +70,9 @@ Zum Kurs *Echtzeit Computergrafik* von Rainer Duda entwickelte ich hier mit Go u
 
 {{< /project >}}
 <hr>
-{{< project id="thesis" name="Cloud Generation" pdf="res/Bachelorarbeit_Simon_Storl-Schulke.pdf" apps="OSL, Blender">}}
+{{< project id="thesis" name="Cloud Generation" pdf="res/Bachelorarbeit_Simon_Storl-Schulke.pdf" gh="SimonStorlSchulke/OSL-Cloud-Generation" apps="OSL, Blender">}}
 
-In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generierung von Wolken in Offline-Renderengines**. Der Fokus lag hierbei auf Anwenderfreundlichkeit. Mithilfe weniger Parameter soll es möglich sein, komlexe Wolkenformen umzusetzen. Die Umsetzung erfolgte mit OSL (Open Shading Language).
+In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generierung von Wolken in Offline-Renderengines**. Der Fokus lag hierbei auf Anwenderfreundlichkeit. Mithilfe weniger Parameter soll es möglich sein, komplexe Wolkenformen umzusetzen. Der Prototyp wurde in Blender mit dessen Echtzeit Renderengine Eevee umgesetzt. Die Implementierung erfolgte dann mit OSL (Open Shading Language) und wurde mit der Cycles Renderengine getestet.
 
 <video width="100%" autoplay muted loop controls>
   <source src="res/thesis_example.mp4" type="video/mp4">
@@ -71,7 +82,7 @@ In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generieru
 {{< /project >}}
 <hr>
 {{< project id="cat" name="A Cat in Time" apps="Unity, Blender">}}
-Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum/) (noch in Entwicklung). Um den Geist der Katzenmumie zu retten reisen wir in das Jahr 1607. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der Soundtrack hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
+Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum/) (noch in Entwicklung). Um den Geist der Katzenmumie zu retten reisen wir in das Jahr 1607. Der Spieler muss dabei in vier verschiedenen historischen Museumsräumen jeweils ein Rätsel lösen. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der [Soundtrack](/music/#a-cat-in-timeprojectscat--soundtrack) hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
 
 
 {{< image src="image/ct.png" title="A Cat in Time">}}
@@ -107,13 +118,21 @@ Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand de
 Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich verschiedene Rollen ein - mal war ich für Code, mal für 3D Modelle und mal für Musik zuständig. So konnte ich so meine Kenntnisse in allen Bereichen ausbauen und lernen unter starkem Zeitdruck im Team zu arbeiten.
 
 
-{{< image src="image/ibe.jpg" width="850px" caption="[**Inbound: Earth**](https://globalgamejam.org/2019/games/inbound-earth) | VR 360° Towerdefense Spiel. Sateliten können gesetzt werden, um ankommende Alien-Raumschiffe von der Erde abzuwehren. Hier war ich an Programmierung und 3D-Modellen beteiligt" title="Inbound: Earth">}}
+{{< image src="image/ibe.jpg" width="850px" title="Inbound: Earth">}}
 
-{{< image src="image/dlab.jpg" width="850px" caption="[**Don't Lose a Beat**](https://github.com/CalvinDO/DontLoseABeat) | Bringe ein durcheinanderspielendes Orchester wieder in den richtigen Takt und Tonlage. Hier sorgte ich für Musik und half bei der Programmierung" title="Don't Lose a Beat">}}
+[**Inbound: Earth**](https://globalgamejam.org/2019/games/inbound-earth) | VR 360° Towerdefense Spiel. Sateliten können gesetzt werden, um ankommende Alien-Raumschiffe von der Erde abzuwehren. Hier war ich an Programmierung und 3D-Modellen beteiligt
 
-{{< image src="image/fws.jpg" width="850px" caption="[**Fuwashima**](https://globalgamejam.org/2020/games/fuwashima-2) | VR Spiel, in dem der Spieler Rätsel lösen muss um eine drohende Reaktorkatastrophe zu verhindern, es dabei jedoch nur schlimmer macht. Hier war ich für die 3D-Modelle zuständig" title="Fuwashima">}}
+{{< image src="image/dlab.jpg" width="850px" title="Don't Lose a Beat">}}
 
-{{< image src="image/fox.jpg" width="850px" caption="**Foxgame** | Ein junger Fuchs sucht seine Mama im Schnee." title="Foxgame">}}
+[**Don't Lose a Beat**](https://github.com/CalvinDO/DontLoseABeat) | Bringe ein durcheinanderspielendes Orchester wieder in den richtigen Takt und Tonlage. Hier sorgte ich für Musik und half bei der Programmierung.
+<br><br>
+{{< image src="image/fws.jpg" width="850px" title="Fuwashima">}}
+
+[**Fuwashima**](https://globalgamejam.org/2020/games/fuwashima-2) | VR Spiel, in dem der Spieler Rätsel lösen muss um eine drohende Reaktorkatastrophe zu verhindern, es dabei jedoch nur schlimmer macht. Hier war ich für die 3D-Modelle zuständig
+<br><br>
+{{< image src="image/fox.jpg" width="850px" title="Foxgame">}}
+
+**Foxgame** | Ein junger Fuchs sucht seine Mama im Schnee. Mein erstes GameJam Spiel, in dem man noch nicht viel mehr tun kann, als die Welt zu erkunden.
 
 {{< /project >}}
 
@@ -126,6 +145,10 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
 
 .shadow {
   box-shadow: 8px 5px 20px #1114;
+}
+
+.lg-sub-html {
+  display: none !important;
 }
 
 @media screen and (max-width: 960px) {
@@ -147,5 +170,3 @@ hr {
 }
 
 </style>
-
-
