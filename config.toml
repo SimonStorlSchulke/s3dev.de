@@ -35,7 +35,7 @@ theme = "LoveIt"
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "<h1>Hallo, ich bin Simon</h1> Ich schubse Pixel, Polygone und Semicolons an ihre richtige Stelle. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Fokus richtete ich dabei ich vor allem auf CGI, VFX und Spieleentwicklung.<br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
+      disclaimer = "<h1>Hallo, ich bin Simon</h1> Ich schubse Pixel, Polygone und Semikolons an ihre richtige Stelle. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Fokus richtete ich dabei ich vor allem auf CGI, VFX und Spieleentwicklung.<br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
 
     # Home page posts
     [params.home.posts]

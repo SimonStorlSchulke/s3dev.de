@@ -8,6 +8,7 @@ heroimage: "image/hero.jpg"
 <div class="sidebar">
   <a href="#fudge">FUDGE</a>
   <a href="#evalgo">Evalgo</a>
+  <a href="#godot-image-edit">Image Editor</a>
   <a href="#rtcg">RTCG</a>
   <a href="#thesis">Clouds</a>
   <a href="#cat">A Cat in Time</a>
@@ -47,6 +48,19 @@ Feedback and grades can be given by instructors on the submissions, which appear
 
 {{< image src="image/evalgo2.png" title="Evalgo grade table">}}
 {{< /project >}}
+<hr>
+
+{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/download/alpha/GDImageEditor_alpha01.zip" apps="C#, Godot">}}
+
+A simple image editor developed C# and Godot, based on a non-destructive filter stack. Still quite early in development - the filters are planned to eventually be converted from C# to GLSL for better performance.
+
+<video width="720px" autoplay muted loop>
+  <source src="res/image_edit.mp4" type="video/mp4">
+</video> 
+
+
+{{< /project >}}
+
 <hr>
 {{< project id="rtcg" name="Realtime CG" gh="SimonStorlSchulke/RealtimeCG" apps="Go, OpenGL">}}
 

@@ -8,6 +8,7 @@ heroimage: "image/hero.jpg"
 <div class="sidebar">
   <a href="#fudge">FUDGE</a>
   <a href="#evalgo">Evalgo</a>
+  <a href="#godot-image-edit">Image Editor</a>
   <a href="#rtcg">RTCG</a>
   <a href="#thesis">Wolken</a>
   <a href="#cat">A Cat in Time</a>
@@ -59,6 +60,19 @@ Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in ei
 *Aus rechtlichen Gründen (User Generated Content) kann ich leider keine Beispielanwendung hosten.*
 
 {{< /project >}}
+
+<hr>
+
+{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/download/alpha/GDImageEditor_alpha01.zip" apps="C#, Godot">}}
+Ein einfacher Bildeditor mit C# und Godot, basierend auf einem non-destruktiven Filter-Stack. Noch recht früh in der Entwicklung - die Filter sollen letztlich für bessere Performance von C# zu GLSL konvertiert werden.
+
+<video width="720px" autoplay muted loop>
+  <source src="res/image_edit.mp4" type="video/mp4">
+</video> 
+
+
+{{< /project >}}
+
 <hr>
 {{< project id="rtcg" name="Realtime CG" gh="SimonStorlSchulke/RealtimeCG" apps="Go, OpenGL">}}
 
@@ -82,7 +96,7 @@ In meiner Bachelorthesis beschäftigte ich mich mit der **Prozeduralen Generieru
 {{< /project >}}
 <hr>
 {{< project id="cat" name="A Cat in Time" apps="Unity, Blender">}}
-Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum/) (noch in Entwicklung). Um den Geist der Katzenmumie zu retten reisen wir in das Jahr 1607. Der Spieler muss dabei in vier verschiedenen historischen Museumsräumen jeweils ein Rätsel lösen. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der [Soundtrack](/music/#a-cat-in-timeprojectscat--soundtrack) hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
+Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum/) (noch in Entwicklung). Um den Geist der Katzenmumie zu retten, reisen wir in das Jahr 1607. Der Spieler muss dabei in vier verschiedenen historischen Museumsräumen jeweils ein Rätsel lösen. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der [Soundtrack](/music/#a-cat-in-timeprojectscat--soundtrack) hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
 
 
 {{< image src="image/ct.png" title="A Cat in Time">}}
@@ -96,7 +110,7 @@ Mobilegame für das [Stadtmuseum Tübingen](https://www.tuebingen.de/stadtmuseum
 {{<twoculumn>}}
 {{<left 46>}}
 
-Einscannen per Drone und Nachmodellierung des alten SABA Farbikgeländes im Innovationspark Villingen in Kooperation mit Andreas Reich, Linus Ehmann und Sophie Tobisch. 
+Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes im Innovationspark Villingen in Kooperation mit Andreas Reich, Linus Ehmann und Sophie Tobisch. 
 
 Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand der eingescannten Daten und Referenzen zuständig.
 
@@ -115,7 +129,7 @@ Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand de
 <hr>
 {{< project id="gamejams" name="GameJams" apps="Unity, Godot, Blender, FL-Studio">}}
 
-Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich verschiedene Rollen ein - mal war ich für Code, mal für 3D Modelle und mal für Musik zuständig. So konnte ich so meine Kenntnisse in allen Bereichen ausbauen und lernen unter starkem Zeitdruck im Team zu arbeiten.
+Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich verschiedene Rollen ein - mal war ich für Code, mal für 3D-Modelle und mal für Musik zuständig. So konnte ich so meine Kenntnisse in allen Bereichen ausbauen und lernen unter starkem Zeitdruck im Team zu arbeiten.
 
 
 {{< image src="image/ibe.jpg" width="850px" title="Inbound: Earth">}}
@@ -124,11 +138,11 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
 
 {{< image src="image/dlab.jpg" width="850px" title="Don't Lose a Beat">}}
 
-[**Don't Lose a Beat**](https://github.com/CalvinDO/DontLoseABeat) | Bringe ein durcheinanderspielendes Orchester wieder in den richtigen Takt und Tonlage. Hier sorgte ich für Musik und half bei der Programmierung.
+[**Don't Lose a Beat**](https://github.com/CalvinDO/DontLoseABeat) | Bringe ein durcheinanderspielendes Orchester wieder in den richtigen Takt und Tonlage. Hier sorgte ich für 3D-Modelle, Musik und half bei der Programmierung. Das Projekt entstand während des GlobalGamejams 2021 innerhalb von fünf Tagen. Der Rahmen war natürlich viel zu groß war für den kurzen Zeitraum und da ich für alle Modelle, Animationen und Musik verantwortlich war, sowie bei der Programmierung aushalf, ist beim Ergebnis die Spielbarkeit nur recht bedingt gegeben. Wir hatten trotzdem sehr viel positiven Stress und Spaß an der Sache.
 <br><br>
 {{< image src="image/fws.jpg" width="850px" title="Fuwashima">}}
 
-[**Fuwashima**](https://globalgamejam.org/2020/games/fuwashima-2) | VR Spiel, in dem der Spieler Rätsel lösen muss um eine drohende Reaktorkatastrophe zu verhindern, es dabei jedoch nur schlimmer macht. Hier war ich für die 3D-Modelle zuständig
+[**Fuwashima**](https://globalgamejam.org/2020/games/fuwashima-2) | VR Spiel, in dem der Spieler Rätsel lösen muss, um eine drohende Reaktorkatastrophe zu verhindern, es dabei jedoch nur schlimmer macht. Hier war ich für die 3D-Modelle zuständig
 <br><br>
 {{< image src="image/fox.jpg" width="850px" title="Foxgame">}}
 
