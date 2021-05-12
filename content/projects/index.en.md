@@ -6,9 +6,9 @@ heroimage: "image/hero.jpg"
 ---
 
 <div class="sidebar">
+  <a href="#godot-image-edit">Image Editor</a>
   <a href="#fudge">FUDGE</a>
   <a href="#evalgo">Evalgo</a>
-  <a href="#godot-image-edit">Image Editor</a>
   <a href="#rtcg">RTCG</a>
   <a href="#thesis">Clouds</a>
   <a href="#cat">A Cat in Time</a>
@@ -52,7 +52,7 @@ Feedback and grades can be given by instructors on the submissions, which appear
 
 {{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/tag/alpha02" apps="C#, Godot">}}
 
-A simple image editor developed C# and Godot, based on a non-destructive filter stack. It works in realtime by generating shader code live from a filter stack. Still quite early in development.
+A simple image editor using C# and Godot, based on a non-destructive filter stack. The filters work with shaders in real time. The shader code is generated from the filter stack at runtime.
 
 <video width="720px" autoplay muted loop>
   <source src="res/image_edit.mp4" type="video/mp4">
@@ -129,7 +129,7 @@ I participated in several GameJams during my studies. I took different roles - s
   .page {
     width: 100%;
     max-width: 1400px !important;
-    padding-right: 150px;
+    padding-right: 120px !important;
 }
 
 .shadow {
@@ -144,7 +144,7 @@ I participated in several GameJams during my studies. I took different roles - s
     .page {
     width: 100%;
     max-width: 100% !important;
-    padding-right: 50px;
+    padding-right: 20px !important;
     }
 }
 

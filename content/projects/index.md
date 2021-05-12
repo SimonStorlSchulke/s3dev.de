@@ -6,9 +6,9 @@ heroimage: "image/hero.jpg"
 ---
 
 <div class="sidebar">
+  <a href="#godot-image-edit">Image Editor</a>
   <a href="#fudge">FUDGE</a>
   <a href="#evalgo">Evalgo</a>
-  <a href="#godot-image-edit">Image Editor</a>
   <a href="#rtcg">RTCG</a>
   <a href="#thesis">Wolken</a>
   <a href="#cat">A Cat in Time</a>
@@ -17,21 +17,27 @@ heroimage: "image/hero.jpg"
   <i class="sidebar-arrow fas fa-chevron-left"></i>
 </div>
 
+{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/tag/alpha02" apps="C#, GLSL, Godot">}}
 
-{{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}
 {{<twoculumn>}}
-{{<left 48>}}
-**F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor ist eine TypeScript basierte GameEngine speziell für die Lehre von Prof. Jirka Dell'Oro-Friedl. Hier arbeitete ich an der Implementierung von Meshgenerierung, OBJ-Meshimport und Shadern. Im Projekt <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> verwendeten wir die Engine in sehr frühen Stadium, um einen [Atom-Orbital-Baukasten](https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/tutor.html) umzusetzen.
-
-{{< image src="image/fcl2.jpg" linked="false" >}}
-
+{{<left 47>}}
+Ein einfacher Bildeditor mit C# und Godot, basierend auf einem non-destruktiven Filter-Stack. Die Filter funktionieren mit Shadern in Echtzeit. Der Shadercode wird dabei zur Laufzeit aus dem Filterstack generiert.
 {{</left>}}
-{{<right 48>}}
-{{< image src="image/fcl.png" linked="false" >}}
+{{<right 47>}}
+
+<video width="720px" autoplay muted loop>
+  <source src="res/image_edit.mp4" type="video/mp4">
+</video> 
+
 {{</right>}}
 {{</twoculumn>}}
+
+
+
 {{< /project >}}
+
 <hr>
+
 {{< project id="evalgo" name="Evalgo" gh="SimonStorlSchulke/Evalgo" apps="Go, HTML, CSS, JavaScript">}}
 
 {{<twoculumn>}}
@@ -63,17 +69,21 @@ Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in ei
 
 <hr>
 
-{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/tag/alpha02" apps="C#, GLSL, Godot">}}
-Ein einfacher Bildeditor mit C# und Godot, basierend auf einem non-destruktiven Filter-Stack. Die Filter funktionieren mit zur Laufzeit generierten Shadern in Echtzeit.
+{{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}
+{{<twoculumn>}}
+{{<left 48>}}
+**F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor ist eine TypeScript basierte GameEngine speziell für die Lehre von Prof. Jirka Dell'Oro-Friedl. Hier arbeitete ich an der Implementierung von Meshgenerierung, OBJ-Meshimport und Shadern. Im Projekt <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> verwendeten wir die Engine in sehr frühen Stadium, um einen [Atom-Orbital-Baukasten](https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/tutor.html) umzusetzen.
 
-<video width="720px" autoplay muted loop>
-  <source src="res/image_edit.mp4" type="video/mp4">
-</video> 
+{{< image src="image/fcl2.jpg" linked="false" >}}
 
-
+{{</left>}}
+{{<right 48>}}
+{{< image src="image/fcl.png" linked="false" >}}
+{{</right>}}
+{{</twoculumn>}}
 {{< /project >}}
-
 <hr>
+
 {{< project id="rtcg" name="Realtime CG" gh="SimonStorlSchulke/RealtimeCG" apps="Go, OpenGL">}}
 
 Zum Kurs *Echtzeit Computergrafik* von Rainer Duda entwickelte ich hier mit Go und OpenGL eine Demo zum Thema prozedurale Texturen und Fraktale.
@@ -154,7 +164,7 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
   .page {
     width: 100%;
     max-width: 1400px !important;
-    padding-right: 150px;
+    padding-right: 120px !important;
 }
 
 .shadow {
@@ -169,7 +179,7 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
     .page {
     width: 100%;
     max-width: 100% !important;
-    padding-right: 50px;
+    padding-right: 20px !important;
     }
 }
 
