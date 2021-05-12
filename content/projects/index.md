@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Projekte"
 date: 2021-04-26T23:27:14+02:00
 lightgallery: true
 heroimage: "image/hero.jpg"
