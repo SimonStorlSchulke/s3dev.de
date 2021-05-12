@@ -7,8 +7,8 @@ heroimage: "image/hero.jpg"
 
 <div class="sidebar">
   <a href="#godot-image-edit">Image Editor</a>
-  <a href="#fudge">FUDGE</a>
   <a href="#evalgo">Evalgo</a>
+  <a href="#fudge">FUDGE</a>
   <a href="#rtcg">RTCG</a>
   <a href="#thesis">Wolken</a>
   <a href="#cat">A Cat in Time</a>
