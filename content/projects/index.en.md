@@ -50,9 +50,9 @@ Feedback and grades can be given by instructors on the submissions, which appear
 {{< /project >}}
 <hr>
 
-{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/download/alpha/GDImageEditor_alpha01.zip" apps="C#, Godot">}}
+{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/tag/alpha02" apps="C#, Godot">}}
 
-A simple image editor developed C# and Godot, based on a non-destructive filter stack. Still quite early in development - the filters are planned to eventually be converted from C# to GLSL for better performance.
+A simple image editor developed C# and Godot, based on a non-destructive filter stack. It works in realtime by generating shader code live from a filter stack. Still quite early in development.
 
 <video width="720px" autoplay muted loop>
   <source src="res/image_edit.mp4" type="video/mp4">
