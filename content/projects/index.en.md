@@ -17,22 +17,27 @@ heroimage: "image/hero.jpg"
   <i class="sidebar-arrow fas fa-chevron-left"></i>
 </div>
 
+{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/latest" apps="C#, Godot">}}
 
-{{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}
+
 {{<twoculumn>}}
-{{<left 48>}}
-**F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor is a TypeScript based Game Engine designed with education in mind by Prof. Jirka Dell'Oro-Friel. I worked on the implementation of mesh generation, OBJ mesh import and shaders. In the <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> project, we used the engine at a very early stage to implement an [atomic orbital construction kit](https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/tutor.html).
-
-{{< image src="image/fcl2.jpg" linked="false" >}}
-
-
+{{<left 47>}}
+A simple image editor using C# and Godot, based on a non-destructive filter stack. The filters work with shaders in real time. The glsl shader code is generated from the filter stack at runtime.
 {{</left>}}
-{{<right 48>}}
-{{< image src="image/fcl.png" linked="false" >}}
+{{<right 47>}}
+
+<video width="720px" autoplay muted loop  controls>
+  <source src="res/image_edit.mp4" type="video/mp4">
+</video> 
+
 {{</right>}}
 {{</twoculumn>}}
+
+
 {{< /project >}}
+
 <hr>
+
 {{< project id="evalgo" name="Evalgo" gh="SimonStorlSchulke/Evalgo" apps="Go, HTML, CSS, JavaScript">}}
 Evalgo is a course management system for students and instructors that was developed for the course *Current Developments in Online Media* by Prof. Dirk Eisenbiegler on the topic Evaluation of Go for Web Development.
 
@@ -48,20 +53,26 @@ Feedback and grades can be given by instructors on the submissions, which appear
 
 {{< image src="image/evalgo2.png" title="Evalgo grade table">}}
 {{< /project >}}
+
 <hr>
 
-{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/latest" apps="C#, Godot">}}
+{{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}
+{{<twoculumn>}}
+{{<left 48>}}
+**F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor is a TypeScript based Game Engine designed with education in mind by Prof. Jirka Dell'Oro-Friel. I worked on the implementation of mesh generation, OBJ mesh import and shaders. In the <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> project, we used the engine at a very early stage to implement an [atomic orbital construction kit](https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/tutor.html).
 
-A simple image editor using C# and Godot, based on a non-destructive filter stack. The filters work with shaders in real time. The shader code is generated from the filter stack at runtime.
-
-<video width="720px" autoplay muted loop>
-  <source src="res/image_edit.mp4" type="video/mp4">
-</video> 
+{{< image src="image/fcl2.jpg" linked="false" >}}
 
 
+{{</left>}}
+{{<right 48>}}
+{{< image src="image/fcl.png" linked="false" >}}
+{{</right>}}
+{{</twoculumn>}}
 {{< /project >}}
 
 <hr>
+
 {{< project id="rtcg" name="Realtime CG" gh="SimonStorlSchulke/RealtimeCG" apps="Go, OpenGL">}}
 
 For the course *Real-Time Computer Graphics* by Rainer Duda I developed a demo about procedural textures and fractals using Go and OpenGL.
