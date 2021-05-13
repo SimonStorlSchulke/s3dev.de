@@ -50,7 +50,7 @@ Feedback and grades can be given by instructors on the submissions, which appear
 {{< /project >}}
 <hr>
 
-{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/tag/alpha02" apps="C#, Godot">}}
+{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/latest" apps="C#, Godot">}}
 
 A simple image editor using C# and Godot, based on a non-destructive filter stack. The filters work with shaders in real time. The shader code is generated from the filter stack at runtime.
 

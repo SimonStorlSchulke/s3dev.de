@@ -17,7 +17,7 @@ heroimage: "image/hero.jpg"
   <i class="sidebar-arrow fas fa-chevron-left"></i>
 </div>
 
-{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/tag/alpha02" apps="C#, GLSL, Godot">}}
+{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/latest" apps="C#, GLSL, Godot">}}
 
 {{<twoculumn>}}
 {{<left 47>}}
