@@ -1,140 +1,46 @@
 ---
-title: "Projects"
-date: 2021-04-26T23:27:14+02:00
-lightgallery: true
+title: "Projekte"
 heroimage: "image/hero.jpg"
 ---
+<br>
 
-<div class="sidebar">
-  <a href="#godot-image-edit">Image Editor</a>
-  <a href="#evalgo">Evalgo</a>
-  <a href="#fudge">FUDGE</a>
-  <a href="#rtcg">RTCG</a>
-  <a href="#thesis">Clouds</a>
-  <a href="#cat">A Cat in Time</a>
-  <a href="#saba">SABA</a>
-  <a href="#gamejams">GameJams</a>
-  <i class="sidebar-arrow fas fa-chevron-left"></i>
-</div>
+{{< projectcard url-name="imageedit" name="Image Editor" thumbnail="thumbs/image-editor.jpg" apps="C#, GLSL, Godot">}}
+A Ein einfacher Bildeditor mit C# und Godot.
+{{< /projectcard >}}
 
-{{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/latest" apps="C#, Godot">}}
+{{< projectcard url-name="evalgo" name="Evalgo" thumbnail="thumbs/evalgo.jpg" apps="Go, HTML, CSS, JavaScript">}}
+Ein Kurs-Management System für Studierende und Dozenten.
+{{< /projectcard >}}
 
+{{< projectcard url-name="fudge" name="FUDGE" thumbnail="thumbs/fudge.jpg" apps="TypeScript, WebGL, HTML, CSS">}}
+Eine TypeScript basierte GameEngine von Prof. Jirka Dell’Oro-Friedl, speziell für die Lehre.
+{{< /projectcard >}}
 
-{{<twoculumn>}}
-{{<left 47>}}
-A simple image editor using C# and Godot, based on a non-destructive filter stack. The filters work with shaders in real time. The glsl shader code is generated from the filter stack at runtime.
-{{</left>}}
-{{<right 47>}}
+{{< projectcard url-name="rtcg" name="Realtime CG" thumbnail="thumbs/rtcg.jpg" apps="Go, OpenGL">}}
+Eine Demo zum Thema prozedurale Texturen und Fraktale.
+{{< /projectcard >}}
 
-<video width="720px" autoplay muted loop  controls>
-  <source src="res/image_edit.mp4" type="video/mp4">
-</video> 
+{{< projectcard url-name="cloud" name="Cloud Generator" thumbnail="thumbs/cloud.jpg" apps="OSL, Blender">}}
+Mithilfe weniger Parameter soll es möglich sein, komplexe Wolkenformen zu generieren.
+{{< /projectcard >}}
 
-{{</right>}}
-{{</twoculumn>}}
+{{< projectcard url-name="cat" name="A Cat in Time" thumbnail="thumbs/cat.jpg" who="Stadtmuseum<br>Tübingen" apps="Unity, Blender, Musik">}}
+Mobilegame, bei dem der Geist einer Katze uns durch das Museum und die Zeit führt.
+{{< /projectcard >}}
 
-
-{{< /project >}}
-
-<hr>
-
-{{< project id="evalgo" name="Evalgo" gh="SimonStorlSchulke/Evalgo" apps="Go, HTML, CSS, JavaScript">}}
-Evalgo is a course management system for students and instructors that was developed for the course *Current Developments in Online Media* by Prof. Dirk Eisenbiegler on the topic Evaluation of Go for Web Development.
-
-{{< image src="image/evalgo.png" title="Evalgo">}}
-<br><br>
-
-Instructors and tutors can write assignments and students can submit them.
-
-{{< image src="image/evalgo3.png" title="Evalgo feedback">}}
-<br><br>
-
-Feedback and grades can be given by instructors on the submissions, which appear in an overview and grade table for authorized users.
-
-{{< image src="image/evalgo2.png" title="Evalgo grade table">}}
-{{< /project >}}
-
-<hr>
-
-{{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}
-{{<twoculumn>}}
-{{<left 48>}}
-**F**urtwangen **U**niversity **D**idactic **G**ame **E**ditor is a TypeScript based Game Engine designed with education in mind by Prof. Jirka Dell'Oro-Friel. I worked on the implementation of mesh generation, OBJ mesh import and shaders. In the <a href="https://github.com/hs-furtwangen/FUDGE-Chemistry_MasterW19">Chemistry with FUDGE <i class="fab fa-github fa-gh"></i></a> project, we used the engine at a very early stage to implement an [atomic orbital construction kit](https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/app/tutor.html).
-
-{{< image src="image/fcl2.jpg" linked="false" >}}
+{{< projectcard url-name="gamejams" name="GameJams" thumbnail="thumbs/fox.jpg" apps="Unity, Godot, Blender, FL-Studio">}}
+Meine GameJam Teilnahmen. Mal war ich für Code, mal für 3D-Modelle und mal für Musik zuständig.
+{{< /projectcard >}}
+<!--
+{{< projectcard url-name="tattoo" name="Tattoo Intros" thumbnail="thumbs/tattoo.jpg" apps="Blender">}}
+Intros für einen Online Kurs zum Thema Tattoo Art.
+{{< /projectcard >}}
+-->
+{{< projectcard url-name="saba" name="SABA" thumbnail="thumbs/saba.jpg" apps="Blender, Meshroom">}}
+Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes.
+{{< /projectcard >}}
 
 
-{{</left>}}
-{{<right 48>}}
-{{< image src="image/fcl.png" linked="false" >}}
-{{</right>}}
-{{</twoculumn>}}
-{{< /project >}}
-
-<hr>
-
-{{< project id="rtcg" name="Realtime CG" gh="SimonStorlSchulke/RealtimeCG" apps="Go, OpenGL">}}
-
-For the course *Real-Time Computer Graphics* by Rainer Duda I developed a demo about procedural textures and fractals using Go and OpenGL.
-
-<video width="512px" autoplay muted loop>
-  <source src="res/shading.mp4" type="video/mp4">
-</video> 
-{{< /project >}}
-<hr>
-{{< project id="thesis" name="Cloud Generation" pdf="res/Bachelorarbeit_Simon_Storl-Schulke.pdf"  gh="SimonStorlSchulke/OSL-Cloud-Generation" apps="OSL, Blender">}}
-
-In my bachelor thesis I dealt with the **procedural generation of clouds in offline render engines**. The focus was on usability. With the help of a few parameters it should be possible to implement complex cloud shapes. The implementation was done with OSL (Open Shading Language).
-
-<video width="100%" autoplay muted loop controls>
-  <source src="res/thesis_example.mp4" type="video/mp4">
-</video> 
-
-{{< image src="image/thesis.jpg"title="Thesis - cloud parameters">}}
-{{< /project >}}
-<hr>
-{{< project id="cat" name="A Cat in Time" apps="Unity, Blender">}}
-Mobilegame for the [City Museum Tübingen](https://www.tuebingen.de/stadtmuseum/) (still in development). To save the ghost of the cat mummy we travel to the year 1607. Here I was responsible for 3D models and texturing, as well as music. The soundtrack has the special gimmic that the instruments change during the time shift.
-
-{{< image src="image/ct.png" title="A Cat in Time">}}
-
-*In Cooperation with Linus Ehmann (Programmierung), Tim Marquardt (conzept) and Olivia Storz (Design and Conzept)*
-{{< /project >}}
-<hr>
-{{< project id="saba" name="SABA Scan" apps="Blender, Meshroom">}}
-
-{{<twoculumn>}}
-{{<left 46>}}
-
-3D Scanning by drone and remodeling of the old SABA Farbik site in the Villingen Innovation Park in cooperation with Andreas Reich, Linus Ehmann and Sophie Tobisch. 
-
-Among other things, I was responsible for the remodeling of the SABA main building based on the scanned data and references.
-
-{{< image src="image/heizwerk.png" title="SABA heating plant">}}
-
-{{</left>}}
-{{<right 50>}}
-
-{{< image src="image/saba2.png" title="SABA letters">}}
-{{< image src="image/saba1.png" title="SABA main building">}}
-
-{{</right>}}
-{{</twoculumn>}}
-{{< /project >}}
-<hr>
-{{< project id="gamejams" name="GameJams" apps="Unity, Godot, Blender, FL-Studio">}}
-
-I participated in several GameJams during my studies. I took different roles - sometimes I was responsible for code, sometimes for 3D models and sometimes for music. So I was able to expand my knowledge in all areas and learn to work under strong time pressure in a team.
-
-{{< image src="image/ibe.jpg" width="850px" caption="[**Inbound: Earth**](https://globalgamejam.org/2019/games/inbound-earth) | VR 360° Towerdefense Game. Satellites can be set to repel incoming alien spaceships from Earth. Here I was involved in programming and 3D models" title="Inbound: Earth">}}
-
-{{< image src="image/dlab.jpg" width="850px" caption="[**Don't Lose a Beat**](https://github.com/CalvinDO/DontLoseABeat) | Bring a disharmonic orchestra back to the right beat and pitch. For this game I produced the music and helped with coding." title="Don't Lose a Beat">}}
-
-{{< image src="image/fws.jpg" width="850px" caption="[**Fuwashima**](https://globalgamejam.org/2020/games/fuwashima-2) | VR game in which the player must solve puzzles to prevent an impending reactor disaster, but only makes it worse in the process. I was responsible for the 3D models" title="Fuwashima">}}
-
-{{< image src="image/fox.jpg" width="850px" caption="**Foxgame** | A young fox searches for his mommy in the snow." title="Foxgame">}}
-
-{{< /project >}}
 
 <style>
   .page {
@@ -159,14 +65,9 @@ I participated in several GameJams during my studies. I took different roles - s
     }
 }
 
-h2 {
-  margin-top: 42px !important;
-  color: white !important;
-  font-size: 40px !important;
-}
-
 hr {
   margin-top: 35px !important;
 }
 
 </style>
+ 
