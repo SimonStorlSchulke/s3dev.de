@@ -29,7 +29,7 @@ Mobilegame in which the ghost of a cat guides us through the museum and time.
 {{< /projectcard >}}
 
 {{< projectcard url-name="/en/pr/gamejams" name="GameJams" thumbnail="thumbs/fox.jpg" apps="Unity, Godot, Blender, FL-Studio">}}
-Meine GameJam Teilnahmen. Mal war ich für Code, mal für 3D-Modelle und mal für Musik zuständig.
+My GameJam participations. Sometimes I was responsible for code, sometimes for 3D models and sometimes for music.
 {{< /projectcard >}}
 <!--
 {{< projectcard url-name="tattoo" name="Tattoo Intros" thumbnail="thumbs/tattoo.jpg" apps="Blender">}}
