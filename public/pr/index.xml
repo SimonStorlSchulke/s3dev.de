@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/cat/</guid>
-      <description>Alle ProjekteA Cat in TimeUnity, Blender, MusikMobilegame für das Stadtmuseum Tübingen (noch in Entwicklung). Um den Geist der Katzenmumie zu retten, reisen wir in das Jahr 1607. Der Spieler muss dabei in vier verschiedenen historischen Museumsräumen jeweils ein Rätsel lösen. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der Soundtrack hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
+      <description>Alle ProjekteA Cat in TimeUnity, Blender, MusikMobilegame für das Stadtmuseum Tübingen (noch in Entwicklung). Um den Geist der Katzenmumie zu retten, reisen wir in das Jahr 1607. Der Spieler muss dabei in vier verschiedenen historischen Museumsräumen jeweils ein Rätsel lösen. Hier war ich für 3D-Modelle und Texturierung, sowie für Musik zuständig. Der Soundtrack hat die Besonderheit, dass beim Zeitsprung die Instrumente wechseln.
 In Kooperation mit Linus Ehmann (Programmierung), Tim Marquardt (Konzept) und Olivia Storz (Design &amp;amp; Konzept)</description>
     </item>
     
@@ -22,7 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/cloud/</guid>
-      <description>Alle ProjekteCloud GenerationOSL, BlenderIn meiner Bachelorthesis beschäftigte ich mich mit der Prozeduralen Generierung von Wolken in Offline-Renderengines. Der Fokus lag hierbei auf Anwenderfreundlichkeit. Mithilfe weniger Parameter soll es möglich sein, komplexe Wolkenformen umzusetzen. Der Prototyp wurde in Blender mit dessen Echtzeit Renderengine Eevee umgesetzt. Die Implementierung erfolgte dann mit OSL (Open Shading Language) und wurde mit der Cycles Renderengine getestet.
+      <description>Alle ProjekteCloud GenerationOSL, BlenderIn meiner Bachelorthesis beschäftigte ich mich mit der Prozeduralen Generierung von Wolken in Offline-Renderengines. Der Fokus lag hierbei auf Anwenderfreundlichkeit. Mithilfe weniger Parameter soll es möglich sein, komplexe Wolkenformen umzusetzen. Der Prototyp wurde in Blender mit dessen Echtzeit Renderengine Eevee umgesetzt. Die Implementierung erfolgte dann mit OSL (Open Shading Language) und wurde mit der Cycles Renderengine getestet.
  .hero {display: none;}.</description>
     </item>
     
@@ -32,7 +32,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/evalgo/</guid>
-      <description>Alle ProjekteEvalgoGo, HTML, CSS, JavaScriptEvalgo ist ein Kurs-Management System für Studierende und Dozenten, dass für den Kurs Aktuelle Entwicklungen im Bereich Online-Medien von Prof. Dirk Eisenbiegler zum Thema Evaluation von Go für Webdevelopment entwickelt wurde.
+      <description>Alle ProjekteEvalgoGo, HTML, CSS, JavaScriptEvalgo ist ein Kurs-Management System für Studierende und Dozenten, dass für den Kurs Aktuelle Entwicklungen im Bereich Online-Medien von Prof. Dirk Eisenbiegler zum Thema Evaluation von Go für Webdevelopment entwickelt wurde.
 Dozenten und Tutoren können Aufgabenstellungen mit Markdown-Formatierung verfassen und Studierende diese abgeben. Auf der Hauptseite sind die Aufgabenstellung, sowie die Abgaben aller Studierenden zur ausgewählten Aufgabe zu finden. Je nach Konfiguration sind Letztere für alle User oder nur für authorisierte Nutzer (Dozent oder Tutor) sichtbar.</description>
     </item>
     
@@ -42,8 +42,7 @@ Dozenten und Tutoren können Aufgabenstellungen mit Markdown-Formatierung verfas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/fudge/</guid>
-      <description>Alle ProjekteFUDGETypeScript, WebGL, HTML, CSSFurtwangen University Didactic Game Editor ist eine TypeScript basierte GameEngine speziell für die Lehre von Prof. Jirka Dell&amp;rsquo;Oro-Friedl. Hier arbeitete ich an der Implementierung von Meshgenerierung, OBJ-Meshimport und Shadern. Im Projekt Chemistry with FUDGE  verwendeten wir die Engine in sehr frühen Stadium, um einen Atom-Orbital-Baukasten umzusetzen.
-why
+      <description>Alle ProjekteFUDGETypeScript, WebGL, HTML, CSSFurtwangen University Didactic Game Editor ist eine TypeScript basierte GameEngine speziell für die Lehre von Prof. Jirka Dell&amp;rsquo;Oro-Friedl. Hier arbeitete ich an der Implementierung von Meshgenerierung, OBJ-Meshimport und Shadern. Im Projekt Chemistry with FUDGE  verwendeten wir die Engine in sehr frühen Stadium, um einen Atom-Orbital-Baukasten umzusetzen.
 .hero {display: none;}.page {margin-top: 60px;width: 100%;max-width: 1400px !</description>
     </item>
     
@@ -53,7 +52,7 @@ why
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/gamejams/</guid>
-      <description>Alle ProjekteGameJamsUnity, Godot, Blender, FL-StudioIch nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich verschiedene Rollen ein - mal war ich für Code, mal für 3D-Modelle und mal für Musik zuständig. So konnte ich so meine Kenntnisse in allen Bereichen ausbauen und lernen unter starkem Zeitdruck im Team zu arbeiten.
+      <description>Alle ProjekteGameJamsUnity, Godot, Blender, FL-StudioIch nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich verschiedene Rollen ein - mal war ich für Code, mal für 3D-Modelle und mal für Musik zuständig. So konnte ich so meine Kenntnisse in allen Bereichen ausbauen und lernen unter starkem Zeitdruck im Team zu arbeiten.
 Inbound: Earth | VR 360° Towerdefense Spiel. Sateliten können gesetzt werden, um ankommende Alien-Raumschiffe von der Erde abzuwehren.</description>
     </item>
     
@@ -63,7 +62,7 @@ why
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/imageedit/</guid>
-      <description> Alle ProjekteImage EditorC#, GLSL, GodotEin einfacher Bildeditor mit C# und Godot, basierend auf einem non-destruktiven Filter-Stack. Die Filter funktionieren mithilfe von Shadern in Echtzeit. Der GLSL Shadercode wird dabei zur Laufzeit aus dem Filterstack generiert. .hero {display: none;}.page {margin-top: 60px;width: 100%;max-width: 1400px !important;padding-right: 120px !important;}h1 {color: white;} </description>
+      <description> Alle ProjekteImage EditorC#, GLSL, GodotEin einfacher Bildeditor mit C# und Godot, basierend auf einem non-destruktiven Filter-Stack. Die Filter funktionieren mithilfe von Shadern in Echtzeit. Der GLSL Shadercode wird dabei zur Laufzeit aus dem Filterstack generiert. .hero {display: none;}.page {margin-top: 60px;width: 100%;max-width: 1400px !important;padding-right: 120px !important;}h1 {color: white;} </description>
     </item>
     
     <item>
@@ -72,7 +71,7 @@ why
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/rtcg/</guid>
-      <description> Alle ProjekteRealtime CGGo, OpenGLZum Kurs Echtzeit Computergrafik von Rainer Duda entwickelte ich hier mit Go und OpenGL eine Demo zum Thema prozedurale Texturen und Fraktale.
+      <description> Alle ProjekteRealtime CGGo, OpenGLZum Kurs Echtzeit Computergrafik von Rainer Duda entwickelte ich hier mit Go und OpenGL eine Demo zum Thema prozedurale Texturen und Fraktale.
  .hero {display: none;}.page {margin-top: 60px;width: 100%;max-width: 1400px !important;padding-right: 120px !important;}h1 {color: white;} </description>
     </item>
     
@@ -82,9 +81,9 @@ why
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/saba/</guid>
-      <description>Alle ProjekteSABA Scan &amp;amp; NachmodellierungBlender, MeshroomEinscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes im Innovationspark Villingen in Kooperation mit Andreas Reich, Linus Ehmann und Sophie Tobisch.
+      <description> Alle ProjekteSABA Scan &amp;amp; NachmodellierungBlender, MeshroomEinscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes im Innovationspark Villingen in Kooperation mit Andreas Reich, Linus Ehmann und Sophie Tobisch.
 Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand der eingescannten Daten und Referenzen zuständig.
-.hero {display: none;}.page {margin-top: 60px;width: 100%;max-width: 1400px !important;padding-right: 120px !</description>
+.hero {display: none;}.page {margin-top: 60px;width: 100%;max-width: 1400px !important;padding-right: 120px !important;}h1 {color: white;} </description>
     </item>
     
     <item>
@@ -93,7 +92,7 @@ Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://simonstorlschulke.github.io/pr/tattoo/</guid>
-      <description>Alle ProjekteEvalgoGo, HTML, CSS, JavaScriptEvalgo ist ein Kurs-Management System für Studierende und Dozenten, dass für den Kurs Aktuelle Entwicklungen im Bereich Online-Medien von Prof. Dirk Eisenbiegler zum Thema Evaluation von Go für Webdevelopment entwickelt wurde.
+      <description>Alle ProjekteEvalgoGo, HTML, CSS, JavaScriptEvalgo ist ein Kurs-Management System für Studierende und Dozenten, dass für den Kurs Aktuelle Entwicklungen im Bereich Online-Medien von Prof. Dirk Eisenbiegler zum Thema Evaluation von Go für Webdevelopment entwickelt wurde.
 Dozenten und Tutoren können Aufgabenstellungen mit Markdown-Formatierung verfassen und Studierende diese abgeben. Auf der Hauptseite sind die Aufgabenstellung, sowie die Abgaben aller Studierenden zur ausgewählten Aufgabe zu finden. Je nach Konfiguration sind Letztere für alle User oder nur für authorisierte Nutzer (Dozent oder Tutor) sichtbar.</description>
     </item>
     

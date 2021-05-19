@@ -12,6 +12,7 @@ theme = "LoveIt"
   description = "3D Generalist & Entwickler"
   version = "0.2.X"
   defaultTheme = "dark"
+  projectBackLink = "<a href='/projects'><i class='fas fa-chevron-left'></i><span> Alle Projekte</span></a>"
 
 [params.social]
   GitHub = "SimonStorlSchulke"
@@ -119,6 +120,8 @@ theme = "LoveIt"
     title = "Simon Storl-Schulke | 3D Generalist & Developer"
     languageCode = "en"
     languageName = "en"
+    projectBackLink = "<a href='/en/projects'><i class='fas fa-chevron-left'></i><span> All Projects</span></a>"
+
   [languages.en.params.home]
     [languages.en.params.home.profile]
       enable = true

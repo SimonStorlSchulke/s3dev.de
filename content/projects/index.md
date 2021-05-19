@@ -4,31 +4,31 @@ heroimage: "image/hero.jpg"
 ---
 <br>
 
-{{< projectcard url-name="imageedit" name="Image Editor" thumbnail="thumbs/image-editor.jpg" apps="C#, GLSL, Godot">}}
+{{< projectcard url-name="/pr/imageedit" name="Image Editor" thumbnail="thumbs/image-editor.jpg" apps="C#, GLSL, Godot">}}
 Ein einfacher Bildeditor mit C# und Godot.
 {{< /projectcard >}}
 
-{{< projectcard url-name="evalgo" name="Evalgo" thumbnail="thumbs/evalgo.jpg" apps="Go, HTML, CSS, JavaScript">}}
+{{< projectcard url-name="/pr/evalgo" name="Evalgo" thumbnail="thumbs/evalgo.jpg" apps="Go, HTML, CSS, JavaScript">}}
 Ein Kurs-Management System für Studierende und Dozenten.
 {{< /projectcard >}}
 
-{{< projectcard url-name="fudge" name="FUDGE" thumbnail="thumbs/fudge.jpg" apps="TypeScript, WebGL, HTML, CSS">}}
+{{< projectcard url-name="/pr/fudge" name="FUDGE" thumbnail="thumbs/fudge.jpg" apps="TypeScript, WebGL, HTML, CSS">}}
 Eine TypeScript basierte GameEngine von Prof. Jirka Dell’Oro-Friedl, speziell für die Lehre.
 {{< /projectcard >}}
 
-{{< projectcard url-name="rtcg" name="Realtime CG" thumbnail="thumbs/rtcg.jpg" apps="Go, OpenGL">}}
+{{< projectcard url-name="/pr/rtcg" name="Realtime CG" thumbnail="thumbs/rtcg.jpg" apps="Go, OpenGL">}}
 Eine Demo zum Thema prozedurale Texturen und Fraktale.
 {{< /projectcard >}}
 
-{{< projectcard url-name="cloud" name="Cloud Generator" thumbnail="thumbs/cloud.jpg" apps="OSL, Blender">}}
+{{< projectcard url-name="/pr/cloud" name="Cloud Generator" thumbnail="thumbs/cloud.jpg" apps="OSL, Blender">}}
 Mithilfe weniger Parameter soll es möglich sein, komplexe Wolkenformen zu generieren.
 {{< /projectcard >}}
 
-{{< projectcard url-name="cat" name="A Cat in Time" thumbnail="thumbs/cat.jpg" who="Stadtmuseum<br>Tübingen" apps="Unity, Blender, Musik">}}
+{{< projectcard url-name="/pr/cat" name="A Cat in Time" thumbnail="thumbs/cat.jpg" who="Stadtmuseum<br>Tübingen" apps="Unity, Blender, Musik">}}
 Mobilegame, bei dem der Geist einer Katze uns durch das Museum und die Zeit führt.
 {{< /projectcard >}}
 
-{{< projectcard url-name="gamejams" name="GameJams" thumbnail="thumbs/fox.jpg" apps="Unity, Godot, Blender, FL-Studio">}}
+{{< projectcard url-name="/pr/gamejams" name="GameJams" thumbnail="thumbs/fox.jpg" apps="Unity, Godot, Blender, FL-Studio">}}
 Meine GameJam Teilnahmen. Mal war ich für Code, mal für 3D-Modelle und mal für Musik zuständig.
 {{< /projectcard >}}
 <!--
@@ -36,7 +36,7 @@ Meine GameJam Teilnahmen. Mal war ich für Code, mal für 3D-Modelle und mal fü
 Intros für einen Online Kurs zum Thema Tattoo Art.
 {{< /projectcard >}}
 -->
-{{< projectcard url-name="saba" name="SABA" thumbnail="thumbs/saba.jpg" apps="Blender, Meshroom">}}
+{{< projectcard url-name="/pr/saba" name="SABA" thumbnail="thumbs/saba.jpg" apps="Blender, Meshroom">}}
 Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes.
 {{< /projectcard >}}
 
