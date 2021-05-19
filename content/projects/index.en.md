@@ -1,31 +1,31 @@
 ---
-title: "Projekte"
+title: "Projects"
 heroimage: "image/hero.jpg"
 ---
 <br>
 
 {{< projectcard url-name="imageedit" name="Image Editor" thumbnail="thumbs/image-editor.jpg" apps="C#, GLSL, Godot">}}
-A Ein einfacher Bildeditor mit C# und Godot.
+A simple image editor with C# and Godot.
 {{< /projectcard >}}
 
 {{< projectcard url-name="evalgo" name="Evalgo" thumbnail="thumbs/evalgo.jpg" apps="Go, HTML, CSS, JavaScript">}}
-Ein Kurs-Management System für Studierende und Dozenten.
+A course management system for students and teachers.
 {{< /projectcard >}}
 
 {{< projectcard url-name="fudge" name="FUDGE" thumbnail="thumbs/fudge.jpg" apps="TypeScript, WebGL, HTML, CSS">}}
-Eine TypeScript basierte GameEngine von Prof. Jirka Dell’Oro-Friedl, speziell für die Lehre.
+A TypeScript based GameEngine by Prof. Jirka Dell'Oro-Friedl, specifically for teaching.
 {{< /projectcard >}}
 
 {{< projectcard url-name="rtcg" name="Realtime CG" thumbnail="thumbs/rtcg.jpg" apps="Go, OpenGL">}}
-Eine Demo zum Thema prozedurale Texturen und Fraktale.
+A demo on procedural textures and fractals.
 {{< /projectcard >}}
 
 {{< projectcard url-name="cloud" name="Cloud Generator" thumbnail="thumbs/cloud.jpg" apps="OSL, Blender">}}
-Mithilfe weniger Parameter soll es möglich sein, komplexe Wolkenformen zu generieren.
+By adjusting only a few parameters it should be possible to generate complex cloud shapes.
 {{< /projectcard >}}
 
 {{< projectcard url-name="cat" name="A Cat in Time" thumbnail="thumbs/cat.jpg" who="Stadtmuseum<br>Tübingen" apps="Unity, Blender, Musik">}}
-Mobilegame, bei dem der Geist einer Katze uns durch das Museum und die Zeit führt.
+Mobilegame in which the ghost of a cat guides us through the museum and time.
 {{< /projectcard >}}
 
 {{< projectcard url-name="gamejams" name="GameJams" thumbnail="thumbs/fox.jpg" apps="Unity, Godot, Blender, FL-Studio">}}
@@ -37,7 +37,7 @@ Intros für einen Online Kurs zum Thema Tattoo Art.
 {{< /projectcard >}}
 -->
 {{< projectcard url-name="saba" name="SABA" thumbnail="thumbs/saba.jpg" apps="Blender, Meshroom">}}
-Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes.
+3D Scanning by drone and remodeling of the old SABA Farbik site.
 {{< /projectcard >}}
 
 
