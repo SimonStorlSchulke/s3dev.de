@@ -8,7 +8,7 @@ title = "Simon Storl-Schulke"
 theme = "LoveIt"
 
 [params]
-  # LoveIt theme version
+  author = "Simon Storl-Schulke"
   description = "3D Generalist & Entwickler"
   version = "0.2.X"
   defaultTheme = "dark"
