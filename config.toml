@@ -7,6 +7,8 @@ title = "Simon Storl-Schulke"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveItAdjusted"
 
+ignorefiles = [ "hugoignore/.*" ]
+
 [params]
   author = "Simon Storl-Schulke"
   description = "3D Generalist & Entwickler"

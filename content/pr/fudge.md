@@ -10,7 +10,7 @@ heroimage: "/img/hero-placeholder.jpg"
 
 
 
-{{< image src="../image/fcl2.jpg" linked="false" >}}
+<a href="https://hs-furtwangen.github.io/FUDGE-Chemistry_MasterW19/dev/apps/testapp_game/sphere.html"><image src="../image/fcl2.jpg"></a>
 
 {{</left>}}
 {{<right 48>}}

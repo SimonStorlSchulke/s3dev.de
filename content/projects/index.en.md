@@ -4,6 +4,11 @@ heroimage: "image/hero.jpg"
 ---
 <br>
 
+
+{{< projectcard url-name="/pr/fnode" name="FNode" thumbnail="thumbs/fnode.jpg" apps="C#, Godot">}}
+Nodebased tool for automated file management and visual programming.
+{{< /projectcard >}}
+
 {{< projectcard url-name="/en/pr/imageedit" name="Image Editor" thumbnail="thumbs/image-editor.jpg" apps="C#, GLSL, Godot">}}
 A simple image editor with C# and Godot.
 {{< /projectcard >}}

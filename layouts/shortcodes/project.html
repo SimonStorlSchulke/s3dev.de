@@ -1,7 +1,7 @@
 <div class="project-summary"><a href="/projects"><i class="fas fa-chevron-left"></i><span> Alle Projekte</span></a>
     <h1 id="{{.Get "id"}}">{{.Get "name"}}
-        {{with .Get "gh"}}<a href="{{ . }}"><i class="fab fa-github fa-gh"></i></a>{{end}}
+        {{with .Get "gh"}}<a href="https://github.com/{{ . }}"><i class="fab fa-github fa-gh"></i></a>{{end}}
         {{with .Get "exe"}}<a href="{{ . }}"><i class="fab fa-windows"></i></a>{{end}}</h1>
     <span class="describer-right">{{.Get "apps"}}</span>
-    {{.Inner}}
+    {{.Inner | markdownify}}
 </div>

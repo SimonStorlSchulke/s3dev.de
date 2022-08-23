@@ -23,7 +23,9 @@
         <div class="wrapper">
             {{- partial "header.html" . -}}
             <main class="main">
-                <div class="container">
+                    {{ if isset .Params "heroimage" }}
+                    <div class="hero" style="background-image: url({{.Params.heroimage}});"><h1>{{.Params.Title}}</h1></div>
+                    {{ end }}
                     {{- block "content" . }}{{ end -}}
                 </div>
             </main>
