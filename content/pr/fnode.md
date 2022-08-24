@@ -1,10 +1,10 @@
 ---
 title: "FNode"
-heroimage: "/img/hero-placeholder.jpg"
+heroimage: "/img/hero/fnode.jpg"
 lightgallery: true
 ---
 
-{{< project id="fnode" name="FNode" apps="C#, Godot" gh="SimonStorlSchulke/FNode" exe="https://github.com/SimonStorlSchulke/FNode/releases/latest">}}
+{{< project id="fnode" name="Nodebasierte Prozessautomatisierung" apps="C#, Godot" gh="SimonStorlSchulke/FNode" exe="https://github.com/SimonStorlSchulke/FNode/releases/latest">}}
 
 FNode ist ein Nodebasiertes Tool für automatisiertes Dateimanagement und visuelle Programmierung.
 
@@ -16,3 +16,9 @@ FNode ist ein Nodebasiertes Tool für automatisiertes Dateimanagement und visuel
 - parallele bearbeitung beliebig vieler Nodetrees
 
 {{< /project >}}
+
+<style>
+  .project-summary h1 {
+    font-size: 38px;
+  }
+</style>

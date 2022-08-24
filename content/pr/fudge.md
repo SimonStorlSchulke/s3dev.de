@@ -1,6 +1,5 @@
 ---
 title: "FUDGE"
-heroimage: "/img/hero-placeholder.jpg"
 ---
 
 {{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}

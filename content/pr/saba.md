@@ -1,6 +1,5 @@
 ---
 title: "SABA Scan & Nachmodellierung"
-heroimage: "/img/hero-placeholder.jpg"
 lightgallery: true
 ---
 

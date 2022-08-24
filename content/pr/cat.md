@@ -1,6 +1,5 @@
 ---
 title: "A Cat in Time"
-heroimage: "/img/hero-placeholder.jpg"
 lightgallery: true
 ---
 

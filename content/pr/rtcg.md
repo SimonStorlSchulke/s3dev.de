@@ -1,6 +1,5 @@
 ---
 title: "Realtime CG"
-heroimage: "/img/hero-placeholder.jpg"
 lightgallery: true
 ---
 

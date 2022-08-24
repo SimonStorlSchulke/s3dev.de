@@ -1,6 +1,5 @@
 ---
 title: "Tattoo Intros"
-heroimage: "/img/hero-placeholder.jpg"
 lightgallery: true
 ---
 

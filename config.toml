@@ -28,9 +28,8 @@ ignorefiles = [ "hugoignore/.*" ]
     [params.home.profile]
       enable = true
       # URL of avatar shown in home page
-      avatarURL = "/img/avatar2.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "3D Generalist & Entwickler<br>aus den Tiefen des Schwarzwalds"
+      title = "Entwickler & 3D Generalist<br>aus den Tiefen des Schwarzwalds"
       # subtitle shown in home page
       subtitle = "Demoreel"
       # whether to use typeit animation for subtitle

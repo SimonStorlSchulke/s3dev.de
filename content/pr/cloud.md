@@ -1,6 +1,5 @@
 ---
 title: "Cloud Generation"
-heroimage: "/img/hero-placeholder.jpg"
 lightgallery: true
 ---
 

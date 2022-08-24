@@ -1,6 +1,5 @@
 ---
 title: "Evalgo"
-heroimage: "/img/hero-placeholder.jpg"
 lightgallery: true
 ---
 

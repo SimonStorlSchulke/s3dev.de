@@ -1,6 +1,5 @@
 ---
 title: "Image Editor"
-heroimage: "/img/hero-placeholder.jpg"
 ---
 
 {{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/latest" apps="C#, GLSL, Godot">}}

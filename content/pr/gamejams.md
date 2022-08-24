@@ -1,6 +1,5 @@
 ---
 title: "GameJams"
-heroimage: "/img/hero-placeholder.jpg"
 lightgallery: true
 ---
 
