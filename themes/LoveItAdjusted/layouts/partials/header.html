@@ -54,9 +54,6 @@
                         </span>
                     </span>
                 {{- end -}}
-                <a href="javascript:void(0);" class="menu-item theme-switch" title="{{ T "switchTheme" }}">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a>
                 {{- if .Site.IsMultiLingual -}}
                 <a href="javascript:void(0);" class="menu-item language" title="{{ T "selectLanguage" }}">
                     <i class="fa fa-globe" aria-hidden="true"></i>                      
@@ -146,9 +143,6 @@
                     {{- .Pre | safeHTML }}{{ .Name }}{{ .Post | safeHTML -}}
                 </a>
             {{- end -}}
-            <a href="javascript:void(0);" class="menu-item theme-switch" title="{{ T "switchTheme" }}">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a>
             {{- if .Site.IsMultiLingual -}}
             
                 <a href="javascript:void(0);" class="menu-item" title="{{ T "selectLanguage" }}">

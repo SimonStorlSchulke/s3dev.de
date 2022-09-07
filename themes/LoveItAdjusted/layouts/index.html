@@ -1,41 +1,90 @@
+
 {{- define "content" -}}
-    {{- $params := .Scratch.Get "params" -}}
-    {{- $profile := .Site.Params.home.profile -}}
-    {{- $posts := .Site.Params.home.posts -}}
+{{- $params := .Scratch.Get "params" -}}
+{{- $profile := .Site.Params.home.profile -}}
+{{- $posts := .Site.Params.home.posts -}}
+<div class="hero-front" style="background-image: url(/img/front_bg_old.jpg); background-size:cover;">
+    <h1>{{- with $profile.title -}}{{- . | safeHTML -}}{{- end -}}</h1>
+    <!--<img src="/img/avatar_cutout.png" style="height: 300px; position: absolute; bottom: 0px; right: 25px;"></img>-->
+    <i id="scroll-down" class="fas fa-chevron-down scroll-down"></i>
+</div>
 
-    <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
-        {{- /* Profile */ -}}
-        {{- if ne $profile.enable false -}}
-            {{- partial "home/profile.html" . -}}
-        {{- end -}}
+<div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
+    {{- /* Profile */ -}}
+    {{- if ne $profile.enable false -}}
 
-        {{- /* Content */ -}}
-        {{- if .Content -}}
-            <div class="single">
-                <div class="content" id="content">
-                    {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
-                </div>
+    {{- partial "home/profile.html" . -}}
+    {{- with .Site.Language.Lang -}}
+        {{ if eq . "en" }}
+        {{ partial "home/skills.en.html" }}
+        {{ end }}
+        {{ if eq . "de" -}}
+        {{ partial "home/skills.html" }}
+        {{ end }}
+    {{- end -}}
+
+    {{- end -}}
+
+    {{- /* Content */ -}}
+    {{- if .Content -}}
+        <div class="single">
+            <div class="content" id="content">
+                {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
             </div>
-        {{- end -}}
+        </div>
+    {{- end -}}
 
-        {{- /* Posts */ -}}
-        {{- if ne $posts.enable false | and .Site.RegularPages -}}
-            {{- /* Paginate */ -}}
-            {{- $pages := where .Site.RegularPages "Type" "posts" -}}
-            {{- if .Site.Params.page.hiddenFromHomePage -}}
-                {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
-            {{- else -}}
-                {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
-            {{- end -}}
-            {{- with $posts.paginate | default .Site.Params.paginate -}}
-                {{- $pages = $.Paginate $pages . -}}
-            {{- else -}}
-                {{- $pages = .Paginate $pages -}}
-            {{- end -}}
-            {{- range $pages.Pages -}}
-                {{- .Render "summary" -}}
-            {{- end -}}
-            {{- partial "paginator.html" . -}}
+    {{- /* Posts */ -}}
+    {{- if ne $posts.enable false | and .Site.RegularPages -}}
+        {{- /* Paginate */ -}}
+        {{- $pages := where .Site.RegularPages "Type" "posts" -}}
+        {{- if .Site.Params.page.hiddenFromHomePage -}}
+            {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
+        {{- else -}}
+            {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
         {{- end -}}
-    </div>
+        {{- with $posts.paginate | default .Site.Params.paginate -}}
+            {{- $pages = $.Paginate $pages . -}}
+        {{- else -}}
+            {{- $pages = .Paginate $pages -}}
+        {{- end -}}
+        {{- range $pages.Pages -}}
+            {{- .Render "summary" -}}
+        {{- end -}}
+        {{- partial "paginator.html" . -}}
+    {{- end -}}
+</div>
+    
+<style>
+    .container {
+        padding: 0px !important;
+    }
+    
+    .page {
+        width: 100% !important; 
+        max-width: 100% !important;
+        padding: 0px !important;
+    }
+    
+    
+    #scroll-down {
+        font-size: 60px; 
+        position: absolute; 
+        bottom: 35px;
+        color: #eeeb;
+        transition: color 0.3s, bottom 0.3s;
+    }
+    
+    #scroll-down:hover {
+        color: #E7A632;
+        bottom: 30px;
+    }
+        
+    </style>
+    <script defer>
+        document.getElementById('scroll-down').onclick = function(e) {
+            document.querySelector('.home-disclaimer').scrollIntoView({behavior: 'smooth'});
+        };
+</script>
+
 {{- end -}}

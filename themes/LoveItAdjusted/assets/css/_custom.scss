@@ -177,13 +177,13 @@ video {
 .hero-front {
     $width: 100%;
     margin-top: 55px;
-    padding-top: ($width * 0.485);
     width: $width;
     max-width: $width;
     background-size: 100%;
     position: relative;
     display: flex;
     justify-content: center;
+    height: calc(100vh - 55px);
 }
 
 .hero-front h1 {
@@ -279,60 +279,6 @@ h2 {
     color: #FFB73A !important;
 }
 
-.skills {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    max-width: 100% !important;
-    overflow: hidden;
-}
-
-@media screen and (max-width: 1100px) {
-    .skills {
-        display: block;
-        width: 800px;
-        max-width: 100%;
-    }
-}
-
-.skillcard {
-    display: block;
-    background-size: cover;
-    height: 50px;
-    width: 500px;
-    text-align: left;
-    padding: 10px 0px 10px 20px;
-    margin-bottom: 15px;
-    border-radius: 25px;
-}
-
-.skillcard img {
-    width: 32px;
-    margin-left: 8px;
-}
-
-@media screen and (max-width: 550px) {
-    .skillcard {
-        height: 40px;
-        width: 400px;
-        margin-left: 10px;
-        padding-top: 5px;
-    }
-}
-
-.skillrow {
-    display: inline-block;
-    width: 500px;
-}
-
-.skillcard span {
-    font-size: 22px;
-    color: #eee;
-    font-family: "Oswald";
-    margin-top: 17px;
-}
-
 form textarea,
 form input {
     border: 6px solid #1A1E21 !important;
@@ -362,8 +308,9 @@ form input {
 }
 
 .project-techs {
-    margin-top: 110px;
-    margin-right: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     float: right;
     color: #E7A632;
     font-size: 16px;
@@ -371,6 +318,7 @@ form input {
 
 .project-card h2 {
     font-size: 40px !important;
+    line-height: 40px;
 }
 
 .project-who {

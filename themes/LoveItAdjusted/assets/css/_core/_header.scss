@@ -191,7 +191,8 @@ header {
       }
 
       a.active {
-        font-weight: 900;
+        //font-weight: 900;
+        border-radius: 25px;
         color: $header-hover-color;
 
         [theme=dark] & {
