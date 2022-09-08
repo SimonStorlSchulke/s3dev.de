@@ -1,6 +1,7 @@
-<h1 style="text-align: center;">Aktuelle Projekte</h1>
-<div class="current-projects" style="max-width: 1400px; margin-left: auto; margin-right: auto; text-align: center;">
-  <div class="project-card" style="background-image: url('/projects/thumbs/fnode.jpg')">
+<div style="background: linear-gradient(-212deg, #343d45, #1E2225); padding-top: 50px; padding-bottom: 50px;">
+  <div class="current-projects" style="max-width: 1400px; margin-left: auto; margin-right: auto; text-align: center;">
+    <h1 style="text-align: right; padding-right: 24px;">Meine Projekte</h1>
+    <div class="project-card" style="background-image: url('/projects/thumbs/fnode.jpg')">
     <a href="/pr/fnode">
         <div class="overlay"><h2 id="">FNode</h2>
             <div class="project-card-inner">
@@ -34,10 +35,10 @@ Ein Kurs-Management System für Studierende und Dozenten.
           </div>
           <span class="project-techs">Go, HTML, CSS, JavaScript</span></div>
   </a>
-</div><br>
+</div><br><br>
 <a href="/projects"><span>Alle Projekte </span><i class="fas fa-chevron-right"></i></a>
 </div>
-
+</div>
 <style>
 .current-projects {
   max-width: 1400px;
@@ -48,5 +49,20 @@ Ein Kurs-Management System für Studierende und Dozenten.
 
 .current-projects .project-card {
   text-align: left;
+  filter: grayscale();
+  transition: filter 0.5s;
+}
+
+.current-projects .project-card h2 {
+  transition: color 1s;
+}
+
+.current-projects .project-card:hover h2 {
+  color: #fff !important;
+}
+
+.current-projects .project-card:hover {
+  text-align: left;
+  filter: grayscale(0);
 }
 </style>

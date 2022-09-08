@@ -20,7 +20,7 @@ hr {
 
 h1 {
     color: $accent-text;
-    font-family: "Oswald";
+    font-family: "Poppins";
     font-size: 55px;
     line-height: 60px;
 }
@@ -125,14 +125,6 @@ video {
     font-size: 18px;
 }
 
-.home-disclaimer {
-    text-align: center;
-    max-width: 800px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 15px 15px !important;
-}
-
 .home-profile {
     padding-top: 10px !important;
 }
@@ -175,7 +167,6 @@ video {
     padding-top: ($width * 0.2);
     width: $width;
     max-width: $width;
-    background-size: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -187,6 +178,8 @@ video {
     width: $width;
     max-width: $width;
     background-size: 100%;
+    background-position: 100% calc(100% + 10px);
+    background-repeat: no-repeat;
     position: relative;
     display: flex;
     justify-content: center;
@@ -194,14 +187,12 @@ video {
 }
 
 .hero-front h1 {
-    color: #ffb637;
-    position: absolute;
     top: 30%;
     font-weight: bold;
     font-size: 55px;
     max-width: 800px;
     line-height: 60px;
-    text-align: center;
+    text-align: left;
 }
 
 .hero h1 {
@@ -216,7 +207,7 @@ video {
 }
 
 button {
-    font-family: "Oswald";
+    font-family: "Poppins";
     font-weight: lighter;
     font-size: 25px;
     color: #eee;
@@ -277,7 +268,7 @@ button:hover {
 }
 
 h2 {
-    font-family: "Oswald";
+    font-family: "Poppins";
     color: #FFB73A !important;
 }
 
@@ -332,7 +323,7 @@ form input {
     color: white; 
     float: right;
     right: 10px;
-    font-family: "Oswald";
+    font-family: "Poppins";
     font-size: 23px;
     position: absolute;
     text-align: right;
@@ -416,10 +407,6 @@ form input {
     .sidebar:hover .sidebar-arrow {
         visibility: hidden;
     }
-}
-
-
-.hero {
 }
 
 .page {

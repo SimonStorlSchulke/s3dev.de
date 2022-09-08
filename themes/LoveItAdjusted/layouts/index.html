@@ -3,33 +3,35 @@
 {{- $params := .Scratch.Get "params" -}}
 {{- $profile := .Site.Params.home.profile -}}
 {{- $posts := .Site.Params.home.posts -}}
-<div class="hero-front" style="background-image: url(/img/front_bg_old.jpg); background-size:cover;">
-    <h1>{{- with $profile.title -}}{{- . | safeHTML -}}{{- end -}}</h1>
-    <!--<img src="/img/avatar_cutout.png" style="height: 300px; position: absolute; bottom: 0px; right: 25px;"></img>-->
+<div class="hero-front" style="background-image: url('/img/trees.png');">
+    <div style="width: 50%; margin-top: auto; margin-bottom: auto; padding-right: 50px;">
+        <img src="/img/avatar_small.jpg" style="box-shadow: -12px 5px 70px #3e4c55; height: 550px; float: right;">
+    </div>
+    <div style="width: 50%; margin-top: auto; margin-bottom: auto; padding-left: 50px; padding-right: 24px;">
+        <div style="max-width: 850px;">
+            {{- partial "home/profile.html" . -}}
+        </div>
+    </div>
     <i id="scroll-down" class="fas fa-chevron-down scroll-down"></i>
 </div>
+<!--<img src="/img/trees.png" style="display: block; position: relative; width: 100%; margin-top: -100px; pointer-events: none;">-->
 
-<div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
+<div class="home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
     {{- /* Profile */ -}}
-    {{- if ne $profile.enable false -}}
-
-    {{- partial "home/profile.html" . -}}
-    
     {{- with .Site.Language.Lang -}}
         {{ if eq . "en" }}
         <hr class="hr-accent-full">
-        {{ partial "home/skills.en.html" }}
+        <div style="background: #2E2F31;">
         {{ partial "home/skills.en.html" }}
         {{ end }}
         {{ if eq . "de" -}}
         <!--<hr class="hr-accent-full">-->
-        <div style="background: rgb(54, 54, 54);">
+        <div style="background: #2E2F31;">
         {{ partial "home/skills.html" }}
         </div>
         <!--<hr class="hr-accent-full">-->
         {{ partial "home/featured-projects.html" }}
         {{ end }}
-    {{- end -}}
 
     {{- end -}}
 
@@ -91,7 +93,7 @@
     </style>
     <script defer>
         document.getElementById('scroll-down').onclick = function(e) {
-            document.querySelector('.home-disclaimer').scrollIntoView({behavior: 'smooth'});
+            document.querySelector('#skillssection').scrollIntoView({behavior: 'smooth'});
         };
 </script>
 
