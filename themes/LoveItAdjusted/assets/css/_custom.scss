@@ -11,6 +11,13 @@ hr {
     max-width: 800px;
 }
 
+.hr-accent-full {
+    height: 4px;
+    background: #E7A632;
+    width: 100%;
+    max-width: 100%
+}
+
 h1 {
     color: $accent-text;
     font-family: "Oswald";
