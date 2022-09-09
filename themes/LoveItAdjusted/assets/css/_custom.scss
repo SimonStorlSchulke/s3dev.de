@@ -210,19 +210,19 @@ button {
     font-family: "Poppins";
     font-weight: lighter;
     font-size: 25px;
-    color: #eee;
+    color: rgb(255, 255, 255);
     border-style: none;
     border-radius: 24px;
-    padding: 8px 30px 12px 30px;
+    padding: 8px 30px 8px 30px;
     transition: background-color .3s;
-    transition: color .1s;
-    background: $accent-text;
+    transition: color .3s background-color 0.3s;
+    background: #db9926;
 }
 
 button:hover {
     background: #ffb93f;
     cursor: pointer;
-    color: black;
+    color: black !important;
 }
 
 .hero-front button {

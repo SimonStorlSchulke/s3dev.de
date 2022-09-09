@@ -3,7 +3,7 @@
     <h1 style="text-align: right; padding-right: 24px;">Meine Projekte</h1>
     <div class="project-card" style="background-image: url('/projects/thumbs/fnode.jpg')">
     <a href="/pr/fnode">
-        <div class="overlay"><h2 id="">FNode</h2>
+        <div class="overlay"><h3 id="">FNode</h3>
             <div class="project-card-inner">
                 
   Nodebasiertes Tool für automatisiertes Datei-Management und visuelle Programmierung.
@@ -15,7 +15,7 @@
 
   <div class="project-card" style="background-image: url('/projects/thumbs/snhg.jpg')">
     <a href="/pr/snhg">
-        <div class="overlay"><h2 id="">Streunernothilfe Grenzenlos</h2>
+        <div class="overlay"><h3 id="">Streunernothilfe Grenzenlos</h3>
             <div class="project-card-inner">
                 
 Technische umsetzung von streunernothilfe-grenzenlos.de
@@ -27,7 +27,7 @@ Technische umsetzung von streunernothilfe-grenzenlos.de
 
 <div class="project-card" style="background-image: url('/projects/thumbs/evalgo.jpg')">
   <a href="/pr/evalgo">
-      <div class="overlay"><h2 id="">Evalgo</h2>
+      <div class="overlay"><h3 id="">Evalgo</h3>
           <div class="project-card-inner">
               
 Ein Kurs-Management System für Studierende und Dozenten.
@@ -36,7 +36,8 @@ Ein Kurs-Management System für Studierende und Dozenten.
           <span class="project-techs">Go, HTML, CSS, JavaScript</span></div>
   </a>
 </div><br><br>
-<a href="/projects"><span>Alle Projekte </span><i class="fas fa-chevron-right"></i></a>
+<a href="/projects">
+<button style="color: white; font-family: 'Nunito', sans-serif; font-size: 24px;">Alle Projekte<i class="fas fa-chevron-right"></i></button></a>
 </div>
 </div>
 <style>
@@ -53,12 +54,16 @@ Ein Kurs-Management System für Studierende und Dozenten.
   transition: filter 0.5s;
 }
 
-.current-projects .project-card h2 {
+.current-projects .project-card h3 {
   transition: color 1s;
 }
 
-.current-projects .project-card:hover h2 {
-  color: #fff !important;
+.current-projects .project-card h3 {
+  color: #ffb638;
+}
+
+.current-projects .project-card:hover h3 {
+  color: #fff;
 }
 
 .current-projects .project-card:hover {

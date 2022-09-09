@@ -3,17 +3,31 @@
 {{- $params := .Scratch.Get "params" -}}
 {{- $profile := .Site.Params.home.profile -}}
 {{- $posts := .Site.Params.home.posts -}}
-<div class="hero-front" style="background-image: url('/img/trees.png');">
-    <div style="width: 50%; margin-top: auto; margin-bottom: auto; padding-right: 50px;">
-        <img src="/img/avatar_small.jpg" style="box-shadow: -12px 5px 70px #3e4c55; height: 550px; float: right;">
+<div class="hero-front">
+    <div class="hero-1" style="">
+        <img src="/img/avatar_small.jpg" style=""><br class="hero-1-br">
+        <section class="titles-thinn">
+            <h2>{{- with $profile.subtitle -}}{{- . | safeHTML -}}{{- end -}}</h2>
+            <h1 style="margin-bottom: -8px; margin-top: 0px;">{{- with $profile.title -}}{{- . | safeHTML -}}{{- end -}}</h1>
+        </section>
     </div>
-    <div style="width: 50%; margin-top: auto; margin-bottom: auto; padding-left: 50px; padding-right: 24px;">
+    <div class="hero-2" style="">
         <div style="max-width: 850px;">
+            <section class="titles-wide">
+                <h2>{{- with $profile.subtitle -}}{{- . | safeHTML -}}{{- end -}}</h2>
+                <h1 style="margin-bottom: -8px; margin-top: 0px;">{{- with $profile.title -}}{{- . | safeHTML -}}{{- end -}}</h1>
+            </section>
+            {{- with $profile.disclaimer -}}
+            <p>{{- . | safeHTML -}}</p>
+            {{- end -}}
             {{- partial "home/profile.html" . -}}
+        {{- $avatar := $profile.avatarURL -}}
         </div>
     </div>
     <i id="scroll-down" class="fas fa-chevron-down scroll-down"></i>
 </div>
+
+<div id="pines" style="background-image: url('/img/trees.png'); height: 900px; margin-bottom: -760px; position: sticky; z-index: -200"></div>
 <!--<img src="/img/trees.png" style="display: block; position: relative; width: 100%; margin-top: -100px; pointer-events: none;">-->
 
 <div class="home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
@@ -21,12 +35,12 @@
     {{- with .Site.Language.Lang -}}
         {{ if eq . "en" }}
         <hr class="hr-accent-full">
-        <div style="background: #2E2F31;">
+        <div>
         {{ partial "home/skills.en.html" }}
         {{ end }}
         {{ if eq . "de" -}}
         <!--<hr class="hr-accent-full">-->
-        <div style="background: #2E2F31;">
+        <div>
         {{ partial "home/skills.html" }}
         </div>
         <!--<hr class="hr-accent-full">-->
@@ -69,13 +83,25 @@
     .container {
         padding: 0px !important;
     }
+
+    .footer {
+        padding-top: 0px;
+    }
+
+    .footer hr {
+        margin-top: 0px;
+    }
+    
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
     
     .page {
         width: 100% !important; 
         max-width: 100% !important;
         padding: 0px !important;
     }
-    
     
     #scroll-down {
         font-size: 60px; 
@@ -89,12 +115,113 @@
         color: #E7A632;
         bottom: 30px;
     }
+
+    .hero-1 {
+        width: 50%;
+        max-width: 500px;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-right: 50px;
+    }
+
+    .hero-1 img {
+        box-shadow: -10px 10px 0px #4b748d;
+        width: 550px;
+        max-width: 90%;
+        float: right;
+    }
+
+    .hero-2 {
+        width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 50px;
+        padding-right: 24px;
+    }
+    
+    .titles-thinn {
+        display: none;
+    }
+    
+    .hero-1-br {
+        display: none;
+    }
+    
+    @media screen and (max-width: 880px) {
+    
+        .titles-thinn {
+            width: 50%;
+            display: inline;
+            position: absolute;
+        }
+        .hero-front {
+            display: block;
+        }
+        .hero-1 img {
+            float: none;
+            width: 250px;
+            margin: 50px 20px -50px 60px
+        }
+        .hero-1 {
+            display: inline-block;
+            vertical-align:middle; 
+            width: 100%;
+            max-width: 100%;
+            margin-top: 0px;
+            margin-bottom: 50px;
+            padding-right: 50px;
+            overflow: hidden;
+        }
+
+        .titles-wide {
+            display: none;
+        }
+    
+        .hero-2 {
+            display: block;
+            width: 100%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-left: 50px;
+            padding-right: 24px;
+        }
+                
+        #scroll-down {
+            display: none;
+        } 
+    }
+    
+    @media screen and (max-width: 575px) {
+        .hero-1-br {
+            display: inline;
+        }
+
+        .hero-front {
+            height: fit-content;
+        }
+
+        .titles-thinn {
+            position: static;
+            width: 100%;
+            margin: 50px 0px -200px 50px;
+            display: inline-block;
+        }
+    }
         
     </style>
     <script defer>
         document.getElementById('scroll-down').onclick = function(e) {
             document.querySelector('#skillssection').scrollIntoView({behavior: 'smooth'});
         };
+
+        let pines = document.querySelector("#pines");
+
+        window.onscroll = function (e) {  
+             let x = -(window.scrollY * 0.2);
+             let sat = window.scrollY / 500;
+             pines.style.transform = `translate(0px, ${x}px)`;
+             pines.style.filter = `saturate(${sat})`;
+        } 
 </script>
 
 {{- end -}}

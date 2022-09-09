@@ -4,9 +4,9 @@
         <div class="header-title">
             <a href="{{ .Site.Home.RelPermalink }}" title="{{ .Site.Title }}">
                 {{- with .Site.Params.header.title -}}
-                    {{- with .logo -}}
-                        {{- dict "Src" . "Class" "logo" | partial "plugin/img.html" -}}
-                    {{- end -}}
+                    <div class="logoanim-container">
+                        <video class="logoanim-in" src="/img/logo.webm" title="" style="height: 48px; vertical-align: middle;"></video>
+                    </div>
                     {{- with .pre -}}
                         <span class="header-title-pre">{{ . | safeHTML }}</span>
                     {{- end -}}
@@ -178,3 +178,29 @@
         <div id="search-dropdown-mobile"></div>
     </div>
 {{- end -}}
+<script defer>
+    let logoanim_container = document.querySelector(".logoanim-container");
+    let logoanim_in = document.querySelector(".logoanim-in");
+    var intervalRewind;
+
+    logoanim_container.addEventListener("mouseover", function() {
+        clearInterval(intervalRewind);
+        logoanim_in.play();
+    });
+    
+    logoanim_container.addEventListener('mouseleave', function() {
+    if (logoanim_in.currentTime > 2.5) {
+        logoanim_in.currentTime = 2.5;
+    }
+    intervalRewind = setInterval(
+        function(){
+            logoanim_in.pause();
+            logoanim_in.currentTime -= 0.1
+            if(logoanim_in.currentTime == 0){
+                clearInterval(intervalRewind);
+            }
+        },
+        25);
+    });
+
+</script>
