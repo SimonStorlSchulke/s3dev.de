@@ -127,15 +127,15 @@ ignorefiles = [ "hugoignore/.*" ]
       # URL of avatar shown in home page
       avatarURL = "/img/avatar2.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "3D Generalist & Developer<br>from the depths of the Black Forest"
+      title = "3D Generalist & Developer"
       # subtitle shown in home page
-      subtitle = "Demoreel"
+      subtitle = "Hi, I'm Simon"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "<h1>Hi, I’m Simon</h1> I do stuff with media and computers. I studied Computer Science in Media at Furtwangen University, which gave me a good foundation in many areas of media production and computer science to build upon. My focus during my studies was mainly on CGI, VFX and game development.<br>After being active as a tutor in computer graphics for a long time during my studies, I now teach the lecture “Data Processing in Media Production” at the HS Furtwangen.<br><br>Beyond that, I make a lot of music and have two wonderful dogs that I roam the Black Forest with."
+      disclaimer = "I do stuff with media and computers. I studied Computer Science in Media at Furtwangen University, which gave me a good foundation in many areas of media production and computer science to build upon. My focus during my studies was mainly on CGI, VFX and game development.<br>After being active as a tutor in computer graphics for a long time during my studies, I now teach the lecture “Data Processing in Media Production” at the HS Furtwangen.<br><br>Beyond that, I make a lot of music and have two wonderful dogs that I roam the Black Forest with."
 
     [languages.en.params.home.posts]
       enable = false

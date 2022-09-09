@@ -1,0 +1,11 @@
+{
+    "name" : "FNode",
+    "summary" : "Summary",
+    "urlname" : "/pr/fnode",
+    "thumbnail" : "thumbs/fnode.jpg",
+    "apps" : "C#, Godot",
+    "gradientcolor" : "aqua",
+    "featured": true,
+    "name_en" : "",
+    "summary_en" : ""
+}

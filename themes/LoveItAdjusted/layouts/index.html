@@ -34,21 +34,19 @@
     {{- /* Profile */ -}}
     {{- with .Site.Language.Lang -}}
         {{ if eq . "en" }}
-        <hr class="hr-accent-full">
-        <div>
-        {{ partial "home/skills.en.html" }}
+            <div>
+            {{ partial "home/skills.en.html" }}
+            </div>
         {{ end }}
         {{ if eq . "de" -}}
-        <!--<hr class="hr-accent-full">-->
-        <div>
-        {{ partial "home/skills.html" }}
-        </div>
-        <!--<hr class="hr-accent-full">-->
-        {{ partial "home/featured-projects.html" }}
+            <div>
+            {{ partial "home/skills.html" }}
+            </div>
         {{ end }}
+        {{ partial "home/featured-projects.html" (dict "cards" $.Site.Data.projectcards "lang" $.Site.Language.Lang) }}
 
-    {{- end -}}
-
+        
+        {{- end -}}
     {{- /* Content */ -}}
     {{- if .Content -}}
         <div class="single">
@@ -210,18 +208,40 @@
         
     </style>
     <script defer>
-        document.getElementById('scroll-down').onclick = function(e) {
-            document.querySelector('#skillssection').scrollIntoView({behavior: 'smooth'});
-        };
+    document.getElementById('scroll-down').onclick = function(e) {
+        document.querySelector('#skillssection').scrollIntoView({behavior: 'smooth'});
+    };
 
-        let pines = document.querySelector("#pines");
+    let pines = document.querySelector("#pines");
+    let cards = document.querySelectorAll(".skillcard");
 
-        window.onscroll = function (e) {  
-             let x = -(window.scrollY * 0.2);
-             let sat = window.scrollY / 500;
-             pines.style.transform = `translate(0px, ${x}px)`;
-             pines.style.filter = `saturate(${sat})`;
-        } 
-</script>
+    var isInViewport = function (elem) {
+        var distance = elem.getBoundingClientRect();
+        return (
+            distance.top >= 200 &&
+            distance.left >= 0 &&
+            distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) - 200 &&
+            distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    };
+
+    window.onscroll = function (e) {  
+        let x = -(window.scrollY * 0.2);
+        let sat = window.scrollY / 500;
+        pines.style.transform = `translate(0px, ${x}px)`;
+        pines.style.filter = `saturate(${sat})`;
+
+        cards.forEach(function(e) {
+            let inView = isInViewport(e);
+
+            if (inView) {
+                e.classList.add("in-view");
+            } else {
+                e.classList.remove("in-view");
+            }
+        })
+    };
+
+    </script>
 
 {{- end -}}

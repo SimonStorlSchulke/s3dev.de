@@ -1,41 +1,36 @@
+{{- $lang := .lang -}}
 <div style="background: linear-gradient(-212deg, #343d45, #1E2225); padding-top: 50px; padding-bottom: 50px;">
   <div class="current-projects" style="max-width: 1400px; margin-left: auto; margin-right: auto; text-align: center;">
-    <h1 style="text-align: right; padding-right: 24px;">Meine Projekte</h1>
-    <div class="project-card" style="background-image: url('/projects/thumbs/fnode.jpg')">
-    <a href="/pr/fnode">
-        <div class="overlay"><h3 id="">FNode</h3>
-            <div class="project-card-inner">
-                
-  Nodebasiertes Tool für automatisiertes Datei-Management und visuelle Programmierung.
+    <h1 style="text-align: right; padding-right: 24px;">
+      {{- if eq $lang "de" -}}
+      Meine Projekte
+      {{- end -}}
+      {{- if eq $lang "en" -}}
+      My Projects
+      {{ end }}
+    </h1>
+  {{- range .cards -}}
+  {{- if .featured -}}
+<div class="project-card" style="background-image: url('/projects/{{- .thumbnail -}}')">
+  <a href="{{- .urlname -}}">
+    <div class="overlay" style="background-image: var(--nice-gradient-{{- .gradientcolor -}})">
+      <div class="project-card-inner">
+        {{- if eq $lang "de" -}}
+        {{- .summary -}}
+        {{- else -}}
+        {{- .summary_en -}}
+        {{- end -}}
+      </div>
+      <span class="project-techs">{{- .apps -}}</span></div>
 
-            </div>
-            <span class="project-techs">C#, Godot</span></div>
-    </a>
-  </div>
-
-  <div class="project-card" style="background-image: url('/projects/thumbs/snhg.jpg')">
-    <a href="/pr/snhg">
-        <div class="overlay"><h3 id="">Streunernothilfe Grenzenlos</h3>
-            <div class="project-card-inner">
-                
-Technische umsetzung von streunernothilfe-grenzenlos.de
-
-            </div>
-            <span class="project-techs">HTML, CSS, JavaScript</span></div>
-    </a>
-</div>
-
-<div class="project-card" style="background-image: url('/projects/thumbs/evalgo.jpg')">
-  <a href="/pr/evalgo">
-      <div class="overlay"><h3 id="">Evalgo</h3>
-          <div class="project-card-inner">
-              
-Ein Kurs-Management System für Studierende und Dozenten.
-
-          </div>
-          <span class="project-techs">Go, HTML, CSS, JavaScript</span></div>
+      <h3 id="">{{- if eq $lang "de" -}}{{- .name -}}{{- else -}}{{- .name_en -}}{{ end }}</h3>
   </a>
-</div><br><br>
+</div>
+{{- end  -}}
+{{- end  -}}
+
+
+<br><br>
 <a href="/projects">
 <button style="color: white; font-family: 'Nunito', sans-serif; font-size: 24px;">Alle Projekte<i class="fas fa-chevron-right"></i></button></a>
 </div>
@@ -46,24 +41,6 @@ Ein Kurs-Management System für Studierende und Dozenten.
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-
-.current-projects .project-card {
-  text-align: left;
-  filter: grayscale();
-  transition: filter 0.5s;
-}
-
-.current-projects .project-card h3 {
-  transition: color 1s;
-}
-
-.current-projects .project-card h3 {
-  color: #ffb638;
-}
-
-.current-projects .project-card:hover h3 {
-  color: #fff;
 }
 
 .current-projects .project-card:hover {

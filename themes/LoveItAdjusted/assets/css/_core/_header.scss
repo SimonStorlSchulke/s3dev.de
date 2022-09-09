@@ -209,6 +209,13 @@ header {
       width: 24rem;
     }
   }
+  
+  @media screen and (max-width: 1400px) {
+    .header-wrapper {
+      padding-left: 25px;
+    }
+    
+  }
 }
 
 #header-mobile {

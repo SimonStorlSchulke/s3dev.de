@@ -1,0 +1,11 @@
+{
+    "name" : "SABA",
+    "summary" : "Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes.",
+    "urlname" : "/pt/saba",
+    "thumbnail" : "thumbs/saba.jpg",
+    "apps" : "Blender, Meshroom",
+    "gradientcolor" : "orange",
+    "featured": false,
+    "name_en" : "",
+    "summary_en" : ""
+}

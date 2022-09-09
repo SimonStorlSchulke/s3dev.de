@@ -1,0 +1,19 @@
+{{- $lang := .lang -}}
+
+{{- range .cards -}}
+<div class="project-card" style="background-image: url('/projects/{{- .thumbnail -}}')">
+  <a href="{{- .urlname -}}">
+    <div class="overlay" style="background-image: var(--nice-gradient-{{- .gradientcolor -}})">
+      <div class="project-card-inner">
+        {{- if eq $lang "de" -}}
+        {{- .summary -}}
+        {{- else -}}
+        {{- .summary_en -}}
+        {{ end }}
+      </div>
+      <span class="project-techs">{{- .apps -}}</span></div>
+
+      <h3 id="">{{- if eq $lang "de" -}}{{- .name -}}{{- else -}}{{- .name_en -}}{{ end }}</h3>
+  </a>
+</div>
+{{- end  -}}

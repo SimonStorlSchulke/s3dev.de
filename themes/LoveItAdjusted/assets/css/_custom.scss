@@ -47,7 +47,6 @@ video {
     float: right;
 }
 
-
 /* Clear floats after the columns */
 
 .tcl-row:after {
@@ -303,6 +302,9 @@ form input {
     display: inline-block;
     margin: 10px;
     background-size: cover;
+    text-align: left;
+    filter: grayscale(1);
+    transition: filter 0.5s;
 }
 
 .project-techs {
@@ -314,10 +316,12 @@ form input {
     font-size: 16px;
 }
 
-.project-card h2 {
-    font-size: 40px !important;
-    line-height: 40px;
-}
+
+
+.project-card:hover {
+    text-align: left;
+    filter: grayscale(0);
+  }
 
 .project-who {
     color: white; 
@@ -331,18 +335,33 @@ form input {
 
 .overlay {
     position: absolute;
-    background: #0005;
+    background-image: var(--nice-gradient-aqua);
     width: 400px;
     height: 230px;
     padding-left: 15px;
     color: rgba(182, 182, 182, 0);
+    transition: opacity 0.6s, color 0.3s;
+    opacity: 0;
+    padding-top: 64px;
 }
 
 .overlay:hover {
-    background: rgba(22, 22, 22, 0.733);
+    opacity: 1;
     color: rgb(182, 182, 182);
-    transition: background-color 0.6s, color 0.3s;
 }
+
+.project-card:hover h3 {
+    color: #fff;
+}
+
+.project-card h3 {
+    position: absolute;
+    margin-left: 12px !important;
+    max-width: 400px;
+    color: #ffa304;
+    transition: color 1.6s;
+}
+
 
 @media screen and (max-width: 500px) {
 

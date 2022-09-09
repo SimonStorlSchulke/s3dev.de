@@ -1,0 +1,11 @@
+{
+    "name" : "GameJams",
+    "summary" : "Meine GameJam Teilnahmen. Mal war ich für Code, mal für 3D-Modelle und mal für Musik zuständig.",
+    "urlname" : "/pr/gamejams",
+    "thumbnail" : "thumbs/fox.jpg",
+    "apps" : "Unity, Godot, Blender, FL-Studio",
+    "gradientcolor" : "red",
+    "featured": false,
+    "name_en" : "",
+    "summary_en" : ""
+}

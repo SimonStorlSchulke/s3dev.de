@@ -1,9 +1,11 @@
 <div class="project-card" style="background-image: url('{{.Get "thumbnail"}}')">
     <a href="{{.Get "url-name"}}">
-        <div class="overlay"><h2 id="">{{.Get "name"}}</h2>
+        <div class="overlay" style="background-image: var(--nice-gradient-{{.Get "gradient"}})">
             <div class="project-card-inner">
                 {{.Inner}}
             </div>
-            <span class="project-techs">{{.Get "apps"}}</span></div>
+            <span class="project-techs">{{.Get "apps"}}</span>
+        </div>
+        <h3 id="">{{.Get "name"}}</h3>
     </a>
 </div>

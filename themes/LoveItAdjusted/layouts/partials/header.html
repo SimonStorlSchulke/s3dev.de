@@ -2,10 +2,10 @@
 <header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="{{ .Site.Home.RelPermalink }}" title="{{ .Site.Title }}">
+            <a href="{{ .Site.Home.RelPermalink }}">
                 {{- with .Site.Params.header.title -}}
                     <div class="logoanim-container">
-                        <video class="logoanim-in" src="/img/logo.webm" title="" style="height: 48px; vertical-align: middle;"></video>
+                        <video class="logoanim-in" src="/img/logo.webm" autoplay muted title="" style="pointer-events: none; height: 48px; vertical-align: middle;"></video>
                     </div>
                     {{- with .pre -}}
                         <span class="header-title-pre">{{ . | safeHTML }}</span>
@@ -183,6 +183,8 @@
     let logoanim_in = document.querySelector(".logoanim-in");
     var intervalRewind;
 
+    logoanim_in.pause();
+
     logoanim_container.addEventListener("mouseover", function() {
         clearInterval(intervalRewind);
         logoanim_in.play();
@@ -200,7 +202,7 @@
                 clearInterval(intervalRewind);
             }
         },
-        25);
+        35);
     });
 
 </script>

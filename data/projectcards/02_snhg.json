@@ -1,0 +1,11 @@
+{
+    "name" : "Streunernothilfe Grenzenlos",
+    "summary" : "Technische Umsetzung von streunernothilfe-grenzenlos.de",
+    "urlname" : "/pr/snhg",
+    "thumbnail" : "thumbs/snhg.jpg",
+    "apps" : "HTML, CSS, JavaScript",
+    "gradientcolor" : "green",
+    "featured": true,
+    "name_en" : "",
+    "summary_en" : ""
+}
