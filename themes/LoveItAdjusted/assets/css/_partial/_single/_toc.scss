@@ -19,9 +19,7 @@
         margin-right: .5rem;
         color: $single-link-color;
 
-        [theme=dark] & {
           color: $single-link-color-dark;
-        }
       }
 
       ul {
@@ -66,9 +64,8 @@
 
   @include blur;
 
-  [theme=dark] & {
     border-left-color: $global-border-color-dark;
-  }
+  
 
   .toc-title {
     margin: .8rem 0;

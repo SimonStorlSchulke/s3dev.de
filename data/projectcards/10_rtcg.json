@@ -1,11 +1,11 @@
 {
     "name" : "Realtime CG",
-    "summary" : "Eine Demo zum Thema prozedurale Texturen und Fraktale.",
+    "summary" : "Eine Demo zum Thema prozedurale Texturen und Fraktale",
     "urlname" : "/pr/rtcg",
     "thumbnail" : "thumbs/rtcg.jpg",
     "apps" : "Go, OpenGL",
     "gradientcolor" : "blue",
     "featured": false,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "Realtime CG",
+    "summary_en" : "A demo on procedural textures and fractals"
 }

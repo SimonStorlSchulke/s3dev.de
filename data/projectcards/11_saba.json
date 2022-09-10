@@ -1,11 +1,11 @@
 {
     "name" : "SABA",
-    "summary" : "Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes.",
+    "summary" : "Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes",
     "urlname" : "/pt/saba",
     "thumbnail" : "thumbs/saba.jpg",
     "apps" : "Blender, Meshroom",
     "gradientcolor" : "orange",
     "featured": false,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "SABA",
+    "summary_en" : "3D Scanning by drone and remodeling of the old SABA Farbik site"
 }

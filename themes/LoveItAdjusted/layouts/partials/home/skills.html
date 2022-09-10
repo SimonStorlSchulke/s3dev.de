@@ -1,6 +1,6 @@
 <h1 id="skillssection" style="text-align: left; padding: 15px 60px; 2px; margin-top: 0px;">Skills</h1>
 <div class="skills">
-    <div class="skillcard">
+    <div class="skillcard check-in-view">
         <div class="sc-main" style="background-image: var(--nice-gradient-aqua), url('/img/skills/programming.jpg');">
         </div>
         <div class="skill-overlay">
@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <div class="skillcard">
+    <div class="skillcard check-in-view">
         <div class="sc-main" style="background-image: var(--nice-gradient-green), url('/img/skills/webdev.jpg');">
         </div>
         <div class="skill-overlay">
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="skillcard">
+    <div class="skillcard check-in-view">
         <div class="sc-main" style="background-image: var(--nice-gradient-orange), url('/img/skills/rendering.jpg');">
         </div>
         <div class="skill-overlay">
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="skillcard">
+    <div class="skillcard check-in-view">
         <div class="sc-main" style="background-image: var(--nice-gradient-magenta), url('/img/skills/compositing.jpg');">
         </div>
         <div class="skill-overlay">
@@ -66,7 +66,7 @@
         </div>
     </div>
 
-    <div class="skillcard">
+    <div class="skillcard check-in-view">
         <div class="sc-main" style="background-image: var(--nice-gradient-red), url('/img/skills/gamedev.jpg');">
         </div>
         <div class="skill-overlay">
@@ -79,7 +79,7 @@
         </div>
     </div>
 
-    <div class="skillcard">
+    <div class="skillcard check-in-view">
         <div class="sc-main" style="background-image: var(--nice-gradient-blue), url('/img/skills/music.jpg');">
         </div>
         <div class="skill-overlay">
@@ -125,8 +125,6 @@
     transition: filter 1s, width 0.4s;
 }
 
-
-
 .skill-overlay {
     pointer-events: none;
     background-color: rgba(24, 24, 24, 0);
@@ -169,7 +167,6 @@
     overflow: hidden;
     white-space: nowrap;
     font-size: 16px;
-    font-family: "nunito";
     vertical-align: middle;
     color: #fff;
     text-shadow: 1px 1px 6px #000;
@@ -219,34 +216,35 @@
 
 @media screen and (max-width: 1200px) {
 
-    .in-view .sc-border {
+    .skillcard.in-view .sc-border {
         width: 160px;
     }
 
-    .skillcard {
+    .skillcard.skillcard {
         height: 325px;
     }
 
-    .in-view {
+    .skillcard.in-view {
         filter: grayscale(0.0);
     }
 
-    .in-view .skill-overlay {
+    .skillcard.in-view .skill-overlay {
         color: rgba(255, 255, 255, 0.76) !important;
     }
 
-    .in-view .sc-main{
+    .skillcard.in-view .sc-main{
         filter: blur(5px);
         width: calc(100% - 160px);
     }
 
-    .in-view h3{
+    .skillcard.in-view h3{
         color: white !important;
     }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 850px) {
     .skillcard {
         width: 100%;
+        height: 280px;
     }
 }
 

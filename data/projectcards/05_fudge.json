@@ -1,11 +1,11 @@
 {
     "name" : "FUDGE",
-    "summary" : "Eine TypeScript basierte GameEngine von Prof. Jirka Dell’Oro-Friedl, speziell für die Lehre.",
+    "summary" : "TypeScript basierte GameEngine von Prof. Jirka Dell’Oro-Friedl, speziell für die Lehre",
     "urlname" : "/pr/fudge",
     "thumbnail" : "thumbs/fudge.jpg",
     "apps" : "WebGL, TypeScript, HTML, CSS",
     "gradientcolor" : "green",
     "featured": false,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "FUDGE",
+    "summary_en" : "TypeScript based GameEngine by Prof. Jirka Dell'Oro-Friedl, specifically for teaching"
 }

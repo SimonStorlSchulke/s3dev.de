@@ -11,7 +11,7 @@
     </h1>
   {{- range .cards -}}
   {{- if .featured -}}
-<div class="project-card" style="background-image: url('/projects/{{- .thumbnail -}}')">
+<div class="project-card check-in-view" style="background-image: url('/projects/{{- .thumbnail -}}')">
   <a href="{{- .urlname -}}">
     <div class="overlay" style="background-image: var(--nice-gradient-{{- .gradientcolor -}})">
       <div class="project-card-inner">
@@ -41,10 +41,5 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-
-.current-projects .project-card:hover {
-  text-align: left;
-  filter: grayscale(0);
 }
 </style>

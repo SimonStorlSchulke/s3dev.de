@@ -1,0 +1,11 @@
+{
+    "name" : "Tattoo Intros",
+    "summary" : "Intros für eine Tutorialserie zum Thema Tattoos",
+    "urlname" : "/pr/tattoo",
+    "thumbnail" : "thumbs/tattoo.jpg",
+    "apps" : "Blender",
+    "gradientcolor" : "orange",
+    "featured": false,
+    "name_en" : "Tattoo Intros",
+    "summary_en" : "Intros for a tutorial series on tattoos"
+}

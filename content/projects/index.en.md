@@ -7,10 +7,9 @@ heroimage: "image/hero.jpg"
 {{< projects >}}
 
 <style>
-  .page {
+  .content {
     width: 100%;
-    max-width: 1400px !important;
-    padding-right: 120px !important;
+    text-align: center;
 }
 
 .shadow {
@@ -34,4 +33,3 @@ hr {
 }
 
 </style>
- 

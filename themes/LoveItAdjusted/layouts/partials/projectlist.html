@@ -1,19 +1,58 @@
 {{- $lang := .lang -}}
 
 {{- range .cards -}}
-<div class="project-card" style="background-image: url('/projects/{{- .thumbnail -}}')">
-  <a href="{{- .urlname -}}">
+<div class="project-card check-in-view" style="background-image: url('/projects/{{- .thumbnail -}}')">
+  <a href='
+    {{- if eq $lang "de" -}}
+    {{- .urlname -}}
+    {{- else -}}
+    /en/{{- .urlname -}}
+    {{- end -}}
+    '>
+    
     <div class="overlay" style="background-image: var(--nice-gradient-{{- .gradientcolor -}})">
       <div class="project-card-inner">
         {{- if eq $lang "de" -}}
         {{- .summary -}}
         {{- else -}}
         {{- .summary_en -}}
-        {{ end }}
+        {{- end -}}
       </div>
       <span class="project-techs">{{- .apps -}}</span></div>
 
       <h3 id="">{{- if eq $lang "de" -}}{{- .name -}}{{- else -}}{{- .name_en -}}{{ end }}</h3>
   </a>
 </div>
-{{- end  -}}
+{{- end -}}
+
+<script defer>
+
+  let cards = document.querySelectorAll(".check-in-view");
+
+  var isInViewport = function (elem) {
+      var distance = elem.getBoundingClientRect();
+      return (
+          distance.top >= (window.innerHeight || document.documentElement.clientHeight) * 0.175 &&
+          distance.left >= 0 &&
+          distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) * 0.875 &&
+          distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+  };
+
+  window.onscroll = function (e) {
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (width > 867) {
+      return;
+    }
+    cards.forEach(function(e) {
+      let inView = isInViewport(e);
+
+      if (inView) {
+          e.classList.add("in-view");
+      } else {
+          e.classList.remove("in-view");
+      }
+    })
+  };
+
+  </script>

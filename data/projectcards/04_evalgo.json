@@ -1,11 +1,11 @@
 {
     "name" : "Evalgo",
-    "summary" : "Ein Kurs-Management System für Studierende und Dozenten.",
+    "summary" : "Kurs-Management System für Studierende und Dozenten",
     "urlname" : "/pr/evalgo",
     "thumbnail" : "thumbs/evalgo.jpg",
     "apps" : "Go, HTML, JavaScript, CSS",
     "gradientcolor" : "green",
     "featured": false,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "Evalgo",
+    "summary_en" : "Course management system for students and teachers"
 }

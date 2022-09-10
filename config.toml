@@ -23,6 +23,8 @@ ignorefiles = [ "hugoignore/.*" ]
   Twitter = "simonstoschu"
   Email = "simonstoschu@gmail.com"
 
+
+
 # Home page config
   [params.home]
     [params.home.profile]

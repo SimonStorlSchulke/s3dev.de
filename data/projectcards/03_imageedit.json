@@ -1,11 +1,11 @@
 {
     "name" : "Image Editor",
-    "summary" : "Ein einfacher Bildeditor mit C# und Godot.",
+    "summary" : "Shaderbasierter Bildeditor mit C# und Godot",
     "urlname" : "/pr/imageedit",
     "thumbnail" : "thumbs/image-editor.jpg",
     "apps" : "C#, GLSL, Godot",
     "gradientcolor" : "aqua",
     "featured": true,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "Image Editor",
+    "summary_en" : "Shader driven Image Editor"
 }

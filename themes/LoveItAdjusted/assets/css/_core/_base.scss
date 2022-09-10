@@ -34,21 +34,15 @@ html {
 ::selection {
   background-color: $selection-color;
 
-  [theme=dark] & {
     background-color: $selection-color-dark;
-  }
 }
 
 body {
-  background-color: $global-background-color;
-  color: $global-font-color;
   @include overflow-wrap(break-word);
   scrollbar-color: auto;
 
-  &[theme=dark] {
     color: $global-font-color-dark;
     background-color: $global-background-color-dark;
-  }
 }
 
 @include link(true, true);

@@ -5,11 +5,9 @@ title = "Impressum"
 ### Angaben gemäß § 5 TMG
 
 Simon Storl-Schulke  
-Kandelblick 9  
-78120 Furtwangen  
-<br>
-**Vertreten durch:**  
-Simon Storl-Schulke  
+Unteres Döbele 1  
+78089 Unterkirnach  
+
 <br>
 **Kontakt:**  
 Telefon: +49176 22998434  

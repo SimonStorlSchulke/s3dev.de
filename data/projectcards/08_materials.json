@@ -1,11 +1,11 @@
 {
     "name" : "Materialstudien",
     "summary" : "Prozedurale Materialstudien mit Blender / Cycles",
-    "urlname" : "/pt/materialstudies",
+    "urlname" : "/pr/materialstudies",
     "thumbnail" : "thumbs/materialstudies.jpg",
     "apps" : "Blender",
     "gradientcolor" : "orange",
     "featured": false,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "Material Studies",
+    "summary_en" : "Procedural materialstudies with Blender / Cycles"
 }

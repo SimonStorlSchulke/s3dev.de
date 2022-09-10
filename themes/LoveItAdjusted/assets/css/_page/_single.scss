@@ -23,9 +23,7 @@
       display: inline-block;
     }
 
-    [theme=dark] & {
-      color: $global-font-secondary-color-dark;
-    }
+    color: $global-font-secondary-color-dark;
 
     @include link(false, true);
 
@@ -88,12 +86,9 @@
     h4,
     h5,
     h6 {
-      font-weight: bold;
+      font-weight: bolder;
       margin: 1.2rem 0;
 
-      [theme=dark] & {
-        font-weight: bolder;
-      }
     }
 
     > h2,

@@ -1,11 +1,11 @@
 {
-    "name" : "Cloud Generator",
-    "summary" : "Mithilfe weniger Parameter soll es möglich sein, komplexe Wolkenformen zu generieren.",
+    "name" : "Wolkengenerierung",
+    "summary" : "Mithilfe weniger Parameter ist es möglich, komplexe Wolkenformen zu generieren",
     "urlname" : "/pt/cloud",
     "thumbnail" : "thumbs/cloud.jpg",
     "apps" : "OSL, Blender",
     "gradientcolor" : "blue",
     "featured": false,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "Cloud Generation",
+    "summary_en" : "By adjusting only a few parameters its be possible to render complex cloud shapes"
 }

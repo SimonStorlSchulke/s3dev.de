@@ -8,13 +8,11 @@
       color: $single-link-color;
     }
 
-    [theme=dark] & {
       @if $dark {
         color: $global-link-color-dark;
       } @else {
         color: $single-link-color-dark;
       }
-    }
   }
 
   a:active,
@@ -25,12 +23,10 @@
       color: $single-link-hover-color;
     }
 
-    [theme=dark] & {
       @if $dark {
         color: $global-link-hover-color-dark;
       } @else {
         color: $single-link-hover-color-dark;
       }
-    }
   }
 }

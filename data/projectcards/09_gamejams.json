@@ -6,6 +6,6 @@
     "apps" : "Unity, Godot, Blender, FL-Studio",
     "gradientcolor" : "red",
     "featured": false,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "GameJams",
+    "summary_en" : "My GameJam participations. Sometimes I was responsible for code, sometimes for 3D models and sometimes for music."
 }

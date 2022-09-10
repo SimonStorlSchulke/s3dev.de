@@ -4,11 +4,18 @@ $accent-text: #E7A632;
     display: none;
 }
 
+
+h1 {
+    color: $accent-text;
+    font-family: "Poppins";
+    font-size: 55px;
+    line-height: 60px;
+}
+
 hr {
     height: 1px;
     border: none !important;
-    width: 70%;
-    max-width: 800px;
+    background: $accent-text !important;
 }
 
 .hr-accent-full {
@@ -18,16 +25,25 @@ hr {
     max-width: 100%
 }
 
-h1 {
-    color: $accent-text;
-    font-family: "Poppins";
-    font-size: 55px;
-    line-height: 60px;
-}
-
-[theme=dark] hr {
-    background: $accent-text !important;
-}
+.liner {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    color: white !important;
+  
+    &:after {
+      content: '';
+      flex-grow: 1;
+      height: 1.5px;
+      background: #E7A632;
+      min-width: 20px;
+      margin: auto;
+    }
+  
+    &:after {
+      margin-left: 20px;
+    }
+  }
 
 .tcl-column {
     float: left;
@@ -68,11 +84,11 @@ video {
     padding: 8px 0;
 }
 
-[theme=dark] .sidebar {
+.sidebar {
     background: $header-background-color-dark;
 }
 
-[theme=dark] .sidebar a:hover {
+ .sidebar a:hover {
     background: #252627;
     background-image: linear-gradient(to right, $accent-text 2%, #0000 2.1%);
     color: $single-link-hover-color-dark !important;
@@ -113,10 +129,6 @@ video {
 }
 
 .image-caption {
-    color: #666 !important;
-}
-
-[theme=dark] .image-caption {
     color: #999 !important;
 }
 
@@ -317,12 +329,6 @@ form input {
 }
 
 
-
-.project-card:hover {
-    text-align: left;
-    filter: grayscale(0);
-  }
-
 .project-who {
     color: white; 
     float: right;
@@ -345,13 +351,21 @@ form input {
     padding-top: 64px;
 }
 
-.overlay:hover {
-    opacity: 1;
-    color: rgb(182, 182, 182);
-}
 
-.project-card:hover h3 {
-    color: #fff;
+@media screen and (min-width: 867px) {
+    .overlay:hover {
+        opacity: 1;
+        color: rgb(182, 182, 182);
+    }
+    
+    .project-card:hover h3 {
+        color: #fff;
+    }
+
+    .project-card:hover {
+        text-align: left;
+        filter: grayscale(0);
+    }
 }
 
 .project-card h3 {
@@ -435,4 +449,20 @@ form input {
 }
 h1 {
     color: white;
+}
+
+@media screen and (max-width: 867px) {
+    .project-card.in-view .overlay {
+        opacity: 1;
+        color: rgb(182, 182, 182);
+    }
+    
+    .project-card.in-view h3 {
+        color: #fff;
+    }
+    
+    .project-card.in-view {
+        text-align: left;
+        filter: grayscale(0);
+    }
 }

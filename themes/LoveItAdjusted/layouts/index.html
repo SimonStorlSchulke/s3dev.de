@@ -213,14 +213,14 @@
     };
 
     let pines = document.querySelector("#pines");
-    let cards = document.querySelectorAll(".skillcard");
+    let cards = document.querySelectorAll(".check-in-view");
 
     var isInViewport = function (elem) {
         var distance = elem.getBoundingClientRect();
         return (
-            distance.top >= 200 &&
+            distance.top >= (window.innerHeight || document.documentElement.clientHeight) * 0.175 &&
             distance.left >= 0 &&
-            distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) - 200 &&
+            distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) * 0.875 &&
             distance.right <= (window.innerWidth || document.documentElement.clientWidth)
         );
     };
@@ -230,6 +230,11 @@
         let sat = window.scrollY / 500;
         pines.style.transform = `translate(0px, ${x}px)`;
         pines.style.filter = `saturate(${sat})`;
+
+        let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        if (width > 1200) {
+        return;
+        }
 
         cards.forEach(function(e) {
             let inView = isInViewport(e);

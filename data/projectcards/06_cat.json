@@ -1,11 +1,11 @@
 {
     "name" : "A Cat in Time",
     "summary" : "Mobilegame, für das Stadtmuseum Tübingen, bei dem der Geist einer Katze uns durch das Museum und die Zeit führt.",
-    "urlname" : "/pr/gamejams",
+    "urlname" : "/pr/cat",
     "thumbnail" : "thumbs/cat.jpg",
     "apps" : "Unity, Godot, Blender, FL-Studio",
     "gradientcolor" : "red",
     "featured": false,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "A Cat in Time",
+    "summary_en" : "Mobilegame in which the ghost of a cat guides us through the museum and time"
 }

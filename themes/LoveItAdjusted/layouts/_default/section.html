@@ -5,10 +5,21 @@
 {{- define "content" -}}
     <div class="page archive">
         {{- /* Title */ -}}
-
-
         {{- /* Paginate */ -}}
         {{- if .Pages -}}
+
+        <!--
+        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+        {{ $taxonomyname }}
+        
+            {{ range $key, $value := $taxonomy }}
+            {{ $key }}<br>
+                {{ range $value.Pages }}
+                Page 1{{ .LinkTitle }}
+                {{ end }} 
+            {{ end }} 
+            {{ end }}
+        -->
             {{- $pages := .Pages.GroupByDate "2006" -}}
             {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
                 {{- $pages = $.Paginate $pages . -}}
@@ -18,14 +29,19 @@
             {{- range $pages.PageGroups -}}
                 <h3 class="group-title">{{ .Key }}</h3>
                 {{- range .Pages -}}
-                    <article class="archive-item">
-                        <a href="{{ .RelPermalink }}" class="archive-item-link">
-                            {{- .Title | emojify -}}
-                        </a>
-                        <span class="archive-item-date">
-                            {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
-                        </span>
-                    </article>
+
+                <div class="project-card check-in-view" style="background-image: url('/img/{{- .Params.thumbnail -}}')">
+                    <a href='{{ .RelPermalink }}'>
+                      
+                      <div class="overlay" style="background-image: var(--nice-gradient-{{- .Params.gradientcolor -}})">
+                        <div class="project-card-inner">
+                          {{- .Params.summary -}}
+                        </div>
+                        <span class="project-techs">{{- .Params.apps -}}</span></div>
+                  
+                        <h3 id="">{{- .Title -}}</h3>
+                    </a>
+                  </div>
                 {{- end -}}
             {{- end -}}
             {{- partial "paginator.html" . -}}

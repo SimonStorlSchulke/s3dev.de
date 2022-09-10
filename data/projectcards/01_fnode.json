@@ -1,11 +1,11 @@
 {
     "name" : "FNode",
-    "summary" : "Summary",
+    "summary" : "Nodebasiertes Tool für automatisiertes Dateimanagement und visuelle Programmierung",
     "urlname" : "/pr/fnode",
     "thumbnail" : "thumbs/fnode.jpg",
     "apps" : "C#, Godot",
     "gradientcolor" : "aqua",
     "featured": true,
-    "name_en" : "",
-    "summary_en" : ""
+    "name_en" : "FNode",
+    "summary_en" : "Nodebased tool for automated file management and visual programming"
 }
