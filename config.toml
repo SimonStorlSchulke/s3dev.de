@@ -14,7 +14,7 @@ ignorefiles = [ "hugoignore/.*" ]
   description = "3D Generalist & Entwickler"
   version = "0.2.X"
   defaultTheme = "dark"
-  projectBackLink = "<a href='/projects'><i class='fas fa-chevron-left'></i><span> Alle Projekte</span></a>"
+  projectBackLink = "<a href='/pr'><i class='fas fa-chevron-left'></i><span> Alle Projekte</span></a>"
 
 [params.social]
   GitHub = "SimonStorlSchulke"
@@ -121,7 +121,7 @@ ignorefiles = [ "hugoignore/.*" ]
     title = "Simon Storl-Schulke | 3D Generalist & Developer"
     languageCode = "en"
     languageName = "en"
-    projectBackLink = "<a href='/en/projects'><i class='fas fa-chevron-left'></i><span> All Projects</span></a>"
+    projectBackLink = "<a href='/en/pr'><i class='fas fa-chevron-left'></i><span> All Projects</span></a>"
 
   [languages.en.params.home]
     [languages.en.params.home.profile]
@@ -178,7 +178,7 @@ ignorefiles = [ "hugoignore/.*" ]
     pre = ""
     post = ""
     name = "Projects"
-    url = "projects/"
+    url = "pr/"
     weight = 3
    [[languages.en.menu.main]]
     identifier = "demoreel"
@@ -233,7 +233,7 @@ ignorefiles = [ "hugoignore/.*" ]
     pre = ""
     post = ""
     name = "Projekte"
-    url = "projects/"
+    url = "pr/"
     weight = 3
    [[languages.de.menu.main]]
     identifier = "demoreel"

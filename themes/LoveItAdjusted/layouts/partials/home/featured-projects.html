@@ -11,7 +11,7 @@
     </h1>
   {{- range .cards -}}
   {{- if .featured -}}
-<div class="project-card check-in-view" style="background-image: url('/projects/{{- .thumbnail -}}')">
+<div class="project-card check-in-view" style="background-image: url('/img/{{- .thumbnail -}}')">
   <a href="{{- .urlname -}}">
     <div class="overlay" style="background-image: var(--nice-gradient-{{- .gradientcolor -}})">
       <div class="project-card-inner">
@@ -31,7 +31,7 @@
 
 
 <br><br>
-<a href="/projects">
+<a href="/pr">
 <button style="color: white; font-family: 'Nunito', sans-serif; font-size: 24px;">Alle Projekte<i class="fas fa-chevron-right"></i></button></a>
 </div>
 </div>

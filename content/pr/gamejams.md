@@ -1,6 +1,12 @@
 ---
 title: "GameJams"
 lightgallery: true
+tags: ["gamedev","music","3d"]
+summary: "Meine GameJam Teilnahmen. Mal war ich für Code, mal für 3D-Modelle und mal für Musik zuständig."
+thumbnail: "thumbs/fox.jpg"
+apps: "Unity, Godot, Blender, FL-Studio"
+gradientcolor: "red"
+featured": false
 ---
 
 {{< project id="gamejams" name="GameJams" apps="Unity, Godot, Blender, FL-Studio">}}

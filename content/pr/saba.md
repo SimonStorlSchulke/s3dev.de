@@ -1,6 +1,12 @@
 ---
 title: "SABA Scan & Nachmodellierung"
 lightgallery: true
+tags: ["3d"]
+summary: "Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes"
+thumbnail: "thumbs/saba.jpg"
+apps: "Blender, Meshroom"
+gradientcolor: "orange"
+featured": false
 ---
 
 {{< project id="saba" name="SABA Scan & Nachmodellierung" apps="Blender, Meshroom">}}

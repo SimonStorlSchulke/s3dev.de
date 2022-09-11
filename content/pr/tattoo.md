@@ -1,5 +1,11 @@
 ---
 title: "Tattoo Intros"
+name: "Tattoo Intros"
+summary: "Intros für eine Tutorialserie zum Thema Tattoos"
+thumbnail: "thumbs/tattoo.jpg"
+apps: "Blender"
+gradientcolor: "orange"
+featured": false
 ---
 
 

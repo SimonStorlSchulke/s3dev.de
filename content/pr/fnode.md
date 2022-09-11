@@ -2,6 +2,12 @@
 title: "FNode"
 heroimage: "/img/hero/fnode.jpg"
 lightgallery: true
+tags: ["programming"]
+summary: "Nodebasiertes Tool für automatisiertes Dateimanagement und visuelle Programmierung"
+thumbnail: "thumbs/fnode.jpg"
+apps: "C#, Godot"
+gradientcolor: "aqua"
+featured": true
 ---
 
 {{< project id="fnode" name="Nodebasierte Prozessautomatisierung" apps="C#, Godot" gh="SimonStorlSchulke/FNode" exe="https://github.com/SimonStorlSchulke/FNode/releases/latest">}}

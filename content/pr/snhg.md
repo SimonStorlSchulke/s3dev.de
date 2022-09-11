@@ -1,6 +1,12 @@
 ---
 title: "streunernothilfe-grenzenlos.de"
 lightgallery: true
+tags: ["webdev"]
+summary: "Technische Umsetzung von streunernothilfe-grenzenlos.de"
+thumbnail: "thumbs/snhg.jpg"
+apps: "HTML, CSS, JavaScript"
+gradientcolor: "green"
+featured": true
 ---
 
 {{< project id="snhg" name="streunernothilfe-grenzenlos.de" apps="Javascript, CSS, HTML" gh="SimonStorlSchulke/SNHG-scripts" web="https://streunernothilfe-grenzenlos.de">}}

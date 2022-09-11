@@ -1,5 +1,11 @@
 ---
 title: "FUDGE"
+tags: ["webdev"]
+summary: "TypeScript basierte GameEngine von Prof. Jirka Dell’Oro-Friedl, speziell für die Lehre"
+thumbnail: "thumbs/fudge.jpg"
+apps: "WebGL, TypeScript, HTML, CSS"
+gradientcolor: "green"
+featured": false
 ---
 
 {{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}

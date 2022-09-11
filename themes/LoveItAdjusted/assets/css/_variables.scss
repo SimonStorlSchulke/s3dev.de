@@ -15,14 +15,6 @@ $background-color: #fff !default;
 $global-background-color-dark: #1E2225 !default;
 
 // Not declared as scss vars so i can use them in inline html
-:root {
-  --nice-gradient-aqua: linear-gradient(120deg, #102d4449 10%, #164553 80%, #165163 95%);
-  --nice-gradient-green: linear-gradient(120deg, #10444498 10%, #124733 80%, #14573d 95%);
-  --nice-gradient-orange: linear-gradient(120deg, #44201049 10%, #6e491e 80%, #865616 95%);
-  --nice-gradient-magenta: linear-gradient(120deg, #44104449 10%, #4a1152 80%, #58155a 95%);
-  --nice-gradient-red: linear-gradient(120deg, #44102649 10%, #531616 80%, #631616 95%);
-  --nice-gradient-blue: linear-gradient(120deg, #14213f84 10%, #363287 80%, #1c3772 95%);
-}
 
 // gradients
 

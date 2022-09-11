@@ -1,6 +1,12 @@
 ---
-title: "Cloud Generation"
+title: "Wolkengenerierung"
 lightgallery: true
+tags: ["programming", "3d"]
+summary: "Mithilfe weniger Parameter ist es möglich, komplexe Wolkenformen zu generieren"
+thumbnail: "thumbs/cloud.jpg"
+apps: "OSL, Blender"
+gradientcolor: "blue"
+featured": false
 ---
 
 {{< project id="thesis" name="Cloud Generation" pdf="../res/Bachelorarbeit_Simon_Storl-Schulke.pdf" gh="SimonStorlSchulke/OSL-Cloud-Generation" apps="OSL, Blender">}}

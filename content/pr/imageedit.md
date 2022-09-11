@@ -1,5 +1,11 @@
 ---
 title: "Image Editor"
+tags: ["programming"]
+summary: "Shaderbasierter Bildeditor mit C# und Godot"
+thumbnail: "thumbs/image-editor.jpg"
+apps: "C#, GLSL, Godot"
+gradientcolor: "aqua"
+featured": true
 ---
 
 {{< project id="godot-image-edit" name="Image Editor" gh="SimonStorlSchulke/GodotPhotoEdit" exe="https://github.com/SimonStorlSchulke/GodotPhotoEdit/releases/latest" apps="C#, GLSL, Godot">}}

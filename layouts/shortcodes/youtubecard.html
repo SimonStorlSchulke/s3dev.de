@@ -1,0 +1,9 @@
+<div class="youtubecard">
+    <iframe width="392" height="220" src="https://www.youtube-nocookie.com/embed/{{.Get "id"}}" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+        <div class="youtubecard-bottom">
+        <h3><a title="watch on YouTube" href="https://youtu.be/{{.Get "id"}}"><i class="fa-brands fa-youtube"></i></a> {{.Get "title"}}</h3>
+        <span>{{.Get "description"}}</span><br>
+        </div>
+</div>

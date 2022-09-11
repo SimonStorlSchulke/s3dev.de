@@ -1,25 +1,57 @@
+
 {{- define "title" }}
-    {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
+{{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
 {{- end -}}
 
 {{- define "content" -}}
-    <div class="page archive">
+<div class="hero" style="background-image: url(/img/hero/projects.jpg);"><h1>Projekte</h1></div>
+<div class="page archive">
+    <style>
+        span.tagtoggle {
+            cursor: pointer;
+            margin: 0px 0px 10px 5px !important;
+            background-color: rgb(68, 68, 68);
+            padding: 1px 10px;
+            border-radius: 50px;
+            user-select: none;
+            display:  inline-block;
+        }
+        span.toggled {
+            color: #fff;
+            background: #db9926;
+        }
+        .hidden {
+            display: none;
+        }
+
+        .page {
+            width: 100%;
+            text-align: center;
+        }
+
+        .shadow {
+            box-shadow: 8px 5px 20px #1114;
+        }
+
+        .lg-sub-html {
+            display: none !important;
+        }
+    </style>
+
         {{- /* Title */ -}}
         {{- /* Paginate */ -}}
         {{- if .Pages -}}
 
-        <!--
-        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
-        {{ $taxonomyname }}
-        
+            {{- $link := .RelPermalink -}}
+            {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
             {{ range $key, $value := $taxonomy }}
-            {{ $key }}<br>
-                {{ range $value.Pages }}
-                Page 1{{ .LinkTitle }}
+            <span class="tagtoggle" onclick='setTags(this, "{{- $key -}}");'>{{ $key }}</span>
+
                 {{ end }} 
-            {{ end }} 
             {{ end }}
-        -->
+
+            <br><br>
+        
             {{- $pages := .Pages.GroupByDate "2006" -}}
             {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
                 {{- $pages = $.Paginate $pages . -}}
@@ -27,10 +59,9 @@
                 {{- $pages = .Paginate $pages -}}
             {{- end -}}
             {{- range $pages.PageGroups -}}
-                <h3 class="group-title">{{ .Key }}</h3>
                 {{- range .Pages -}}
 
-                <div class="project-card check-in-view" style="background-image: url('/img/{{- .Params.thumbnail -}}')">
+                <div class="project-card check-in-view {{- range .Params.tags -}}&#32;tag-{{ . }}{{- end -}}" style="background-image: url('/img/{{- .Params.thumbnail -}}')">
                     <a href='{{ .RelPermalink }}'>
                       
                       <div class="overlay" style="background-image: var(--nice-gradient-{{- .Params.gradientcolor -}})">
@@ -46,5 +77,104 @@
             {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
+        <script defer>
+            const cards = document.querySelectorAll(".project-card");
+    
+            function addOrUpdateUrlParam(name, value) {
+            
+            var href = window.location.href;
+            var regex = new RegExp("[&\\?]" + name + "=");
+            if(regex.test(href))
+            {
+                regex = new RegExp("([&\\?])" + name + "=\\d+");
+                window.location.href = href.replace(regex, "$1" + name + "=" + value);
+            }
+            else
+            {
+                if(href.indexOf("?") > -1)
+                window.location.href = href + "&" + name + "=" + value;
+                else
+                window.location.href = href + "?" + name + "=" + value;
+            }
+            }
+    
+            function updateTags() {
+                const toggles = document.querySelectorAll(".toggled");
+    
+                let cards = document.querySelectorAll(".project-card"); // sowhow has to be redefined here..
+    
+                cards.forEach(card => {
+                    let contains = true;
+                    toggles.forEach(toggle => {
+                        if (!card.classList.contains("tag-"+toggle.innerText)) {
+                            contains = false;
+                        }
+                    });
+    
+                    if (contains) {
+                        card.classList.remove("hidden");
+                    } else {
+                        card.classList.add("hidden");
+                    }
+                });
+            }
+    
+            function setTags(el, tag) {
+                if (!el.classList.contains("toggled")) {
+                    el.classList.add("toggled");
+                } else {
+                    el.classList.remove("toggled");
+                }
+                updateTags();
+            }
+    
+            
+            function tagsFromURL() {
+                const queryString = window.location.search;
+                const params = new URLSearchParams(queryString).get('tags');
+                if (params == null) return;
+                const tags = params.split(",");
+                console.log(document.querySelectorAll(".tagtoggle"));
+                document.querySelectorAll(".tagtoggle").forEach(toggle => {
+                    console.log(tags);
+                    if (tags.includes(toggle.innerText)) {
+                        toggle.classList.add("toggled");
+                    }
+                });
+            
+                updateTags();
+            }
+    
+            tagsFromURL();
+    
+    
+            var isInViewport = function (elem) {
+                var distance = elem.getBoundingClientRect();
+                return (
+                    distance.top >= (window.innerHeight || document.documentElement.clientHeight) * 0.175 &&
+                    distance.left >= 0 &&
+                    distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) * 0.875 &&
+                    distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            };
+    
+            window.onscroll = function (e) {
+                let cards = document.querySelectorAll(".check-in-view");
+                let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+                if (width > 867) {
+                return;
+                }
+                cards.forEach(function(e) {
+                    let inView = isInViewport(e);
+    
+                    if (inView) {
+                        e.classList.add("in-view");
+                    } else {
+                        e.classList.remove("in-view");
+                    }
+                })
+            };
+        </script>
     </div>
 {{- end -}}
+

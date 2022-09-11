@@ -1,3 +1,5 @@
+
+
 $accent-text: #E7A632;
 .header-mark {
     float: right;
@@ -181,6 +183,7 @@ video {
     position: relative;
     display: flex;
     justify-content: center;
+    background-size: cover;
 }
 
 .hero-front {
@@ -359,7 +362,8 @@ form input {
     }
     
     .project-card:hover h3 {
-        color: #fff;
+        color: #fcbd50;
+        background-color: black;
     }
 
     .project-card:hover {
@@ -370,10 +374,12 @@ form input {
 
 .project-card h3 {
     position: absolute;
-    margin-left: 12px !important;
+    margin-left: 0px !important;
+    padding: 3px 8px 3px 12px;
     max-width: 400px;
-    color: #ffa304;
-    transition: color 1.6s;
+    color: #ffffff;
+    transition: color 1.6s, background-color .5s;
+    background-color: #1b1b1b
 }
 
 
@@ -397,7 +403,7 @@ form input {
 
 @media screen and (min-width: 910px) {
     .menu-item:nth-child(7) {
-        background: #E7A632;
+        background: #db9926;
         color: white;
         border-radius: 20px;
         padding: 6px 13px;
@@ -405,7 +411,7 @@ form input {
         transition: color .1s;
     }
     .menu-item:nth-child(7):hover {
-        background: #FFB73A;
+        background: #f8b849;
         color: #000;
     }
 }
@@ -458,7 +464,8 @@ h1 {
     }
     
     .project-card.in-view h3 {
-        color: #fff;
+        color: #fcbd50;
+        background-color: black;
     }
     
     .project-card.in-view {

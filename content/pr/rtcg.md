@@ -1,6 +1,12 @@
 ---
 title: "Realtime CG"
+tags: ["programming"]
 lightgallery: true
+summary: "Eine Demo zum Thema prozedurale Texturen und Fraktale"
+thumbnail: "thumbs/rtcg.jpg"
+apps: "Go, OpenGL"
+gradientcolor: "blue"
+featured": false
 ---
 
 
