@@ -21,7 +21,7 @@
         </div>
         <div class="skill-overlay">
             <h3>Webentwicklung</h3>
-            Neben den drei Basissprachen, nutze ich auch TypeScript und habe Erfahrung mit Go im Backend gesammelt. Um Webseiten (wie diese) zu bauen, nutze ich meist Hugo.
+            Neben den drei Basissprachen, nutze ich TypeScript und habe Erfahrung mit Go im Backend gesammelt. Um Webseiten zu bauen, nutze ich meist Hugo.
         </div>
         <div class="sc-border" style="background: #29a561;">
             <span><img title="HTML" src="/img/apps/html.png">HTML</span>
@@ -38,7 +38,7 @@
         </div>
         <div class="skill-overlay">
             <h3> 3D Modeling & Animation</h3>
-            Ich habe professionelle Erfahrung in Blender, 3DS Max und vielen Renderengines. Ich arbeitete lange als Tutor und Dozent für CGI und Blender-Scripting.
+            Ich habe professionelle Erfahrung in Blender, 3DS Max und arbeitete lange als Lehrkraft für CGI und Blender-Scripting.
         </div>
         <div class="sc-border" style="background: #c47105;">
             <span><img title="Blender" src="/img/apps/blender.png">Blender</span>
@@ -104,7 +104,7 @@
 }
 
 .skillcard {
-    height: 225px;
+    height: 245px;
     min-width: 33.333%;
     width: 33.333%;
     text-align: left;
@@ -116,9 +116,10 @@
 
 .skillcard .sc-main {
     height: 100%;
+    width: 100%;
     width: calc(100% - 48px);
     padding: 0px 12px;
-    background-size: 600px;
+    background-size: 800px;
     padding: 0px;
     position: relative;
     transition: filter 1s, width 0.4s;
@@ -127,6 +128,7 @@
 .skill-overlay {
     pointer-events: none;
     background-color: rgba(24, 24, 24, 0);
+    width: 65%;
     width: calc(100% - 160px);
     height: 100%;
     overflow: hidden;
@@ -136,8 +138,6 @@
     color: #ffffff00;
     transition: color 0.45s;
 }
-
-
 
 .skillcard h3 {
     transition: color 1.6s, background-color 0.5s;
@@ -189,6 +189,10 @@
     .skillcard {
         width: 50%;
     }
+    
+    .skill-overlay {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -238,7 +242,7 @@
 
     .skillcard.in-view .sc-main{
         filter: blur(5px);
-        width: calc(100% - 160px);
+        width: calc(100vh - 160px);
     }
 
     .skillcard.in-view h3{
@@ -249,11 +253,15 @@
 @media screen and (max-width: 850px) {
     .skillcard {
         width: 100%;
-        height: 280px;
+        height: 330px !important;
+    }
+
+    .skill-overlay {
+        font-size: 18px;
     }
 
     .sc-main {
-        background-size: contain !important;
+        background-size: 800px !important;
     }
 }
 
