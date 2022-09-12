@@ -112,6 +112,7 @@
     display: flex;
     filter: grayscale(1) brightness(0.9) ;
     transition: filter 1s;
+    position: relative;
 }
 
 .skillcard .sc-main {
@@ -138,6 +139,8 @@
     color: #ffffff00;
     transition: color 0.45s;
 }
+
+
 
 .skillcard h3 {
     transition: color 1.6s, background-color 0.5s;
@@ -242,7 +245,7 @@
 
     .skillcard.in-view .sc-main{
         filter: blur(5px);
-        width: calc(100vh - 160px);
+        width: calc(100% - 160px);
     }
 
     .skillcard.in-view h3{

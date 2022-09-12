@@ -18,13 +18,13 @@ Einscannen per Drohne und Nachmodellierung des alten SABA Farbikgeländes im Inn
 
 Hierbei war ich u.a. für die Nachmodellierung des SABA Hauptgebäudes anhand der eingescannten Daten und Referenzen zuständig.
 
-{{< image src="../image/heizwerk.png" title="SABA Heizwerk">}}
+{{< image src="/pr/image/heizwerk.png" title="SABA Heizwerk">}}
 {{</left>}}
 {{<right 50>}}
 
-{{< image src="../image/saba2.png" title="SABA Schriftzug">}}
+{{< image src="/pr/image/saba2.png" title="SABA Schriftzug">}}
 
-{{< image src="../image/saba1.png" title="SABA Hauptgebäude">}}
+{{< image src="/pr/image/saba1.png" title="SABA Hauptgebäude">}}
 
 {{</right>}}
 {{</twoculumn>}}

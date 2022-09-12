@@ -12,7 +12,14 @@
   {{- range .cards -}}
   {{- if .featured -}}
 <div class="project-card check-in-view" style="background-image: url('/img/{{- .thumbnail -}}')">
-  <a href="{{- .urlname -}}">
+  <a href="
+  {{- if eq $lang "de" -}}
+        {{- .urlname -}}
+        {{- else -}}
+        /en{{- .urlname -}}
+        {{- end -}}
+        
+  ">
     <div class="overlay" style="background-image: var(--nice-gradient-{{- .gradientcolor -}})">
       <div class="project-card-inner">
         {{- if eq $lang "de" -}}
@@ -31,8 +38,20 @@
 
 
 <br><br>
-<a href="/pr">
-<button style="color: white; font-family: 'Nunito', sans-serif; font-size: 24px;">Alle Projekte<i class="fas fa-chevron-right"></i></button></a>
+<a href="
+{{- if eq $lang "de" -}}
+/pr
+{{- else -}}
+/en/pr
+{{- end -}}
+">
+<button style="color: white; font-family: 'Nunito', sans-serif; font-size: 24px;">
+    {{- if eq $lang "de" -}}
+    Alle Projekte
+    {{- else -}}
+    all projects
+    {{- end -}}
+  <i class="fas fa-chevron-right"></i></button></a>
 </div>
 </div>
 <style>

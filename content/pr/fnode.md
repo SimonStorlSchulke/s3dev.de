@@ -15,7 +15,7 @@ weight: 10
 
 FNode ist ein Nodebasiertes Tool für automatisiertes Dateimanagement und visuelle Programmierung. Anhand von logisch verknüpften Bausteinen können komplexe Aktionen programmiert und auf beliebige Dateien angewandt werden.
 
-{{< image src="../image/fnode_transp.png" title="Nodes">}}
+{{< image src="/pr/image/fnode_transp.png" title="Nodes">}}
 
 **Anhand von logisch verknüpften Nodes bietet FNode unter anderem folgende Features**
 - Automatisierte Verarbeitung großer Dateimengen
@@ -29,7 +29,7 @@ FNode ist ein Nodebasiertes Tool für automatisiertes Dateimanagement und visuel
 Einfaches Videobeispiel, bei dem alle PNG Dateien in einem Ordner zu WebP konvertiert werden.
 
 <video width="100%" muted controls>
-  <source src="../res/fnode-1.webm" type="video/mp4">
+  <source src="/pr/res/fnode-1.webm" type="video/mp4">
 </video>
 
 <br><br>
@@ -44,7 +44,7 @@ Da ich mich schon lange mit dem parsen von NodeTrees befassen wollte, baute ich 
 {{</left>}}
 {{<right 48>}}
 
-{{< image src="../image/fnode/y3d-fm.png" title="y3d-fm">}}
+{{< image src="/pr/image/fnode/y3d-fm.png" title="y3d-fm">}}
 
 *y3d-FM Renaming und Batch-Processing Tool für yoose3D*
 
@@ -54,12 +54,12 @@ Da ich mich schon lange mit dem parsen von NodeTrees befassen wollte, baute ich 
 <br><br>
 ## Weitere Beispiele
 
-{{< image src="../image/fnode/thumbnailgenerator.png" title="Thumbnailgenerator">}}
+{{< image src="/pr/image/fnode/thumbnailgenerator.png" title="Thumbnailgenerator">}}
 
 *Thumbnailgenerator, der aus allen eingespeisten Bildern quadratische Thumbnails generiert. Viele Nodes und Inputs sind direkt in der Software per Maus-Hint dokumentiert.*
 <br><br><br>
 
-{{< image src="../image/fnode/folderinfo.png" title="Folderinfo">}}
+{{< image src="/pr/image/fnode/folderinfo.png" title="Folderinfo">}}
 
 *NodeTree, um eine Textdatei mit Informationen über einen Ordner zu erstellen.*
 

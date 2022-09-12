@@ -1,8 +1,8 @@
 ---
-title: "Materialstudien"
+title: "Material Studies"
 lightgallery: true
 tags: ["3d"]
-summary: "Prozedurale Materialstudien mit Blender / Cycles"
+summary: "Procedural material studies with Blenders Renderengine Cycles"
 urlname: "/pr/materialstudies"
 thumbnail: "thumbs/materialstudies.jpg"
 apps: "Blender"
@@ -35,7 +35,7 @@ weight: 60
 {{< project id="thesis" name="Materialstudien" apps="Blender, Python">}}
 
 
-Einige vollständig prozedurale Materialstudien mit Blenders Renderengine Cycles und per Python generiertem Setup.   
+Some fully procedural material studies with Blenders Renderengine Cycles and Python-generated setup.   
 <br>
 
 {{< image src="/pr/image/mats/Aluminium Brushed.WebP" title=" ">}}

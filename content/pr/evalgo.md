@@ -20,7 +20,7 @@ Dozenten und Tutoren können Aufgabenstellungen mit Markdown-Formatierung verfas
 <br><br>
 {{</left>}}
 {{<right 48>}}
-{{< image src="../image/evalgo.png" title="Evalgo">}}
+{{< image src="/pr/image/evalgo.png" title="Evalgo">}}
 {{</right>}}
 {{</twoculumn>}}
 <br>
@@ -28,10 +28,10 @@ Dozenten und Tutoren können Aufgabenstellungen mit Markdown-Formatierung verfas
 {{<twoculumn>}}
 {{<left 48>}}
 Zu den Abgaben können von Dozenten Feedback und Noten gegeben werden, die in einer Übersicht und Notentabelle für authorisierte Nutzer erscheinen. <br><br>
-{{< image src="../image/evalgo2.png" title="Evalgo Notentabelle">}}
+{{< image src="/pr/image/evalgo2.png" title="Evalgo Notentabelle">}}
 {{</left>}}
 {{<right 48>}}
-{{< image src="../image/evalgo3.png" title="Evalgo Feedback">}}
+{{< image src="/pr/image/evalgo3.png" title="Evalgo Feedback">}}
 
 {{</right>}}
 {{</twoculumn>}}

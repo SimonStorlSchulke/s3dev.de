@@ -7,76 +7,63 @@ heroimage: "/img/hero-placeholder.jpg"
 
 <style>
 .page {
-  max-width: 1000px;
+  text-align: center;
 }
-.page img {
-  width: 100%;
+
+.clickdetector {
+  width: 392px;
+  height: 220px;
+  background: #f00a;
+  position: absolute;
+  pointer-events: none;
+}
+
+.youtubecard {
+  box-shadow: 4px 5px 16px rgba(0, 0, 0, 0.671);
+  margin: 10px;
+  text-align: left;
+  width: 392px;
+  max-width: 90%;
+  display: inline-block;
+  max-height: fit-content;
+  height: 420px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: #1b1b1b;
+}
+
+.youtubecard h3 {
+  display: absolute;
+  margin-left: -12px !important;
+  padding: 3px 8px 3px 0px;
+  color: #fff;
+  transition: color 1.6s, background-color .5s;
+}
+
+.youtubecard-bottom {
+  padding: 10px;
+}
+.youtubecard h3 {
+  margin: 0px 0px 10px 0px !important;
 }
 </style>
 
-{{<twoculumn>}}
-{{<left 48>}}
+{{< youtubecard id="94eYd_cldtw" title="Using Color Ramps with light sources " description="In this tutorial, I explain how we can use the Light Falloff node, to create a nice colorful gradient for Lights in Blender.">}}
+{{< youtubecard id="2LFQtdVct84" title="Advanced random object color variation " description="How to achieve better random color variation.">}}
+{{< youtubecard id="cMUTOIhxfXU" title="Variety Nodepack #1 - Textures" description="Explaining all the Node-Groups in the Variety Nodepack I published on Gumroad.">}}
+{{< youtubecard id="rvtxsARtxZs" title="Variety Nodepack #2 - Materials " description="Explaining all the Node-Groups in the Variety Nodepack I published on Gumroad.">}}
+{{< youtubecard id="PICr70TPadU" title="Increasing the dynamic range of Environment Maps in Blender" description="How to convert JPG, PNG... Environment Maps to EXR and add High Dynamic Range for better HDRI lighting.">}}
+{{< youtubecard id="7IXBOmimwbg" title="Mountain scene in Blender" description="A quick tutorial on how to create a nordic mountain scene in Blender and Gimp.">}}
 
-<a href="https://www.youtube.com/watch?v=94eYd_cldtw">
+<script defer>
+const vids = document.querySelectorAll(".clickdetector");
+console.log(".clickdetector");
+console.log(vids);
 
-### Using Color Ramps with Light sources | Blender / Cycles
-
-![](http://i3.ytimg.com/vi/94eYd_cldtw/mqdefault.jpg)</a>  
-How to use the Light Falloff node, to create nice colorful gradients for lights in Blender.
-
-{{</left>}}
-{{<right 48>}}
-<a href="https://youtube.com/watch?v=2LFQtdVct84">
-
-### Advanced randomobject color variation | Blender / Cycles
-
-![](http://i3.ytimg.com/vi/2LFQtdVct84/mqdefault.jpg)</a>  
-How to achieve random color variation that allows us to control the random Factors for Hue, Saturation and Value individually and doesn't only use the same random factor for each of its 3 properties.
-{{</right>}}
-{{</twoculumn>}}
-
-
-
-
-{{<twoculumn>}}
-{{<left 48>}}
-
-<a href="https://youtube.com/watch?v=PICr70TPadU">
-
-### Increasing the dynamic range of Environment Maps in Blender
-
-![](http://i3.ytimg.com/vi/PICr70TPadU/mqdefault.jpg)</a>  
-
-How to convert JPG, PNG... Environment Maps to EXR and add High Dynamic Range for better HDRI lighting.
-
-
-{{</left>}}
-{{<right 48>}}
-
-<a href="https://youtube.com/watch?v=cMUTOIhxfXU">
-
-### Variety Nodepack Part 1 - Textures | Blender /Cycles
-
-![](http://i3.ytimg.com/vi/cMUTOIhxfXU/mqdefault.jpg)</a>  
-In this series, I will explain all the Node-Groups in the Variety Nodepack I published on Gumroad (free / pay what you want): https://gum.co/ooqbd
-
-{{</right>}}
-{{</twoculumn>}}
-
-
-
-{{<twoculumn>}}
-{{<left 48>}}
-
-<a href="https://youtube.com/watch?v=rvtxsARtxZs">
-
-### Variety Nodepack Part 2 - Materials | Blender /Cycles
-
-<a href="https://youtube.com/watch?v=rvtxsARtxZs">![](http://i3.ytimg.com/vi/rvtxsARtxZs/mqdefault.jpg)</a>  
-In this series, I will explain all the Node-Groups in the Variety Nodepack I published on Gumroad (free / pay what you want): https://gum.co/ooqbd
-{{</left>}}
-{{<right 48>}}
-{{</right>}}
-{{</twoculumn>}}
-
-*To conform to the [DSGVO](https://dsgvo-gesetz.de/), this site just links youtube videos instead of embedding them.*
+vids.forEach(el => {
+  el.onclick = function() {
+    el.classList.add("in-view");
+    console.log("aa");
+};
+});
+</script>

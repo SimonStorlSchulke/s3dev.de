@@ -139,7 +139,7 @@
         </div>
         <div class="skill-overlay">
             <h3>Webentwicklung</h3>
-            Neben den drei Basissprachen, nutze ich auch TypeScript und habe Erfahrung mit Go im Backend gesammelt. Um Webseiten (wie diese) zu bauen, nutze ich meist Hugo.
+            Neben den drei Basissprachen, nutze ich TypeScript und habe Erfahrung mit Go im Backend gesammelt. Um Webseiten zu bauen, nutze ich meist Hugo.
         </div>
         <div class="sc-border" style="background: #29a561;">
             <span><img title="HTML" src="/img/apps/html.png">HTML</span>
@@ -156,7 +156,7 @@
         </div>
         <div class="skill-overlay">
             <h3> 3D Modeling & Animation</h3>
-            Ich habe professionelle Erfahrung in Blender, 3DS Max und vielen Renderengines. Ich arbeitete lange als Tutor und Dozent für CGI und Blender-Scripting.
+            Ich habe professionelle Erfahrung in Blender, 3DS Max und arbeitete lange als Lehrkraft für CGI und Blender-Scripting.
         </div>
         <div class="sc-border" style="background: #c47105;">
             <span><img title="Blender" src="/img/apps/blender.png">Blender</span>
@@ -222,7 +222,7 @@
 }
 
 .skillcard {
-    height: 225px;
+    height: 245px;
     min-width: 33.333%;
     width: 33.333%;
     text-align: left;
@@ -230,13 +230,15 @@
     display: flex;
     filter: grayscale(1) brightness(0.9) ;
     transition: filter 1s;
+    position: relative;
 }
 
 .skillcard .sc-main {
     height: 100%;
+    width: 100%;
     width: calc(100% - 48px);
     padding: 0px 12px;
-    background-size: 600px;
+    background-size: 800px;
     padding: 0px;
     position: relative;
     transition: filter 1s, width 0.4s;
@@ -245,6 +247,7 @@
 .skill-overlay {
     pointer-events: none;
     background-color: rgba(24, 24, 24, 0);
+    width: 65%;
     width: calc(100% - 160px);
     height: 100%;
     overflow: hidden;
@@ -307,6 +310,10 @@
     .skillcard {
         width: 50%;
     }
+    
+    .skill-overlay {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -367,11 +374,15 @@
 @media screen and (max-width: 850px) {
     .skillcard {
         width: 100%;
-        height: 280px;
+        height: 330px !important;
+    }
+
+    .skill-overlay {
+        font-size: 18px;
     }
 
     .sc-main {
-        background-size: contain !important;
+        background-size: 800px !important;
     }
 }
 
@@ -564,11 +575,11 @@
 
     var isInViewport = function (elem) {
         var distance = elem.getBoundingClientRect();
+        console.log()
         return (
             distance.top >= (window.innerHeight || document.documentElement.clientHeight) * 0.175 &&
             distance.left >= 0 &&
-            distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) * 0.875 &&
-            distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+            distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) * 0.875
         );
     };
 
@@ -611,7 +622,7 @@
         <textarea name="message" placeholder="Ihre Nachricht" rows="7"></textarea><br>
       <button type="submit" style="color: white; font-family: 'Nunito', sans-serif; font-size: 24px;">Abschicken</button>
     </form><br>
-    <a href="/impressum">Impressum</a>
+    <a href="/impressum">Impressum & Datenschutzerklärung</a>
 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2022</span></div>
         </div>
     </footer></div>

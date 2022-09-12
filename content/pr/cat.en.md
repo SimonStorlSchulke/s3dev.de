@@ -1,6 +1,12 @@
 ---
 title: "A Cat in Time"
 lightgallery: true
+tags: ["gamedev","3d","music"]
+summary : "Mobilegame, for the city museum Tübingen, where the ghost of a cat guides us through the museum and time."
+thumbnail : "thumbs/cat.jpg"
+apps : "Unity, Godot, Blender, FL-Studio"
+gradientcolor : "red"
+featured: false
 ---
 
 {{< project id="cat" name="A Cat in Time" apps="Unity, Blender, Musik">}}

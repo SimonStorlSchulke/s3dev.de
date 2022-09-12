@@ -81,7 +81,7 @@ ignorefiles = [ "hugoignore/.*" ]
         <textarea name="message" placeholder="Ihre Nachricht" rows="7"></textarea><br>
       <button type="submit" style="color: white; font-family: 'Nunito', sans-serif; font-size: 24px;">Abschicken</button>
     </form><br>
-    <a href="/impressum">Impressum</a>
+    <a href="/impressum">Impressum & Datenschutzerklärung</a>
 """
     # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
     hugo = false
@@ -156,7 +156,7 @@ ignorefiles = [ "hugoignore/.*" ]
           <textarea name="message" placeholder="Your message" rows="7"></textarea><br>
         <button type="submit">Send</button>
       </form><br>
-      <a href="/impressum">Impressum</a>
+      <a href="/impressum">Impressum & DSGVO</a>
   """
     hugo = false
     # LoveIt NEW | 0.2.0 whether to show copyright info

@@ -20,11 +20,11 @@ Beim Verein Streunernothilfe Grenzenlos e.V. bin ich für die technische Umsetzu
 Da Jimdo leider keine bessere Alternative bietet, nutzen wir beispielsweise Jimdos Blog-Feature als "Datenbank-Ersatz", um Hunde automatisch aufzulisten, zu sortieren, Labels anzuzeigen etc. Ein furchtbarer, aber notwändiger Workaround um Jimdos nicht vorhandene Möglichkeiten zur Automatisierung solcher Aufgaben aufzustocken. 
 
 In diesem Zusammenhang entwickelte ich auch das Tool [van-cropington](https://github.com/SimonStorlSchulke/van-cropington/) mit C#, Godot und Magick.Net, welches sehr schnelles Zuschneiden und konvertieren von vielen Bildern ermöglicht.<br><br>
-{{< image src="../image/van-cropington.jpg" title="van-cropington">}}
+{{< image src="/pr/image/van-cropington.jpg" title="van-cropington">}}
 *van cropington*
 {{</left>}}
 {{<right 38>}}
-{{< image src="../image/snhg.png" title="SNHG">}}
+{{< image src="/pr/image/snhg.png" title="SNHG">}}
 
 {{</right>}}
 {{</twoculumn>}}

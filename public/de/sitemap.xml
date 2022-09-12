@@ -2,9 +2,33 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://simonstorlschulke.github.io/pr/fnode/</loc></url><url>
-            <loc>https://simonstorlschulke.github.io/pr/snhg/</loc></url><url>
-            <loc>https://simonstorlschulke.github.io/pr/shimage/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/pr/fnode/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/pr/fnode/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/pr/fnode/"
+                    /></url><url>
+            <loc>https://simonstorlschulke.github.io/pr/snhg/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/pr/snhg/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/pr/snhg/"
+                    /></url><url>
+            <loc>https://simonstorlschulke.github.io/pr/shimage/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/pr/shimage/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/pr/shimage/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/pr/evalgo/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -23,7 +47,15 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/pr/fudge/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/pr/materialstudies/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/pr/materialstudies/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/pr/materialstudies/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/pr/materialstudies/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/tutorials/</loc><lastmod>2021-04-27T11:46:11&#43;02:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -33,7 +65,15 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/tutorials/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/tags/3d/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/tags/3d/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/tags/3d/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/tags/3d/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/pr/cat/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -61,7 +101,15 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/demoreel/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/tags/gamedev/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/tags/gamedev/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/tags/gamedev/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/tags/gamedev/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/pr/gamejams/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -80,7 +128,15 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/impressum/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/tags/music/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/tags/music/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/tags/music/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/tags/music/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/music/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -90,7 +146,15 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/music/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/tags/programming/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/tags/programming/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/tags/programming/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/tags/programming/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/pr/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -154,7 +218,15 @@
                     hreflang="de"
                     href="https://simonstorlschulke.github.io/pr/tattoo/"
                     /></url><url>
-            <loc>https://simonstorlschulke.github.io/tags/webdev/</loc></url><url>
+            <loc>https://simonstorlschulke.github.io/tags/webdev/</loc><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://simonstorlschulke.github.io/en/tags/webdev/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="de"
+                    href="https://simonstorlschulke.github.io/tags/webdev/"
+                    /></url><url>
             <loc>https://simonstorlschulke.github.io/pr/cloud/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"

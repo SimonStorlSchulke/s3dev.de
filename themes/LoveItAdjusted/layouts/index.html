@@ -218,11 +218,11 @@
 
     var isInViewport = function (elem) {
         var distance = elem.getBoundingClientRect();
+        console.log()
         return (
             distance.top >= (window.innerHeight || document.documentElement.clientHeight) * 0.175 &&
             distance.left >= 0 &&
-            distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) * 0.875 &&
-            distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+            distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) * 0.875
         );
     };
 

@@ -27,7 +27,7 @@ Ein einfacher Bildeditor mit C# und Godot, basierend auf einem non-destruktiven 
 ## Layers Rewrite
 Aktuell baue ich die Software um, um mehrere Layer und Projekte gleichzeitig zu bearbeiten. Es soll möglich sein, verschieene Layertypen (Bilddateien, Formen, Textelemente...) hinzuzufügen und jedem Layer Filter und Masken zuzuweisen. Das Projekt ist sehr komplex, aber das Grundprinzip funktioniert bereits.
 
-{{< image src="../image/shimage_layers.jpg" title="Folderinfo">}}
+{{< image src="/pr/image/shimage_layers.jpg" title="Folderinfo">}}
 
 *Mein Hund Maki in der Layers-Rewrite-Branch "verschönert"*
 

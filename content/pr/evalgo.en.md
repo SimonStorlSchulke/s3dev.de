@@ -1,6 +1,13 @@
 ---
 title: "Evalgo"
 lightgallery: true
+tags: ["programming","webdev"]
+summary: "Course management system for students and lecturers"
+thumbnail: "thumbs/evalgo.jpg"
+apps: "Go, HTML, JavaScript, CSS"
+gradientcolor: "green"
+featured": false
+weight: 40
 ---
 
 

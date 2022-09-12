@@ -20,7 +20,7 @@ Ich nahm während meines Studiums an mehreren GameJams teil. Dabei nahm ich vers
 VR 360° Towerdefense Spiel. Sateliten können gesetzt werden, um ankommende Alien-Raumschiffe von der Erde abzuwehren. Hier war ich an Programmierung und 3D-Modellen beteiligt<br><br>
 {{</left>}}
 {{<right 58>}}
-{{< image src="../image/ibe.jpg" width="850px" title="Inbound: Earth">}}
+{{< image src="/pr/image/ibe.jpg" width="850px" title="Inbound: Earth">}}
 {{</right>}}
 {{</twoculumn>}}
 <br><br>
@@ -31,7 +31,7 @@ VR 360° Towerdefense Spiel. Sateliten können gesetzt werden, um ankommende Ali
 Bringe ein durcheinanderspielendes Orchester wieder in den richtigen Takt und Tonlage. Hier sorgte ich für 3D-Modelle, Musik und half bei der Programmierung. Das Projekt entstand während des GlobalGamejams 2021 innerhalb von fünf Tagen. Der Rahmen war natürlich viel zu groß war für den kurzen Zeitraum und da ich für alle Modelle, Animationen und Musik verantwortlich war, sowie bei der Programmierung aushalf, ist beim Ergebnis die Spielbarkeit nur recht bedingt gegeben. Wir hatten trotzdem sehr viel positiven Stress und Spaß an der Sache.<br><br>  
 {{</left>}}
 {{<right 58>}}
-{{< image src="../image/dlab.jpg" width="850px" title="Don't Lose a Beat">}}
+{{< image src="/pr/image/dlab.jpg" width="850px" title="Don't Lose a Beat">}}
 {{</right>}}
 {{</twoculumn>}}
 <br><br>
@@ -42,7 +42,7 @@ Bringe ein durcheinanderspielendes Orchester wieder in den richtigen Takt und To
 VR Spiel, in dem der Spieler Rätsel lösen muss, um eine drohende Reaktorkatastrophe zu verhindern, es dabei jedoch nur schlimmer macht. Hier war ich für die 3D-Modelle zuständig.<br><br>
 {{</left>}}
 {{<right 58>}}
-{{< image src="../image/fws.jpg" width="850px" title="Fuwashima">}}
+{{< image src="/pr/image/fws.jpg" width="850px" title="Fuwashima">}}
 {{</right>}}
 {{</twoculumn>}}
 <br><br>
@@ -53,7 +53,7 @@ VR Spiel, in dem der Spieler Rätsel lösen muss, um eine drohende Reaktorkatast
 Ein junger Fuchs sucht seine Mama im Schnee. Mein erstes GameJam Spiel, in dem man noch nicht viel mehr tun kann, als die Welt zu erkunden.<br><br>
 {{</left>}}
 {{<right 58>}}
-{{< image src="../image/fox.jpg" width="850px" title="Foxgame">}}
+{{< image src="/pr/image/fox.jpg" width="850px" title="Foxgame">}}
 {{</right>}}
 {{</twoculumn>}}
 
