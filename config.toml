@@ -31,7 +31,7 @@ ignorefiles = [ "hugoignore/.*" ]
       enable = true
       # URL of avatar shown in home page
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "3D Generalist & Entwickler"
+      title = "Entwickler & 3D Generalist"
       # subtitle shown in home page
       subtitle = "Ich bin Simon"
       # whether to use typeit animation for subtitle
@@ -39,7 +39,7 @@ ignorefiles = [ "hugoignore/.*" ]
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = "Ich schubse Pixel, Polygone und Semikolons an ihre richtige Stelle. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Fokus richtete ich dabei ich vor allem auf CGI, VFX und Spieleentwicklung.<br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
+      disclaimer = "Ich schubse Pixel, Polygone und Semikolons an ihre richtige Stelle. Ich habe Medieninformatik an der Hochschule Furtwangen studiert, was mir eine gute Grundlage in vielen Bereichen der Medienproduktion und Informatik gab, auf die ich aufbauen konnte. Meine Fokus richtete ich dabei ich vor allem auf Spiele- / Softwareentwicklung und CGI.<br> Nachdem ich während des Studiums lange als Tutor in Computergrafik aktiv war, halte ich nun auch selbst die Vorlesung Datenverarbeitung in der Medienproduktion an der HS Furtwangen und arbeite als 3D Generalist und Entwickler bei yoose3D in Hinterzarten.<br><br>Nebenbei mache ich viel Musik und habe zwei wundervolle Hunde, mit denen ich durch den Schwarzwald streife."
 
     # Home page posts
     [params.home.posts]

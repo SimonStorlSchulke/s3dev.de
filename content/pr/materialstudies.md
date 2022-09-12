@@ -11,6 +11,7 @@ gradientcolor: "orange"
 featured": false,
 name_en: "Material Studies"
 summary_en: "Procedural materialstudies with Blender / Cycles"
+weight: 60
 ---
 
 <style>

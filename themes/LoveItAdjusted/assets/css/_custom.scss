@@ -138,6 +138,15 @@ video {
     font-size: 18px;
 }
 
+.lg-backdrop, .lg-media-overlap .lg-sub-html, .lg-outer .lg-thumb-outer {
+    background-color: #141618 !important;
+    background-image: none !important;
+}
+
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+      border-color: #E7A632 !important;
+}
+
 .home-profile {
     padding-top: 10px !important;
 }
@@ -379,7 +388,7 @@ form input {
     max-width: 400px;
     color: #ffffff;
     transition: color 1.6s, background-color .5s;
-    background-color: #1b1b1b
+    background-color: #1b1b1b;
 }
 
 

@@ -7,6 +7,7 @@ thumbnail: "thumbs/evalgo.jpg"
 apps: "Go, HTML, JavaScript, CSS"
 gradientcolor: "green"
 featured": false
+weight: 40
 ---
 
 

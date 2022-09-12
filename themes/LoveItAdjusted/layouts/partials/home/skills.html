@@ -21,7 +21,7 @@
         </div>
         <div class="skill-overlay">
             <h3>Webentwicklung</h3>
-            Neben den drei Basissprachen nutze ich auch TypeScript und habe Erfahrung mit Go im Backend gesammelt. Um Webseiten (wie diese) zu bauen, nutze ich meist Hugo.
+            Neben den drei Basissprachen, nutze ich auch TypeScript und habe Erfahrung mit Go im Backend gesammelt. Um Webseiten (wie diese) zu bauen, nutze ich meist Hugo.
         </div>
         <div class="sc-border" style="background: #29a561;">
             <span><img title="HTML" src="/img/apps/html.png">HTML</span>
@@ -30,7 +30,6 @@
             <span><img title="TypeScript" src="/img/apps/typescript.png">TypeScript</span>
             <span><img title="Go" src="/img/apps/go.png">Go</span>
             <span><img title="HUGO" src="/img/apps/hugo.png">Hugo</span>
-
         </div>
     </a>
 
@@ -111,7 +110,7 @@
     text-align: left;
     border: solid black 1px;
     display: flex;
-    filter: grayscale() brightness(0.9);
+    filter: grayscale(1) brightness(0.9) ;
     transition: filter 1s;
 }
 
@@ -141,8 +140,12 @@
 
 
 .skillcard h3 {
-    transition: color 1.6s;
-    color: #ffa304;
+    transition: color 1.6s, background-color 0.5s;
+    color: #fff;
+    padding: 3px 8px 3px 12px;
+    background-color: #1b1b1b;
+    margin-left: -15px;
+    width: fit-content;
 }
 
 
@@ -202,7 +205,8 @@
         color: rgba(255, 255, 255, 0.76);
     }
     .skillcard:hover h3 {
-        color: white;
+        background-color: black;
+        color: #fcbd50;
     }
     
 .skillcard:hover .sc-border {
@@ -238,13 +242,18 @@
     }
 
     .skillcard.in-view h3{
-        color: white !important;
+        background-color: black;
+        color: #fcbd50 !important;
     }
 }
 @media screen and (max-width: 850px) {
     .skillcard {
         width: 100%;
         height: 280px;
+    }
+
+    .sc-main {
+        background-size: contain !important;
     }
 }
 

@@ -59,7 +59,7 @@
                 {{- $pages = .Paginate $pages -}}
             {{- end -}}
             {{- range $pages.PageGroups -}}
-                {{- range .Pages -}}
+                {{- range .Pages.ByWeight -}}
 
                 <div class="project-card check-in-view {{- range .Params.tags -}}&#32;tag-{{ . }}{{- end -}}" style="background-image: url('/img/{{- .Params.thumbnail -}}')">
                     <a href='{{ .RelPermalink }}'>

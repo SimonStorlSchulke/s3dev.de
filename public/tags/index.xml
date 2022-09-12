@@ -3,5 +3,45 @@
         <title>Tags - Tag - Simon Storl-Schulker | 3D Generalist &amp; Entwickler</title>
         <link>https://simonstorlschulke.github.io/tags/</link>
         <description>Tags - Tag - Simon Storl-Schulker | 3D Generalist &amp; Entwickler</description>
-        <generator>Hugo -- gohugo.io</generator><language>de</language><atom:link href="https://simonstorlschulke.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>de</language><atom:link href="https://simonstorlschulke.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>3d</title>
+    <link>https://simonstorlschulke.github.io/tags/3d/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://simonstorlschulke.github.io/tags/3d/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>gamedev</title>
+    <link>https://simonstorlschulke.github.io/tags/gamedev/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://simonstorlschulke.github.io/tags/gamedev/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>music</title>
+    <link>https://simonstorlschulke.github.io/tags/music/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://simonstorlschulke.github.io/tags/music/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>programming</title>
+    <link>https://simonstorlschulke.github.io/tags/programming/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://simonstorlschulke.github.io/tags/programming/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>webdev</title>
+    <link>https://simonstorlschulke.github.io/tags/webdev/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://simonstorlschulke.github.io/tags/webdev/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

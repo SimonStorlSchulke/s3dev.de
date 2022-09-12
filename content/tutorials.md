@@ -10,21 +10,36 @@ heroimage: "/img/hero-placeholder.jpg"
   text-align: center;
 }
 
+.clickdetector {
+  width: 392px;
+  height: 220px;
+  background: #f00a;
+  position: absolute;
+  pointer-events: none;
+}
+
 .youtubecard {
   box-shadow: 4px 5px 16px rgba(0, 0, 0, 0.671);
   margin: 10px;
   text-align: left;
+  width: 392px;
   max-width: 90%;
   display: inline-block;
   max-height: fit-content;
   height: 420px;
-  width: 392px;
-  max-width: 392px;
   text-overflow: ellipsis;
   overflow: hidden;
-  background-color: #283037;
-  filter: grayscale(1.0);
+  background-color: #1b1b1b;
 }
+
+.youtubecard h3 {
+  display: absolute;
+  margin-left: -12px !important;
+  padding: 3px 8px 3px 0px;
+  color: #fff;
+  transition: color 1.6s, background-color .5s;
+}
+
 .youtubecard-bottom {
   padding: 10px;
 }
@@ -41,13 +56,14 @@ heroimage: "/img/hero-placeholder.jpg"
 {{< youtubecard id="7IXBOmimwbg" title="Mountain scene in Blender" description="A quick tutorial on how to create a nordic mountain scene in Blender and Gimp.">}}
 
 <script defer>
+const vids = document.querySelectorAll(".clickdetector");
+console.log(".clickdetector");
+console.log(vids);
 
- function onPlayerStateChange(event) {
-  console.log("aa");
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          // DO THIS
-        }
-        myPlayerState = event.data;
-      }
-
+vids.forEach(el => {
+  el.onclick = function() {
+    el.classList.add("in-view");
+    console.log("aa");
+};
+});
 </script>

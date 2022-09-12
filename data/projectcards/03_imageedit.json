@@ -1,7 +1,7 @@
 {
-    "name" : "Image Editor",
+    "name" : "Shimage",
     "summary" : "Shaderbasierter Bildeditor mit C# und Godot",
-    "urlname" : "/pr/imageedit",
+    "urlname" : "/pr/shimage",
     "thumbnail" : "thumbs/image-editor.jpg",
     "apps" : "C#, GLSL, Godot",
     "gradientcolor" : "aqua",

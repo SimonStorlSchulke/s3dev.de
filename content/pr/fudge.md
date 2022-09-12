@@ -6,6 +6,7 @@ thumbnail: "thumbs/fudge.jpg"
 apps: "WebGL, TypeScript, HTML, CSS"
 gradientcolor: "green"
 featured": false
+weight: 50
 ---
 
 {{< project id="fudge" name="FUDGE" gh="JirkaDellOro/FUDGE" apps="TypeScript, WebGL, HTML, CSS">}}
