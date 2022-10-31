@@ -11,7 +11,7 @@ ignorefiles = [ "hugoignore/.*" ]
 
 [params]
   author = "Simon Storl-Schulke"
-  description = "3D Generalist & Entwickler"
+  description = "Entwickler & 3D Generalist"
   version = "0.2.X"
   defaultTheme = "dark"
   projectBackLink = "<a href='/pr'><i class='fas fa-chevron-left'></i><span> Alle Projekte</span></a>"
@@ -118,7 +118,7 @@ ignorefiles = [ "hugoignore/.*" ]
 [languages]
   [languages.en]
     weight = 1
-    title = "Simon Storl-Schulke | 3D Generalist & Developer"
+    title = "Simon Storl-Schulke | Developer & 3D Generalist"
     languageCode = "en"
     languageName = "en"
     projectBackLink = "<a href='/en/pr'><i class='fas fa-chevron-left'></i><span> All Projects</span></a>"
@@ -129,7 +129,7 @@ ignorefiles = [ "hugoignore/.*" ]
       # URL of avatar shown in home page
       avatarURL = "/img/avatar2.jpg"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "3D Generalist & Developer"
+      title = "Developer & 3D Generalist"
       # subtitle shown in home page
       subtitle = "Hi, I'm Simon"
       # whether to use typeit animation for subtitle

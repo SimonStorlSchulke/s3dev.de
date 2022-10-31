@@ -1,10 +1,20 @@
 
 {{- define "title" }}
-{{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
+{{- if eq $.Site.Language.Lang "de" -}}
+Alle Projekte - Simon Storl-Schulke | Entwickler & 3D Generalist
+{{- else -}}
+All Projects - Simon Storl-Schulke | Developer & 3D Generalist
+{{- end -}}
 {{- end -}}
 
 {{- define "content" -}}
-<div class="hero" style="background-image: url(/img/hero/projects.jpg);"><h1>Projekte</h1></div>
+<div class="hero" style="background-image: url(/img/hero/projects.jpg);"><h1>
+    {{- if eq $.Site.Language.Lang "de" -}}
+    Projekte
+    {{- else -}}
+    Projects
+    {{- end -}}
+</h1></div>
 <div class="page archive">
     <style>
         span.tagtoggle {
@@ -104,10 +114,10 @@
                 let cards = document.querySelectorAll(".project-card"); // sowhow has to be redefined here..
     
                 cards.forEach(card => {
-                    let contains = true;
+                    let contains = false;
                     toggles.forEach(toggle => {
-                        if (!card.classList.contains("tag-"+toggle.innerText)) {
-                            contains = false;
+                        if (card.classList.contains("tag-"+toggle.innerText)) {
+                            contains = true;
                         }
                     });
     
