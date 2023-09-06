@@ -7,49 +7,48 @@
         color: #aaa;
         position: relative;
         overflow: hidden;
-        font-size: 15px;
+        font-size: 18px;
         user-select: none;
     }
 
     @keyframes explosion {
         0% {
-            font-weight: bold;
             color: #000;
-
+            opacity: 0;
         }
 
         10% {
-            font-weight: bold;
             color: #20c3f5;
+            opacity: 1;
 
         }
 
         20% {
-            font-weight: normal;
             color: #fadd5f;
+            opacity: 1;
 
         }
 
         50% {
             color: #e48d2b;
+            opacity: 1;
 
         }
 
         50% {
             color: #771717;
+            opacity: 1;
 
         }
 
         70% {
-            color: #200b0ba1;
-            font-weight: 200;
-
+            color: #200b0b;
+            opacity: 0.7;
         }
 
         100% {
-            color: #0000;
-            font-weight: 200;
-
+            color: #00000000;
+            opacity: 0;
         }
     }
 
@@ -72,12 +71,16 @@
         transform: translateX(-50%) translateY(-50%);
         pointer-events: none;
         font-family: monospace;
+        font-weight: bold;
         White-space: nowrap;
         overflow: hidden;
         line-height: 1.2;
         color: #0000;
-        animation: explosion 1s linear;
+        opacity: 0;
+        animation: explosion 3s linear;
         pointer-events: none;
+        text-shadow: 0px 0px 20px #ff520e98;
+        mix-blend-mode:lighten;
     }
 
     .explosions-wrapper p {
@@ -95,6 +98,41 @@
     document.querySelector(".explosions-wrapper").addEventListener("click", boom);
 
     // for all calculations, horizontal ammound of chars must be double the ammount as vertically (because letters aint square)
+
+    function boom(event) {
+        event.target.querySelector("p")?.remove();
+        const spawn = document.createElement("span");
+        event.target.append(spawn);
+        let divRect = event.target.getBoundingClientRect();
+        const randomHue = randomInt(0, 360);
+        spawn.style.filter = `hue-rotate(${randomHue}deg)`
+        spawn.style.top = `${event.clientY - divRect.top}px`;
+        spawn.style.left = `${event.clientX - divRect.left}px`;
+
+        const maxRadius = randomInt(10, 50);
+        const maxRingWidth = randomInt(8, 20);
+        const noiseAmmount = randomInt(0, 30);
+
+
+        let frame = 0;
+        const animLength = randomInt(24, 40);
+        const frameTimeMs = 80;
+        const intervalID = setInterval(function () {
+
+            const progress = frame / animLength;
+
+            const radius = Math.ceil(Math.pow(progress, .6) * maxRadius);
+
+            let str = generateCircle(radius, progress * maxRingWidth + 1, noiseAmmount);
+            spawn.innerText = str;
+
+            if (++frame === animLength) {
+                window.clearInterval(intervalID);
+                window.setTimeout(() => { spawn.remove() }, 500)
+            }
+        }, frameTimeMs);
+
+    }
 
     String.prototype.replaceAt = function (index, replacement) {
         return this.substring(0, index) + replacement + this.substring(index + replacement.length);
@@ -120,46 +158,11 @@
             const pos = getPosOfIndex(trueIndex, radius);
             const inCircle = isInRing(radius, pos.x, pos.y, width - randomNoise);
 
-            if (inCircle) str = str.replaceAt(i, randomChar());
+            if (!inCircle) str = str.replaceAt(i, " ");
 
             trueIndex++;
         }
         return str;
-    }
-
-    function boom(event) {
-        event.target.querySelector("p")?.remove();
-        const spawn = document.createElement("span");
-        event.target.append(spawn);
-        let divRect = event.target.getBoundingClientRect();
-        const randomHue = randomInt(0, 360);
-        spawn.style.filter = `hue-rotate(${randomHue}deg)`
-        spawn.style.top = `${event.clientY - divRect.top}px`;
-        spawn.style.left = `${event.clientX - divRect.left}px`;
-
-        const maxRadius = randomInt(10, 50);
-        const maxRingWidth = randomInt(8, 20);
-        const noiseAmmount = randomInt(0, 30);
-
-
-        let frame = 0;
-        const animLength = randomInt(8, 30);;
-        const frameTimeMs = 50;
-        const intervalID = setInterval(function () {
-
-            const progress = frame / animLength;
-
-            const radius = Math.ceil(Math.pow(progress, .6) * maxRadius);
-
-            let str = generateCircle(radius, progress * maxRingWidth + 1, noiseAmmount);
-            spawn.innerText = str;
-
-            if (++frame === animLength) {
-                window.clearInterval(intervalID);
-                //window.setTimeout(() => { spawn.remove() }, 200)
-            }
-        }, frameTimeMs);
-
     }
 
     const randomInt = (min, max) => {
@@ -169,8 +172,14 @@
     function generateCharGrid(radius) {
         let str = "";
 
-        for (let i = 0; i < radius; i++)
-            str += new Array(radius * 2 + 1).join(" ") + "\n"; // Using the "thin space character because stupidly spaces get trimmed to single space..."
+        for (let i = 0; i < radius; i++) {
+            let newLine = "";
+            while (newLine.length < radius * 2 + 1) {
+                newLine += randomBuzzWord();
+            }
+            str += newLine.substring(0, radius * 2) + "\n"
+        }
+    
         return str;
     }
 
@@ -195,9 +204,9 @@
 
     }
 
-    function randomWord() {
-        const characters = ["scalability", "edge", "aws", "AI Generated", "low-code", "cloud"]
-        return characters.charAt(Math.floor(Math.random() * characters.length));
+    function randomBuzzWord() {
+        const words = ["Scalability ", "Edge ", "AWS ", "AI-Generated ", "low-code ", "cloud ", "Agile ", "API ", "Web3.0 ", "Bicoin ", "NFT ", "Java ", "Blockchain "];
+        return words[Math.floor(Math.random() * words.length)];
 
     }
 </script>

@@ -1,11 +1,10 @@
 ---
-title: "Pgart"
+title: "Buzzword Boom"
 lightgallery: true
-tags: ["gamedev","3d","music"]
-summary : "Mobilegame, für das Stadtmuseum Tübingen, bei dem der Geist einer Katze uns durch das Museum und die Zeit führt."
-thumbnail : "thumbs/cat.jpg"
-apps : "Unity, Godot, Blender, FL-Studio"
-gradientcolor : "red"
+tags: ["webdev"]
+summary : "Boom!"
+thumbnail : "thumbs/boom.png"
+gradientcolor : "green"
 featured: false
 ---
 
