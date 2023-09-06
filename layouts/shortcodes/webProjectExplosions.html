@@ -1,0 +1,203 @@
+<style>
+    .explosions-wrapper {
+        background: #020c18;
+        margin: auto;
+        width: 100%;
+        height: 650px;
+        color: #aaa;
+        position: relative;
+        overflow: hidden;
+        font-size: 15px;
+        user-select: none;
+    }
+
+    @keyframes explosion {
+        0% {
+            font-weight: bold;
+            color: #000;
+
+        }
+
+        10% {
+            font-weight: bold;
+            color: #20c3f5;
+
+        }
+
+        20% {
+            font-weight: normal;
+            color: #fadd5f;
+
+        }
+
+        50% {
+            color: #e48d2b;
+
+        }
+
+        50% {
+            color: #771717;
+
+        }
+
+        70% {
+            color: #200b0ba1;
+            font-weight: 200;
+
+        }
+
+        100% {
+            color: #0000;
+            font-weight: 200;
+
+        }
+    }
+
+    @keyframes explosionb {
+        0% {
+            opacity: 0.0
+        }
+
+        70% {
+            opacity: 1.0
+        }
+
+        100% {
+            opacity: 0.0
+        }
+    }
+
+    .explosions-wrapper span {
+        position: absolute;
+        transform: translateX(-50%) translateY(-50%);
+        pointer-events: none;
+        font-family: monospace;
+        White-space: nowrap;
+        overflow: hidden;
+        line-height: 1.2;
+        color: #0000;
+        animation: explosion 1s linear;
+        pointer-events: none;
+    }
+
+    .explosions-wrapper p {
+        text-align: center;
+        padding-top: 300px;
+        pointer-events: none;
+    }
+</style>
+
+<div class="explosions-wrapper">
+    <p>click anywhere</p>
+</div>
+
+<script>
+    document.querySelector(".explosions-wrapper").addEventListener("click", boom);
+
+    // for all calculations, horizontal ammound of chars must be double the ammount as vertically (because letters aint square)
+
+    String.prototype.replaceAt = function (index, replacement) {
+        return this.substring(0, index) + replacement + this.substring(index + replacement.length);
+    }
+
+    function setCharAt(str, index, chr) {
+        if (index > str.length - 1) return str;
+        return str.substring(0, index) + chr + str.substring(index + 1);
+    }
+
+    function generateCircle(radius, width, noiseAmmount) {
+        let str = generateCharGrid(radius);
+
+        let trueIndex = 0;
+
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] == "\n") {
+                continue;
+            };
+
+            const randomNoise = (Math.random()-0.5) * noiseAmmount;
+
+            const pos = getPosOfIndex(trueIndex, radius);
+            const inCircle = isInRing(radius, pos.x, pos.y, width - randomNoise);
+
+            if (inCircle) str = str.replaceAt(i, randomChar());
+
+            trueIndex++;
+        }
+        return str;
+    }
+
+    function boom(event) {
+        event.target.querySelector("p")?.remove();
+        const spawn = document.createElement("span");
+        event.target.append(spawn);
+        let divRect = event.target.getBoundingClientRect();
+        const randomHue = randomInt(0, 360);
+        spawn.style.filter = `hue-rotate(${randomHue}deg)`
+        spawn.style.top = `${event.clientY - divRect.top}px`;
+        spawn.style.left = `${event.clientX - divRect.left}px`;
+
+        const maxRadius = randomInt(10, 50);
+        const maxRingWidth = randomInt(8, 20);
+        const noiseAmmount = randomInt(0, 30);
+
+
+        let frame = 0;
+        const animLength = randomInt(8, 30);;
+        const frameTimeMs = 50;
+        const intervalID = setInterval(function () {
+
+            const progress = frame / animLength;
+
+            const radius = Math.ceil(Math.pow(progress, .6) * maxRadius);
+
+            let str = generateCircle(radius, progress * maxRingWidth + 1, noiseAmmount);
+            spawn.innerText = str;
+
+            if (++frame === animLength) {
+                window.clearInterval(intervalID);
+                //window.setTimeout(() => { spawn.remove() }, 200)
+            }
+        }, frameTimeMs);
+
+    }
+
+    const randomInt = (min, max) => {
+        return Math.round(Math.random() * (max - min)) + min;
+    }
+
+    function generateCharGrid(radius) {
+        let str = "";
+
+        for (let i = 0; i < radius; i++)
+            str += new Array(radius * 2 + 1).join(" ") + "\n"; // Using the "thin space character because stupidly spaces get trimmed to single space..."
+        return str;
+    }
+
+    function getPosOfIndex(charIndex, radius) {
+        return {
+            x: charIndex % (radius * 2) + 0.5,
+            y: Math.floor(charIndex / radius) + 0.5
+        };
+    };
+
+    function isInRing(radius, x, y, thickness) {
+        //same:
+        centerX = radius;
+        centerY = radius;
+        const distToCenter = Math.sqrt((x - centerX) ** 2 + (y - centerY) ** 2);
+        return distToCenter < radius - 1 && distToCenter > radius - (thickness + 1);
+    }
+
+    function randomChar() {
+        const characters = 'abcdefghijklmnopqrstuvwxyz0123456789...........';
+        return characters.charAt(Math.floor(Math.random() * characters.length));
+
+    }
+
+    function randomWord() {
+        const characters = ["scalability", "edge", "aws", "AI Generated", "low-code", "cloud"]
+        return characters.charAt(Math.floor(Math.random() * characters.length));
+
+    }
+</script>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: system-ui;
+            background: #111;
+            color: white;
+          }
+          
+          .wrapper {
+            background: #031327;
+            margin: auto;
+            width: 1000px;
+            height: 1000px;
+            color: #aaa;
+            position: relative;
+            overflow: hidden;
+          }
+
+          @keyframes explosion {
+            0%   {
+                font-weight: bold;
+                background: #000;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            10% {
+                font-weight: bold;
+                background: #20c3f5;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            20% {
+                font-weight: normal;
+                background: #fadd5f;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            50% {
+                background: #e48d2b;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            50% {
+                background: #771717;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            70% {
+                background: #200b0ba1;
+                font-weight: 200;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            100% {
+                background: #0000;
+                font-weight: 200;
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+           } 
+
+          @keyframes explosionb {
+            0%   {opacity: 0.0}
+            70%   {opacity: 1.0}
+            100% {opacity: 0.0}
+           } 
+
+          .wrapper span {
+            position: absolute;
+            transform: translateX(-50%) translateY(-50%);
+            pointer-events: none;
+            font-family: monospace;
+            White-space: nowrap;
+            overflow: hidden;
+
+            background: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: explosion 1s linear;
+        }
+
+    </style>
+    
+    <div class="wrapper"><span></span></div>
+    
+    <script>
+        document.querySelector(".wrapper").addEventListener("click", boom);
+
+        // for all calculations, horizontal ammound of chars must be double the ammount as vertically (because letters aint square)
+
+        String.prototype.replaceAt = function(index, replacement) {
+            return this.substring(0, index) + replacement + this.substring(index + replacement.length);
+        }
+
+        function setCharAt(str,index,chr) {
+            if(index > str.length-1) return str;
+            return str.substring(0,index) + chr + str.substring(index+1);
+        }
+
+        function generateCircle(radius, width) {
+            let str = generateCharGrid(radius);
+
+            let trueIndex = 0;
+            
+            for (let i=0; i < str.length; i++) {
+                if (str[i] == "\n") {
+                    continue;
+                };
+
+                const pos = getPosOfIndex(trueIndex, radius);
+                const inCircle = isInRing(radius, pos.x, pos.y, width);
+
+                if(inCircle) str = str.replaceAt(i, randomChar());
+                
+                trueIndex ++;
+            }
+            return str;
+        }
+
+        function boom(event) {
+            const spawn = document.createElement("span");
+            event.target.append(spawn);
+            //const span = event.target.children[0];
+            let divRect = event.target.getBoundingClientRect();
+            spawn.style.top = `${event.pageY - divRect.top}px`;
+            spawn.style.left = `${event.pageX - divRect.left}px`;
+
+            const maxRadius = randomInt(10, 50);
+            
+
+            let frame = 0;
+            const animLength = randomInt(8, 30);;
+            const frameTimeMs = 50;
+            const intervalID = setInterval(function () {
+
+                const progress = frame / animLength;
+
+                const radius = Math.ceil(Math.pow(progress, .6) * maxRadius);
+        
+                let str = generateCircle(radius, progress * 14 + 1);
+                spawn.innerText = str;
+                
+                if (++frame === animLength) {
+                    window.clearInterval(intervalID);
+                    window.setTimeout(() => {spawn.remove()}, 200)
+                }
+             }, frameTimeMs);
+
+          }
+
+        const randomInt = (min, max) => {
+            return Math.round(Math.random() * (max - min)) + min;
+        }
+
+        function generateCharGrid(radius) {
+            let str = "";
+            
+            for (let i=0; i<radius; i++)
+                str += new Array(radius * 2 + 1).join( " " ) + "\n"; // Using the "thin space character because stupidly spaces get trimmed to single space..."
+            return str;
+        }
+
+        function getPosOfIndex(charIndex, radius) {
+            return {
+                x: charIndex % (radius * 2) + 0.5,
+                y: Math.floor(charIndex / radius) + 0.5
+            };
+        };
+
+        function isInRing(radius, x, y, thickness) {
+            //same:
+            centerX =  radius;
+            centerY = radius;
+            const distToCenter = Math.sqrt((x - centerX) ** 2 + (y - centerY) ** 2);
+            return distToCenter < radius - 1 && distToCenter > radius - (thickness + 1);
+        }
+
+        function randomChar() {
+            const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+            return characters.charAt(Math.floor(Math.random() * characters.length));
+            
+        }
+    </script>
+</body>
+</html>
