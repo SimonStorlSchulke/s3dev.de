@@ -54,7 +54,7 @@
                         </span>
                     </span>
                 {{- end -}}
-                {{- if .Site.IsMultiLingual -}}
+                {{- if hugo.IsMultilingual -}}
                 <a href="javascript:void(0);" class="menu-item language" title="{{ T "selectLanguage" }}">
                     <i class="fa fa-globe" aria-hidden="true"></i>                      
                     <select class="language-select" id="language-select-desktop" onchange="location = this.value;">
@@ -143,7 +143,7 @@
                     {{- .Pre | safeHTML }}{{ .Name }}{{ .Post | safeHTML -}}
                 </a>
             {{- end -}}
-            {{- if .Site.IsMultiLingual -}}
+            {{- if hugo.IsMultilingual -}}
             
                 <a href="javascript:void(0);" class="menu-item" title="{{ T "selectLanguage" }}">
                     <i class="fa fa-globe fa-fw" aria-hidden="true"></i>

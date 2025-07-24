@@ -68,19 +68,6 @@ ignorefiles = [ "hugoignore/.*" ]
     enable = true
     # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
     custom = """
-    <form
-      action="https://formspree.io/f/mvodzvbj"
-      method="POST"
-      class="mailme"
-    >
-        <h1 id="contact">Kontakt</h1>
-        Kontaktieren sie mich telefonisch unter <span class="accent">+49176 22998434</span> <br> oder per Mail an <a class="accent" href="mailto:m.mustermann@domain.de">simonstoschu@gmail.com</a><br><br>
-        <div class="row">
-        <input type="email" name="_replyto" placeholder="Ihre E-Mail Addresse"><input type="name" name="_replyto_name" placeholder="Ihr Name">
-        </div><br>
-        <textarea name="message" placeholder="Ihre Nachricht" rows="7"></textarea><br>
-      <button type="submit" style="color: white; font-family: 'Nunito', sans-serif; font-size: 24px;">Abschicken</button>
-    </form><br>
     <a href="/impressum">Impressum & Datenschutzerklärung</a>
 """
     # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
@@ -208,13 +195,6 @@ ignorefiles = [ "hugoignore/.*" ]
     name = "Tutorials"
     url = "tutorials/"
     weight = 7
-  [[languages.en.menu.main]]
-    identifier = "contact"
-    pre = ""
-    post = ""
-    name = "Contact"
-    url = "./#contact"
-    weight = 8
 
 [languages.de]
     weight = 2
@@ -263,10 +243,3 @@ ignorefiles = [ "hugoignore/.*" ]
     name = "Tutorials"
     url = "tutorials/"
     weight = 7
-  [[languages.de.menu.main]]
-    identifier = "contact"
-    pre = ""
-    post = ""
-    name = "Kontakt"
-    url = "./#contact"
-    weight = 8
