@@ -1,9 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Simon Storl-Schulker | 3D Generalist &amp; Entwickler</title>
-        <link>https://simonstorlschulke.github.io/</link>
-        <description>Entwickler &amp; 3D Generalist</description>
-        <generator>Hugo -- gohugo.io</generator><language>de</language>
-            <atom:link href="https://simonstorlschulke.github.io/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
-</rss>
